@@ -34,15 +34,15 @@ AI Agent 的浪潮已至，它正从简单的任务执行者，演变为能够�
 
 
 
-![](images/1770214436563.png)
+![](images/1770216102482.png)
 
 Memory, Resource, Skill. Everything is a File.
 记忆、资源、技能，皆为文件。
 
 
-![](images/1770214436612.png)
+![](images/1770216102514.png)
 
-![](images/1770214436776.png) 
+![](images/1770216102706.png) 
 
 OpenViking&nbsp;信息图，由 vaka 知识助手生成(https://aisearch.volcengine.com/)
 
@@ -73,12 +73,12 @@ OpenViking 的设计哲学围绕四大核心理念构建，旨在将复杂的上
 我们不再将上下文视为扁平的文本切片，而是将其统一抽象并组织于一个虚拟文件系统中。无论是记忆、资源还是能力，都会被映射到&nbsp;
  ```python viking:// ``` &nbsp;协议下的虚拟目录，拥有唯一的 URI。这种范式赋予了 Agent 前所未有的上下文操控能力，使其能像开发者一样，通过&nbsp;
  ```python list ``` 、
- ```python find ``` &nbsp;等标准指令来精确、确定性地定位、浏览和操作信息，让上下文的管理从模糊的语义匹配演变为直观、可追溯的“文件操作”。
+ ```bash find ``` &nbsp;等标准指令来精确、确定性地定位、浏览和操作信息，让上下文的管理从模糊的语义匹配演变为直观、可追溯的“文件操作”。
 
 
 
 
-![](images/1770214436820.gif)
+![](images/1770216102764.gif)
 
 文件系统管理范式
 
@@ -95,7 +95,7 @@ L2 (详情)：完整的原始数据，供 Agent 在确有必要时深入读取�
 OpenViking 的设计使其能够灵活适配各类 AI Agent 的开发场景。无论是简单的问答机器人，还是复杂的自动化工作流，它都能作为坚实的上下文底座，提供稳定、高效的支撑。
 
 
-![](images/1770214436893.gif)
+![](images/1770216102845.gif)
 
 分层上下文按需加载
 
@@ -104,7 +104,7 @@ OpenViking 的设计使其能够灵活适配各类 AI Agent 的开发场景。�
 单一的向量检索难以应对复杂的查询意图。OpenViking 设计了一套创新的**目录递归检索**策略，它深度融合了多种检索方式的优点：首先，通过**意图分析生成多个检索条件**；然后，利用向量检索快速定位初始切片所在的**高分目录**；接着，在该目录下进行**二次检索**，并将高分结果更新至候选集合；若目录下仍存在子目录，则**逐层递归**重复上述二次检索步骤；最终，拿到最相关上下文返回。这种 “先锁定高分目录、再精细探索内容” 的策略，不仅能找到语义最匹配的片段，更能理解信息所在的完整语境，从而提升检索的全局性与准确性。
 
 
-![](images/1770214436941.gif)
+![](images/1770216102900.gif)
 
 目录递归检索
 
@@ -118,7 +118,7 @@ OpenViking 的组织方式采用层次化虚拟文件系统结构，所有上下
 
 
 
-![](images/1770214437002.gif)
+![](images/1770216102965.gif)
 
 可观测与自迭代
 
@@ -186,8 +186,8 @@ OpenAI 模型：支持 GPT-4V 等 VLM 模型和 OpenAI Embedding 模型
  ```  ``` 
 
 并设置环境变量：
- ```python 
- ```python export OPENVIKING_CONFIG_FILE=ov.conf
+ ```bash 
+ ```bash export OPENVIKING_CONFIG_FILE=ov.conf
  ```  ``` 
 
 **第四步：运行体验**
@@ -196,8 +196,8 @@ OpenAI 模型：支持 GPT-4V 等 VLM 模型和 OpenAI Embedding 模型
  ```python example.py ``` &nbsp;并运行，通过写入 OpenViking README 文档来体验写入-检索-读取的全过程：
 
 
- ```python 
- ```python import openviking as ov
+ ```bash 
+ ```bash import openviking as ov
 
 # Initialize OpenViking client with data directory
 client = ov.SyncOpenViking(path="./data")
@@ -272,12 +272,12 @@ except Exception as e:
 **扫描下方二维码加入我们的社区**，分享您的洞见，帮助解答他人的疑问，共同营造一个开放、互助的技术氛围。
 
 
-![](images/1770214437133.png)
+![](images/1770216103010.png)
 
 飞书群
 
 
-![](images/1770214437227.png)
+![](images/1770216103106.png)
 
 微信群**成为我们的贡献者**，无论是提交一个 Bug 修复，还是贡献一个新功能，您的每一行代码都将是 OpenViking 成长的重要基石。&nbsp;
 
