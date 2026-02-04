@@ -34,15 +34,15 @@ AI Agent 的浪潮已至，它正从简单的任务执行者，演变为能够�
 
 
 
-![](images/1770216131784.png)
+![](images/1770216911619.png)
 
 Memory, Resource, Skill. Everything is a File.
 记忆、资源、技能，皆为文件。
 
 
-![](images/1770216131812.png)
+![](images/1770216911650.png)
 
-![](images/1770216131916.png) 
+![](images/1770216911839.png) 
 
 OpenViking&nbsp;信息图，由 vaka 知识助手生成(https://aisearch.volcengine.com/)
 
@@ -70,15 +70,10 @@ OpenViking 的设计哲学围绕四大核心理念构建，旨在将复杂的上
 
 **文件系统管理范式**
 
-我们不再将上下文视为扁平的文本切片，而是将其统一抽象并组织于一个虚拟文件系统中。无论是记忆、资源还是能力，都会被映射到&nbsp;
- ```python viking:// ``` &nbsp;协议下的虚拟目录，拥有唯一的 URI。这种范式赋予了 Agent 前所未有的上下文操控能力，使其能像开发者一样，通过&nbsp;
- ```python list ``` 、
- ```bash find ``` &nbsp;等标准指令来精确、确定性地定位、浏览和操作信息，让上下文的管理从模糊的语义匹配演变为直观、可追溯的“文件操作”。
+我们不再将上下文视为扁平的文本切片，而是将其统一抽象并组织于一个虚拟文件系统中。无论是记忆、资源还是能力，都会被映射到&nbsp;`viking://`&nbsp;协议下的虚拟目录，拥有唯一的 URI。这种范式赋予了 Agent 前所未有的上下文操控能力，使其能像开发者一样，通过&nbsp;`list`、`find`&nbsp;等标准指令来精确、确定性地定位、浏览和操作信息，让上下文的管理从模糊的语义匹配演变为直观、可追溯的“文件操作”。
 
 
-
-
-![](images/1770216131962.gif)
+![](images/1770216911894.gif)
 
 文件系统管理范式
 
@@ -95,7 +90,7 @@ L2 (详情)：完整的原始数据，供 Agent 在确有必要时深入读取�
 OpenViking 的设计使其能够灵活适配各类 AI Agent 的开发场景。无论是简单的问答机器人，还是复杂的自动化工作流，它都能作为坚实的上下文底座，提供稳定、高效的支撑。
 
 
-![](images/1770216132035.gif)
+![](images/1770216911975.gif)
 
 分层上下文按需加载
 
@@ -104,7 +99,7 @@ OpenViking 的设计使其能够灵活适配各类 AI Agent 的开发场景。�
 单一的向量检索难以应对复杂的查询意图。OpenViking 设计了一套创新的**目录递归检索**策略，它深度融合了多种检索方式的优点：首先，通过**意图分析生成多个检索条件**；然后，利用向量检索快速定位初始切片所在的**高分目录**；接着，在该目录下进行**二次检索**，并将高分结果更新至候选集合；若目录下仍存在子目录，则**逐层递归**重复上述二次检索步骤；最终，拿到最相关上下文返回。这种 “先锁定高分目录、再精细探索内容” 的策略，不仅能找到语义最匹配的片段，更能理解信息所在的完整语境，从而提升检索的全局性与准确性。
 
 
-![](images/1770216132090.gif)
+![](images/1770216912029.gif)
 
 目录递归检索
 
@@ -112,13 +107,10 @@ OpenViking 的设计使其能够灵活适配各类 AI Agent 的开发场景。�
 
 OpenViking 的组织方式采用层次化虚拟文件系统结构，所有上下文均以统一格式整合且每个条目对应唯一 URI（如 viking:// 路径），打破传统扁平黑箱式管理模式，层次分明易于理解；同时检索过程采用目录递归策略，每次检索的目录浏览、文件定位轨迹均被完整留存，能够清晰观测问题根源并指导检索逻辑优化。
 
-此外，OpenViking 内置了记忆自迭代闭环。在每次会话结束时，通过&nbsp;
- ```python session.commit() ``` &nbsp;主动触发，系统会异步分析任务执行结果与用户反馈，并自动更新至 User 和 Agent 的 /memory 目录下。既能更新用户偏好相关记忆，使 Agent 回应更贴合用户需求，又能从任务执行经验中提取操作技巧、工具使用经验等核心内容，助力后续任务高效决策实现自我进化，让 Agent 在与世界的交互中“越用越聪明”。
+此外，OpenViking 内置了记忆自迭代闭环。在每次会话结束时，通过&nbsp;`session.commit()`&nbsp;主动触发，系统会异步分析任务执行结果与用户反馈，并自动更新至 User 和 Agent 的 /memory 目录下。既能更新用户偏好相关记忆，使 Agent 回应更贴合用户需求，又能从任务执行经验中提取操作技巧、工具使用经验等核心内容，助力后续任务高效决策实现自我进化，让 Agent 在与世界的交互中“越用越聪明”。
 
 
-
-
-![](images/1770216132162.gif)
+![](images/1770216912088.gif)
 
 可观测与自迭代
 
@@ -133,9 +125,9 @@ OpenViking 的一大核心优势是其极简的集成方式。我们深知开发
 以下示例是以OpenViking的Readme英文版作为文件进行写入，展示处理后的上下文目录结构，以及对应文档的分层信息，并进行简单问题的回复。
 
 **第一步：安装 OpenViking**
- ```python 
- ```python pip install openviking
- ```  ``` 
+
+`pip install openviking
+`
 
 **第二步：获取模型服务**
 
@@ -151,103 +143,89 @@ OpenAI 模型：支持 GPT-4V 等 VLM 模型和 OpenAI Embedding 模型
 
 **第三步：配置环境**
 
-创建配置文件&nbsp;
- ```python ov.conf ``` ：&nbsp;
-
-
+创建配置文件&nbsp;`ov.conf`：&nbsp;
 
 ⚠️ 重要提示：请将下方配置中的 &lt;your-volcengine-api-key&gt; 替换为你在第二步获取的真实 API Key！
- ```python 
- ```python {
-"vlm": {
-"api_key": " 
- " , // 模型服务的 API 密钥
-"model": " 
- " , // VLM 模型名称（如 doubao-seed-1-8-251228 或 gpt-4-vision-preview）
-"api_base": " 
- " , // API 服务端点地址（如volcengine api：https://ark.cn-beijing.volces.com/api/v3）
-"backend": " 
- " // 后端类型（volcengine 或 openai）
- },
+
+`{
+&nbsp;&nbsp;"vlm": {
+&nbsp; &nbsp;&nbsp;"api_key":&nbsp;"&lt;your-api-key&gt;", &nbsp; &nbsp; &nbsp;// 模型服务的 API 密钥
+&nbsp; &nbsp;&nbsp;"model":&nbsp;"&lt;model-name&gt;", &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// VLM 模型名称（如 doubao-seed-1-8-251228 或 gpt-4-vision-preview）
+&nbsp; &nbsp;&nbsp;"api_base":&nbsp;"&lt;api-endpoint&gt;", &nbsp; &nbsp;&nbsp;// API 服务端点地址（如volcengine api：https://ark.cn-beijing.volces.com/api/v3）
+&nbsp; &nbsp;&nbsp;"backend":&nbsp;"&lt;backend-type&gt;"&nbsp; &nbsp; &nbsp; &nbsp;// 后端类型（volcengine 或 openai）
+&nbsp; },
 "embedding": {
-"dense": {
-"backend": " 
- " , // 后端类型（volcengine 或 openai）
-"api_key": " 
- " , // 模型服务的 API 密钥
-"model": " 
- " , // Embedding 模型名称（如 doubao-embedding-vision-250615 或 text-embedding-3-large）
-"api_base": " 
- " , // API 服务端点地址（如volcengine api：https://ark.cn-beijing.volces.com/api/v3）
-"dimension": 1024// 向量维度
- }
- }
+&nbsp; &nbsp;&nbsp;"dense": {
+&nbsp; &nbsp; &nbsp;&nbsp;"backend":&nbsp;"&lt;backend-type&gt;", &nbsp; &nbsp;// 后端类型（volcengine 或 openai）
+&nbsp; &nbsp; &nbsp;&nbsp;"api_key":&nbsp;"&lt;your-api-key&gt;", &nbsp; &nbsp;// 模型服务的 API 密钥
+&nbsp; &nbsp; &nbsp;&nbsp;"model":&nbsp;"&lt;model-name&gt;", &nbsp; &nbsp; &nbsp; &nbsp;// Embedding 模型名称（如 doubao-embedding-vision-250615 或 text-embedding-3-large）
+&nbsp; &nbsp; &nbsp;&nbsp;"api_base":&nbsp;"&lt;api-endpoint&gt;", &nbsp;&nbsp;// API 服务端点地址（如volcengine api：https://ark.cn-beijing.volces.com/api/v3）
+&nbsp; &nbsp; &nbsp;&nbsp;"dimension":&nbsp;1024&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;// 向量维度
+&nbsp; &nbsp; }
+&nbsp; }
 }
- ```  ``` 
+`
 
 并设置环境变量：
- ```bash 
- ```bash export OPENVIKING_CONFIG_FILE=ov.conf
- ```  ``` 
+
+`export&nbsp;OPENVIKING_CONFIG_FILE=ov.conf
+`
 
 **第四步：运行体验**
 
-创建简单的 Python 脚本&nbsp;
- ```python example.py ``` &nbsp;并运行，通过写入 OpenViking README 文档来体验写入-检索-读取的全过程：
+创建简单的 Python 脚本&nbsp;`example.py`&nbsp;并运行，通过写入 OpenViking README 文档来体验写入-检索-读取的全过程：
 
-
- ```bash 
- ```bash import openviking as ov
+`import&nbsp;openviking&nbsp;as&nbsp;ov
 
 # Initialize OpenViking client with data directory
 client = ov.SyncOpenViking(path="./data")
 
 try:
-# Initialize the client
- client.initialize()
+&nbsp; &nbsp;&nbsp;# Initialize the client
+&nbsp; &nbsp; client.initialize()
 
-# Add resource (supports URL, file, or directory)
- add_result = client.add_resource(
- path="https://raw.githubusercontent.com/volcengine/OpenViking/refs/heads/main/README.md"
- )
- root_uri = add_result['root_uri']
+&nbsp; &nbsp;&nbsp;# Add resource (supports URL, file, or directory)
+&nbsp; &nbsp; add_result = client.add_resource(
+&nbsp; &nbsp; &nbsp; &nbsp; path="https://raw.githubusercontent.com/volcengine/OpenViking/refs/heads/main/README.md"
+&nbsp; &nbsp; )
+&nbsp; &nbsp; root_uri = add_result['root_uri']
 
-# Explore the resource tree structure
- ls_result = client.ls(root_uri)
- print(f"Directory structure:\n{ls_result}\n")
+&nbsp; &nbsp;&nbsp;# Explore the resource tree structure
+&nbsp; &nbsp; ls_result = client.ls(root_uri)
+&nbsp; &nbsp; print(f"Directory structure:\n{ls_result}\n")
 
-# Use glob to find markdown files
- glob_result = client.glob(pattern="**/*.md", uri=root_uri)
-if glob_result['matches']:
- content = client.read(glob_result['matches'][0])
- print(f"Content preview: {content[:200]}...\n")
+&nbsp; &nbsp;&nbsp;# Use glob to find markdown files
+&nbsp; &nbsp; glob_result = client.glob(pattern="**/*.md", uri=root_uri)
+&nbsp; &nbsp;&nbsp;if&nbsp;glob_result['matches']:
+&nbsp; &nbsp; &nbsp; &nbsp; content = client.read(glob_result['matches'][0])
+&nbsp; &nbsp; &nbsp; &nbsp; print(f"Content preview:&nbsp;{content[:200]}...\n")
 
-# Wait for semantic processing to complete
- print("Wait for semantic processing...")
- client.wait_processed()
+&nbsp; &nbsp;&nbsp;# Wait for semantic processing to complete
+&nbsp; &nbsp; print("Wait for semantic processing...")
+&nbsp; &nbsp; client.wait_processed()
 
-# Get abstract and overview of the resource
- abstract = client.abstract(root_uri)
- overview = client.overview(root_uri)
- print(f"Abstract:\n{abstract}\n\nOverview:\n{overview}\n")
+&nbsp; &nbsp;&nbsp;# Get abstract and overview of the resource
+&nbsp; &nbsp; abstract = client.abstract(root_uri)
+&nbsp; &nbsp; overview = client.overview(root_uri)
+&nbsp; &nbsp; print(f"Abstract:\n{abstract}\n\nOverview:\n{overview}\n")
 
-# Perform semantic search
- results = client.find("what is openviking", target_uri=root_uri)# Input query
- print("Search results:")
-for r in results.resources:
- print(f" {r.uri} (score: {r.score:.4f})")
+&nbsp; &nbsp;&nbsp;# Perform semantic search
+&nbsp; &nbsp; results = client.find("what is openviking", target_uri=root_uri)# Input query
+&nbsp; &nbsp; print("Search results:")
+&nbsp; &nbsp;&nbsp;for&nbsp;r&nbsp;in&nbsp;results.resources:
+&nbsp; &nbsp; &nbsp; &nbsp; print(f" &nbsp;{r.uri}&nbsp;(score:&nbsp;{r.score:.4f})")
 
-# Close the client
- client.close()
+&nbsp; &nbsp;&nbsp;# Close the client
+&nbsp; &nbsp; client.close()
 
-except Exception as e:
- print(f"Error: {e}")
- ```  ``` 
+except&nbsp;Exception&nbsp;as&nbsp;e:
+&nbsp; &nbsp; print(f"Error:&nbsp;{e}")
+`
 
 运行脚本：
- ```python 
- ```python python example.py
- ```  ``` 
+
+`python example.py
+`
 
 **若您得到检索结果，恭喜！你已成功运行 OpenViking 🎉**
 
@@ -272,12 +250,12 @@ except Exception as e:
 **扫描下方二维码加入我们的社区**，分享您的洞见，帮助解答他人的疑问，共同营造一个开放、互助的技术氛围。
 
 
-![](images/1770216132207.png)
+![](images/1770216912136.png)
 
 飞书群
 
 
-![](images/1770216132293.png)
+![](images/1770216912231.png)
 
 微信群**成为我们的贡献者**，无论是提交一个 Bug 修复，还是贡献一个新功能，您的每一行代码都将是 OpenViking 成长的重要基石。&nbsp;
 
