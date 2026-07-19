@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">GPU 栈与 TPU 栈对照</title>
+  <desc id="desc">左侧为 GPU 软件栈（框架、图编译、库与内核 DSL、CUDA/PTX、硬件、集合通信与网络），右侧为 TPU 软件栈（框架、StableHLO/XLA、Pallas/Mosaic、硬件、ICI/OCS/网络），底部说明两条路线正在互相靠拢。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#EEF6F4"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#3C647A"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="10" flood-color="#0B1F33" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .title { font: 700 42px "Noto Sans CJK SC", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #0B1F33; }
+      .subtitle { font: 400 21px "Noto Sans CJK SC", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #48657A; }
+      .h1 { font: 700 26px "Noto Sans CJK SC", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #FFFFFF; }
+      .layer { font: 700 20px "Noto Sans CJK SC", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #0B1F33; }
+      .layerW { font: 700 20px "Noto Sans CJK SC", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #FFFFFF; }
+      .small { font: 400 16px "Noto Sans CJK SC", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #567185; }
+      .note { font: 700 19px "Noto Sans CJK SC", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #36566A; }
+      .banner { font: 700 21px "Noto Sans CJK SC", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #0B1F33; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <text x="80" y="78" class="title">两套软件栈：长得像，复杂度住的地方不一样</text>
+  <text x="80" y="118" class="subtitle">GPU 把复杂度交给作者和库，靠生态取胜；TPU 把复杂度压进编译器，靠软硬协同取胜</text>
+
+  <!-- GPU card -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="160" width="680" height="630" rx="24" fill="#FFFFFF"/>
+  </g>
+  <rect x="80" y="160" width="680" height="62" rx="24" fill="#1F7A68"/>
+  <rect x="80" y="198" width="680" height="24" fill="#1F7A68"/>
+  <text x="420" y="200" text-anchor="middle" class="h1">GPU 栈：复杂度交给作者和库</text>
+
+  <g>
+    <rect x="110" y="250" width="620" height="58" rx="12" fill="#E8EFF3"/>
+    <text x="420" y="287" text-anchor="middle" class="layer">PyTorch / JAX / TensorFlow</text>
+    <line x1="420" y1="312" x2="420" y2="337" stroke="#3C647A" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="110" y="341" width="620" height="58" rx="12" fill="#E8EFF3"/>
+    <text x="420" y="378" text-anchor="middle" class="layer">torch.compile（Inductor）/ XLA 图编译与融合</text>
+    <line x1="420" y1="403" x2="420" y2="428" stroke="#3C647A" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="110" y="432" width="620" height="58" rx="12" fill="#E8EFF3"/>
+    <text x="420" y="469" text-anchor="middle" class="layer">cuBLAS · cuDNN · TensorRT-LLM · Triton · CUTLASS</text>
+    <line x1="420" y1="494" x2="420" y2="519" stroke="#3C647A" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="110" y="523" width="620" height="58" rx="12" fill="#E8EFF3"/>
+    <text x="420" y="560" text-anchor="middle" class="layer">CUDA / PTX</text>
+    <line x1="420" y1="585" x2="420" y2="610" stroke="#3C647A" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="110" y="614" width="620" height="58" rx="12" fill="#1F7A68"/>
+    <text x="420" y="651" text-anchor="middle" class="layerW">GPU：SM + Tensor Core + HBM + NVLink</text>
+    <line x1="420" y1="676" x2="420" y2="701" stroke="#3C647A" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="110" y="705" width="620" height="58" rx="12" fill="#526E80"/>
+    <text x="420" y="742" text-anchor="middle" class="layerW">NCCL + NVSwitch + InfiniBand / 以太网</text>
+  </g>
+
+  <text x="420" y="830" text-anchor="middle" class="note">护城河：二十年生态——新算子的参考实现默认先出现在这一摞</text>
+
+  <!-- TPU card -->
+  <g filter="url(#shadow)">
+    <rect x="840" y="160" width="680" height="630" rx="24" fill="#FFFFFF"/>
+  </g>
+  <rect x="840" y="160" width="680" height="62" rx="24" fill="#C0651C"/>
+  <rect x="840" y="198" width="680" height="24" fill="#C0651C"/>
+  <text x="1180" y="200" text-anchor="middle" class="h1">TPU 栈：复杂度压进编译器</text>
+
+  <g>
+    <rect x="870" y="250" width="620" height="58" rx="12" fill="#FAEFE3"/>
+    <text x="1180" y="287" text-anchor="middle" class="layer">JAX / PyTorch(XLA)</text>
+    <line x1="1180" y1="312" x2="1180" y2="350" stroke="#3C647A" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="870" y="354" width="620" height="58" rx="12" fill="#FAEFE3"/>
+    <text x="1180" y="391" text-anchor="middle" class="layer">StableHLO / XLA（融合 · 布局 · 调度）</text>
+    <line x1="1180" y1="416" x2="1180" y2="454" stroke="#3C647A" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="870" y="458" width="620" height="58" rx="12" fill="#FAEFE3"/>
+    <text x="1180" y="495" text-anchor="middle" class="layer">Pallas / Mosaic 内核层</text>
+    <line x1="1180" y1="520" x2="1180" y2="558" stroke="#3C647A" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="870" y="562" width="620" height="58" rx="12" fill="#C0651C"/>
+    <text x="1180" y="599" text-anchor="middle" class="layerW">TPU：MXU + 向量 + 标量 + VMEM + HBM</text>
+    <line x1="1180" y1="624" x2="1180" y2="662" stroke="#3C647A" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="870" y="666" width="620" height="58" rx="12" fill="#526E80"/>
+    <text x="1180" y="703" text-anchor="middle" class="layerW">ICI + OCS + 数据中心网络</text>
+  </g>
+
+  <text x="1180" y="830" text-anchor="middle" class="note">作者只写“块”和“流水线”，布局、DMA、双缓冲全由编译器包办</text>
+
+  <!-- Bottom banner -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="870" width="1440" height="70" rx="18" fill="#FFFFFF"/>
+  </g>
+  <text x="800" y="914" text-anchor="middle" class="banner">两条路线正在对穿：GPU 引入编译器排定的数据流（TMA、Tile 编程），TPU 补灵活性与生态（PyTorch/XLA、vLLM）</text>
+</svg>

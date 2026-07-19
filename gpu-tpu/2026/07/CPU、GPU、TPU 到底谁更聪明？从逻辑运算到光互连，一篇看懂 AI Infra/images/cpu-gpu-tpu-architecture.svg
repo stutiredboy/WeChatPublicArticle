@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">CPU、GPU、TPU 的设计取舍</title>
+  <desc id="desc">三类处理器在控制逻辑、并行吞吐和确定性矩阵数据流上的硬件资源分配差异。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#EEF5FA"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0B1F33" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .title { font: 700 42px Arial, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #0B1F33; }
+      .subtitle { font: 400 22px Arial, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #48657A; }
+      .h1 { font: 700 34px Arial, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #FFFFFF; }
+      .h2 { font: 700 23px Arial, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #0B1F33; }
+      .body { font: 400 20px Arial, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #28485E; }
+      .small { font: 400 17px Arial, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #48657A; }
+      .tag { font: 700 18px Arial, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #FFFFFF; }
+      .foot { font: 700 23px Arial, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #0B1F33; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <text x="80" y="78" class="title">CPU、GPU、TPU：不是谁更“聪明”，而是晶体管预算押在哪里</text>
+  <text x="80" y="118" class="subtitle">同样会算术、逻辑和访存；不同的是为低延迟、吞吐量或确定性数据流付了多少硬件成本</text>
+
+  <!-- CPU -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="165" width="455" height="675" rx="28" fill="#FFFFFF"/>
+    <rect x="70" y="165" width="455" height="92" rx="28" fill="#315A9D"/>
+    <rect x="70" y="228" width="455" height="29" fill="#315A9D"/>
+  </g>
+  <text x="105" y="224" class="h1">CPU</text>
+  <text x="230" y="222" class="tag">低延迟 · 通用控制</text>
+
+  <rect x="105" y="292" width="385" height="178" rx="18" fill="#EEF3FB" stroke="#9FB7DA" stroke-width="2"/>
+  <rect x="125" y="316" width="164" height="62" rx="12" fill="#315A9D"/>
+  <rect x="305" y="316" width="164" height="62" rx="12" fill="#315A9D"/>
+  <text x="207" y="355" text-anchor="middle" class="tag">复杂核心</text>
+  <text x="387" y="355" text-anchor="middle" class="tag">复杂核心</text>
+  <rect x="125" y="396" width="344" height="49" rx="10" fill="#C7D6EC"/>
+  <text x="297" y="428" text-anchor="middle" class="h2">大缓存 + 一致性</text>
+
+  <text x="105" y="515" class="h2">把面积花在“预测未知”上</text>
+  <text x="105" y="555" class="body">• 分支预测、乱序执行、推测执行</text>
+  <text x="105" y="590" class="body">• 强单线程、快速响应中断与系统调用</text>
+  <text x="105" y="625" class="body">• 少量核心，但每个核心都很“重”</text>
+
+  <rect x="105" y="668" width="385" height="126" rx="16" fill="#F7F9FC" stroke="#D8E2EF"/>
+  <text x="128" y="707" class="h2">擅长</text>
+  <text x="128" y="742" class="small">串行、分支密集、不规则访存、控制面</text>
+  <text x="128" y="773" class="small">数据库、业务逻辑、操作系统、调度</text>
+
+  <!-- GPU -->
+  <g filter="url(#shadow)">
+    <rect x="572" y="165" width="455" height="675" rx="28" fill="#FFFFFF"/>
+    <rect x="572" y="165" width="455" height="92" rx="28" fill="#167A72"/>
+    <rect x="572" y="228" width="455" height="29" fill="#167A72"/>
+  </g>
+  <text x="607" y="224" class="h1">GPU</text>
+  <text x="732" y="222" class="tag">并行吞吐 · 延迟隐藏</text>
+
+  <rect x="607" y="292" width="385" height="178" rx="18" fill="#EAF7F5" stroke="#8AC8C2" stroke-width="2"/>
+  <g fill="#167A72">
+    <rect x="627" y="315" width="77" height="52" rx="9"/><rect x="716" y="315" width="77" height="52" rx="9"/>
+    <rect x="805" y="315" width="77" height="52" rx="9"/><rect x="894" y="315" width="77" height="52" rx="9"/>
+    <rect x="627" y="379" width="77" height="52" rx="9"/><rect x="716" y="379" width="77" height="52" rx="9"/>
+    <rect x="805" y="379" width="77" height="52" rx="9"/><rect x="894" y="379" width="77" height="52" rx="9"/>
+  </g>
+  <g class="tag" text-anchor="middle">
+    <text x="665" y="348">SM</text><text x="754" y="348">SM</text><text x="843" y="348">SM</text><text x="932" y="348">SM</text>
+    <text x="665" y="412">SM</text><text x="754" y="412">SM</text><text x="843" y="412">SM</text><text x="932" y="412">SM</text>
+  </g>
+  <text x="799" y="457" text-anchor="middle" class="small">Warp / CUDA Core / Tensor Core</text>
+  <text x="607" y="515" class="h2">把面积花在“同时做很多份”上</text>
+  <text x="607" y="555" class="body">• 大量线程按 Warp 成组执行</text>
+  <text x="607" y="590" class="body">• 用线程切换掩盖访存与流水线停顿</text>
+  <text x="607" y="625" class="body">• 既有通用 ALU，也有矩阵 Tensor Core</text>
+
+  <rect x="607" y="668" width="385" height="126" rx="16" fill="#F6FBFA" stroke="#D2E9E6"/>
+  <text x="630" y="707" class="h2">擅长</text>
+  <text x="630" y="742" class="small">海量同构任务、矩阵、图形、科学计算</text>
+  <text x="630" y="773" class="small">AI 训练/推理、渲染、仿真、批处理</text>
+
+  <!-- TPU -->
+  <g filter="url(#shadow)">
+    <rect x="1074" y="165" width="455" height="675" rx="28" fill="#FFFFFF"/>
+    <rect x="1074" y="165" width="455" height="92" rx="28" fill="#D66B1F"/>
+    <rect x="1074" y="228" width="455" height="29" fill="#D66B1F"/>
+  </g>
+  <text x="1109" y="224" class="h1">TPU</text>
+  <text x="1234" y="222" class="tag">确定性 · 矩阵数据流</text>
+
+  <rect x="1109" y="292" width="385" height="178" rx="18" fill="#FFF4EA" stroke="#E9B58E" stroke-width="2"/>
+  <rect x="1129" y="314" width="226" height="132" rx="12" fill="#D66B1F"/>
+  <g stroke="#FFD5B5" stroke-width="2">
+    <path d="M1174 314V446M1219 314V446M1264 314V446M1309 314V446"/>
+    <path d="M1129 347H1355M1129 380H1355M1129 413H1355"/>
+  </g>
+  <text x="1242" y="387" text-anchor="middle" class="tag">MXU 脉动阵列</text>
+  <rect x="1370" y="314" width="104" height="58" rx="10" fill="#F0A060"/>
+  <rect x="1370" y="388" width="104" height="58" rx="10" fill="#F0A060"/>
+  <text x="1422" y="350" text-anchor="middle" class="tag">向量</text>
+  <text x="1422" y="424" text-anchor="middle" class="tag">标量</text>
+
+  <text x="1109" y="515" class="h2">把面积花在“让数据按节拍流动”上</text>
+  <text x="1109" y="555" class="body">• 大型 MXU 承担稠密矩阵乘加</text>
+  <text x="1109" y="590" class="body">• 向量/标量单元处理非矩阵部分</text>
+  <text x="1109" y="625" class="body">• 编译器管理布局、VMEM 与数据搬运</text>
+
+  <rect x="1109" y="668" width="385" height="126" rx="16" fill="#FFFAF5" stroke="#F1D9C5"/>
+  <text x="1132" y="707" class="h2">擅长</text>
+  <text x="1132" y="742" class="small">稳定形状的大规模矩阵与数据流任务</text>
+  <text x="1132" y="773" class="small">Google TPU 上的大规模训练与推理</text>
+
+  <rect x="70" y="875" width="1459" height="65" rx="18" fill="#FFFFFF" stroke="#C8D7E2" stroke-width="2"/>
+  <text x="799" y="916" text-anchor="middle" class="foot">能力边界正在融合：CPU 有 SIMD/矩阵扩展，GPU 有 Tensor Core，TPU 也有向量与标量单元</text>
+</svg>
