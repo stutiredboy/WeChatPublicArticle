@@ -1,0 +1,95 @@
+# ==========================================================================
+# 知识管理 Agent - 高阶固定分类法 (Taxonomy)
+# --------------------------------------------------------------------------
+# 规则：
+#   - 一级分类 (categories) 由你定义，LLM 不可更改，只能把文章映射进来
+#   - 二级细分 (sub_topic) 由 LLM 读文章后自动产出，自由命名
+#   - 想增删分类直接改本文件，重跑 `km index` 即可重新归类
+#   - desc 越具体，LLM 归类越准（写清包含什么、不包含什么）
+# ==========================================================================
+
+categories:
+  - id: ai-agent
+    name: AI/Agent
+    desc: |
+      Agent 框架、Skills、CLI 化、MCP、上下文/记忆管理、Agent 评估、
+      AI 编程工具(Claude Code/OpenCode/Cursor)、多 Agent 协同、
+      Vibe Engineering、SDD。不含运维专用 Agent(见 aiops-sre)。
+
+  - id: aiops-sre
+    name: AIOps/SRE
+    desc: |
+      运维智能体、故障分析/根因(RCA)、告警治理、自愈、SRE 实践、
+      SLO/SLI、稳定性体系、工单自动化、日志分析。含 AIOps 落地案例。
+
+  - id: gpu-tpu
+    name: GPU/TPU/算力硬件
+    desc: |
+      GPU/TPU 架构、HBM/HBF、网卡(Mellanox/CX8)、RDMA/GPUDirect、
+      PCIe/NCCL、散热(液冷/金刚石)、光模块/CPO/NPO、算力调度降本、
+      集群装机排障。含 GPU 利用率、供电掉卡等硬件故障。
+
+  - id: storage
+    name: 存储
+    desc: |
+      SSD/NVMe、对象存储(S3/OSS)、文件系统、块存储、FAST 顶会论文、
+      存储评测、存储市场(IPO/闪存)。含 ublk、SCM、磁带归档。
+
+  - id: network
+    name: 网络
+    desc: |
+      BGP、负载均衡(CLB/ALB/NLB/GWLB)、数据中心网络架构、
+      underlay/overlay、DPDK、网络论文(AWS RNG)。含网卡驱动 bug。
+
+  - id: datacenter
+    name: 数据中心/基础设施
+    desc: |
+      PUE、液冷(Direct-to-Chip)、供电(800V DC)、Tier 等级、
+      机房规范温湿度、数据中心政策。不含具体硬件(见 gpu-tpu)。
+
+  - id: security
+    name: 安全/合规
+    desc: |
+      Agent 安全、运行时防护、鉴权(CLISSO/SSO)、密钥管理、
+      数据安全、等保、攻防。含身份管理(Identity for Agentic AI)。
+
+  - id: mem-thesis
+    name: MEM/论文写作
+    desc: |
+      工程管理硕士(MEM)论文：选题、开题、框架、文献综述、
+      数据分析、答辩、AHP/仿真等方法。含 MBA/MPA 论文方法。
+
+  - id: career
+    name: 职场/职业发展
+    desc: |
+      裁员、跳槽、金三银四、AI 对职场冲击、CTO 转型、
+      人才市场、初级开发者困境。不含纯技术成长(归对应技术类)。
+
+  - id: finance
+    name: 财经/投资
+    desc: |
+      IPO、融资(DeepSeek)、行业市场报告(TrendForce/CFM)、
+      存储产业、税务(CRS)。含公司资本动态。
+
+  - id: industry
+    name: 产业/游戏
+    desc: |
+      游戏产业(米哈游/叠纸/腾讯)、GDC、内容生产管线、
+      公司战略动态。不含纯技术实现(归对应技术类)。
+
+  - id: life
+    name: 生活/健康/杂谈
+    desc: |
+      长寿、健康、生活随笔、社会观察(杨梅/中考/父亲节)、
+      思维方法论。兜底分类，无明确技术/学术归属的放这。
+
+# 文章类型枚举（LLM 从中选一）
+article_types:
+  - 技术深度      # 原理拆解、架构分析
+  - 实战复盘      # 踩坑、落地案例、postmortem
+  - 观点评论      # 行业观点、趋势判断
+  - 教程指南      # how-to、上手教程
+  - 行业资讯      # 新闻、新品发布、市场动态
+  - 学术论文      # 顶会论文、研究
+  - 方法论        # 思维框架、做事方法
+  - 生活随笔      # 非技术

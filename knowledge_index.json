@@ -1,0 +1,4433 @@
+{
+  "generated_at": "2026-07-20T16:05:07.645664",
+  "total": 236,
+  "articles": [
+    {
+      "path": "2026/02/GPUDirect RDMA技术详解",
+      "title": "GPUDirect RDMA技术详解",
+      "source_area": "inbox",
+      "summary": "详解 GPUDirect RDMA 技术原理，包括如何绕过 CPU 直接进行 GPU 间内存访问，以及在不同拓扑下的性能表现。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "RDMA/GPUDirect",
+      "article_type": "技术深度",
+      "keywords": [
+        "GPUDirect",
+        "RDMA",
+        "GPU",
+        "零拷贝"
+      ],
+      "confidence": 0.95,
+      "reason": "核心讲 GPUDirect RDMA 技术，属于算力硬件范畴",
+      "extracted_at": "2026-07-20T15:30:21.995259"
+    },
+    {
+      "path": "2026/02/OpenViking：面向 Agent 的上下文数据库",
+      "title": "OpenViking：面向 Agent 的上下文数据库",
+      "source_area": "inbox",
+      "summary": "介绍 OpenViking 这一面向 Agent 的上下文数据库，解决长会话下上下文管理和记忆持久化问题。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "上下文/记忆管理",
+      "article_type": "技术深度",
+      "keywords": [
+        "OpenViking",
+        "Agent",
+        "上下文",
+        "记忆"
+      ],
+      "confidence": 0.9,
+      "reason": "核心是 Agent 的上下文数据库，属 AI/Agent 范畴",
+      "extracted_at": "2026-07-20T15:30:21.995280"
+    },
+    {
+      "path": "2026/02/1000 万人围观的 Claude Code 创始人 0% 手写代码工作流更新了（附我的实战心得）",
+      "title": "1000 万人围观的 Claude Code 创始人 0% 手写代码工作流更新了（附我的实战心得）",
+      "source_area": "inbox",
+      "summary": "解读 Claude Code 创始人 Boris 公开的 0% 手写代码工作流 10 条技巧，涵盖 worktree 并行、Plan mode、Skill 复用、自动化闭环等，并附作者实战心得。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "AI编程工具实践",
+      "article_type": "教程指南",
+      "keywords": [
+        "Claude Code",
+        "worktree",
+        "subagent",
+        "Plan mode",
+        "Skill"
+      ],
+      "confidence": 0.95,
+      "reason": "核心讲 Claude Code 使用技巧和工作流，属 AI 编程工具范畴",
+      "extracted_at": "2026-07-20T15:36:55.024841"
+    },
+    {
+      "path": "2026/02/2025年还在用VMware？300+篇技术文档揭秘：QEMU已经进化到这种地步了！",
+      "title": "2025年还在用VMware？300+篇技术文档揭秘：QEMU已经进化到这种地步了！",
+      "source_area": "inbox",
+      "summary": "基于 300+ 篇技术文档梳理 QEMU 2025 年的进化：全架构模拟、KVM 加速、Docker/KubeVirt 云原生集成、跨平台编译等场景。",
+      "primary_category": "datacenter",
+      "primary_category_name": "数据中心/基础设施",
+      "sub_topic": "虚拟化/云原生",
+      "article_type": "技术深度",
+      "keywords": [
+        "QEMU",
+        "KVM",
+        "虚拟化",
+        "KubeVirt",
+        "跨架构"
+      ],
+      "confidence": 0.55,
+      "reason": "讲 QEMU 虚拟化技术属基础设施软件，但 taxonomy 缺虚拟化专类，暂归 datacenter",
+      "extracted_at": "2026-07-20T15:36:55.024870"
+    },
+    {
+      "path": "2026/02/2028年全球智能危机-很骇人也很有趣",
+      "title": "2028年全球智能危机-很骇人也很有趣",
+      "source_area": "inbox",
+      "summary": "翻译解读一篇以 2028 年未来视角书写的思维实验，探讨 AI 过度普及导致的经济萎缩、失业螺旋、金融系统性风险等左尾风险。",
+      "primary_category": "career",
+      "primary_category_name": "职场/职业发展",
+      "sub_topic": "AI经济社会影响",
+      "article_type": "观点评论",
+      "keywords": [
+        "AI危机",
+        "Ghost GDP",
+        "失业螺旋",
+        "系统性风险"
+      ],
+      "confidence": 0.7,
+      "reason": "探讨 AI 对经济和就业的冲击，属 AI 对职场社会影响范畴",
+      "extracted_at": "2026-07-20T15:36:55.024876"
+    },
+    {
+      "path": "2026/02/65页PPT，彻底看懂光模块！",
+      "title": "65页PPT，彻底看懂光模块！",
+      "source_area": "inbox",
+      "summary": "65 页 PPT 系统讲解光模块技术原理、分类、应用场景，涵盖数据中心光通信基础。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "光模块",
+      "article_type": "教程指南",
+      "keywords": [
+        "光模块",
+        "光通信",
+        "数据中心",
+        "CPO"
+      ],
+      "confidence": 0.95,
+      "reason": "核心讲光模块技术，属算力硬件互连范畴",
+      "extracted_at": "2026-07-20T15:36:55.024881"
+    },
+    {
+      "path": "2026/02/AI 渗透测试进入-全自动-时代：我发现了一个叫 Shannon 的开源安全工具",
+      "title": "AI 渗透测试进入-全自动-时代：我发现了一个叫 Shannon 的开源安全工具",
+      "source_area": "inbox",
+      "summary": "介绍开源 AI 渗透测试工具 Shannon，基于 Claude Agent SDK 多 Agent 协同，实现侦察到报告全流程自动化，核心原则 No Exploit No Report。",
+      "primary_category": "security",
+      "primary_category_name": "安全/合规",
+      "sub_topic": "AI渗透测试",
+      "article_type": "技术深度",
+      "keywords": [
+        "Shannon",
+        "渗透测试",
+        "AI安全",
+        "Agent SDK"
+      ],
+      "confidence": 0.95,
+      "reason": "核心讲 AI 驱动的渗透测试安全工具，属安全范畴",
+      "extracted_at": "2026-07-20T15:36:55.024885"
+    },
+    {
+      "path": "2026/02/CRS信息交换后，税务局找你？别慌：正确应对指南",
+      "title": "CRS信息交换后，税务局找你？别慌：正确应对指南",
+      "source_area": "inbox",
+      "summary": "CRS 落地后收到税务机关联络的应对指南：核验真伪、避免三个常见失误、守住底线话术、材料准备流程。",
+      "primary_category": "finance",
+      "primary_category_name": "财经/投资",
+      "sub_topic": "税务合规",
+      "article_type": "教程指南",
+      "keywords": [
+        "CRS",
+        "税务",
+        "跨境",
+        "合规"
+      ],
+      "confidence": 0.9,
+      "reason": "讲 CRS 税务信息交换的应对，属税务合规范畴",
+      "extracted_at": "2026-07-20T15:36:55.024889"
+    },
+    {
+      "path": "2026/02/Claude Code 之父分享 10 大使用技巧",
+      "title": "Claude Code 之父分享 10 大使用技巧",
+      "source_area": "inbox",
+      "summary": "Claude Code 创造者 Boris 分享团队内部 10 条使用技巧：worktree 并行、Plan mode 规划、CLAUDE.md 知识沉淀、subagent 分工等。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "AI编程工具实践",
+      "article_type": "教程指南",
+      "keywords": [
+        "Claude Code",
+        "worktree",
+        "Plan mode",
+        "CLAUDE.md"
+      ],
+      "confidence": 0.95,
+      "reason": "核心讲 Claude Code 使用技巧，属 AI 编程工具范畴",
+      "extracted_at": "2026-07-20T15:36:55.024893"
+    },
+    {
+      "path": "2026/02/DeepSeek新论文剧透V4新框架！用闲置网卡加速智能体推理性能，打破PD分离瓶颈",
+      "title": "DeepSeek新论文剧透V4新框架！用闲置网卡加速智能体推理性能，打破PD分离瓶颈",
+      "source_area": "inbox",
+      "summary": "解读 DeepSeek DualPath 论文：利用解码引擎闲置网卡带宽加载 KV-Cache，打破 PD 分离架构 I/O 瓶颈，离线吞吐提升 1.87 倍。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "推理性能优化",
+      "article_type": "学术论文",
+      "keywords": [
+        "DualPath",
+        "DeepSeek",
+        "KV-Cache",
+        "PD分离",
+        "推理加速"
+      ],
+      "confidence": 0.85,
+      "reason": "核心是 GPU 推理性能优化和 KV-Cache 加载，属算力硬件推理范畴",
+      "extracted_at": "2026-07-20T15:36:55.024896"
+    },
+    {
+      "path": "2026/02/GPUDirect Storage（GDS）技术解析",
+      "title": "GPUDirect Storage（GDS）技术解析",
+      "source_area": "inbox",
+      "summary": "解析 NVIDIA GPUDirect Storage 技术原理：GPU 绕过 CPU 直接读写 NVMe SSD，通过 PCIe P2P 和 cuFile API 实现零拷贝，降低延迟最高 3.8 倍。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "GPUDirect/存储直连",
+      "article_type": "技术深度",
+      "keywords": [
+        "GPUDirect",
+        "GDS",
+        "NVMe",
+        "零拷贝",
+        "PCIe P2P"
+      ],
+      "confidence": 0.95,
+      "reason": "核心讲 GPUDirect Storage 技术，属 GPU 硬件直连范畴",
+      "extracted_at": "2026-07-20T15:36:55.024900"
+    },
+    {
+      "path": "2026/02/GitHub一巡！解决向量搜索效率与部署难题，轻量级进程内数据库实现毫秒级查询响应",
+      "title": "GitHub一巡！解决向量搜索效率与部署难题，轻量级进程内数据库实现毫秒级查询响应",
+      "source_area": "inbox",
+      "summary": "介绍阿里开源的轻量级进程内向量数据库 Zvec，基于 Proxima 引擎，无需服务器部署，支持密集稀疏向量混合查询，适用于 RAG 和推荐系统。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "向量数据库/RAG",
+      "article_type": "行业资讯",
+      "keywords": [
+        "Zvec",
+        "向量数据库",
+        "RAG",
+        "Proxima"
+      ],
+      "confidence": 0.8,
+      "reason": "向量数据库主要用于 AI/RAG/Agent 记忆，属 AI 基础设施范畴",
+      "extracted_at": "2026-07-20T15:36:55.024903"
+    },
+    {
+      "path": "2026/02/Linux ublk 引入批量 IO 调度：性能再突破",
+      "title": "Linux ublk 引入批量 IO 调度：性能再突破",
+      "source_area": "inbox",
+      "summary": "解析 Linux ublk 用户态块设备框架引入的 UBLK_F_BATCH_IO 批量 IO 调度机制，基于 io_uring 实现按队列批量处理，零拷贝场景性能提升 3.7%。",
+      "primary_category": "storage",
+      "primary_category_name": "存储",
+      "sub_topic": "内核存储栈",
+      "article_type": "技术深度",
+      "keywords": [
+        "ublk",
+        "io_uring",
+        "批量IO",
+        "块设备",
+        "零拷贝"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 Linux ublk 块设备 IO 调度，属存储栈技术",
+      "extracted_at": "2026-07-20T15:39:51.290788"
+    },
+    {
+      "path": "2026/02/Marvell：SSD如何应对极致IO挑战？",
+      "title": "Marvell：SSD如何应对极致IO挑战？",
+      "source_area": "inbox",
+      "summary": "探讨 AI 时代以数据为中心的存储架构，分析 SSD 在 PCIe Gen5-7 时代面临的极致 IOPS 和带宽挑战，以及分层存储和 DPU 卸载趋势。",
+      "primary_category": "storage",
+      "primary_category_name": "存储",
+      "sub_topic": "SSD/AI存储",
+      "article_type": "技术深度",
+      "keywords": [
+        "SSD",
+        "AI存储",
+        "PCIe Gen5",
+        "DPU",
+        "分层存储"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 SSD 应对 AI 极致 IO 挑战，属存储范畴",
+      "extracted_at": "2026-07-20T15:39:51.290803"
+    },
+    {
+      "path": "2026/02/NVIDIA MFT 固件管理与调试工具集简析",
+      "title": "NVIDIA MFT 固件管理与调试工具集简析",
+      "source_area": "inbox",
+      "summary": "简析 NVIDIA MFT 固件工具集（mst/flint/mlxburn 等），涵盖 Mellanox 网卡固件查询、烧录、调试与典型升级工作流。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "网卡固件管理",
+      "article_type": "教程指南",
+      "keywords": [
+        "NVIDIA MFT",
+        "Mellanox",
+        "固件烧录",
+        "网卡",
+        "flint"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 NVIDIA/Mellanox 网卡固件管理工具，属网卡硬件运维",
+      "extracted_at": "2026-07-20T15:39:51.290809"
+    },
+    {
+      "path": "2026/02/OCS光交换机专家交流纪要",
+      "title": "OCS光交换机专家交流纪要",
+      "source_area": "inbox",
+      "summary": "OCS 光交换机专家交流纪要，内容以图片为主，文字极少。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "光交换机",
+      "article_type": "行业资讯",
+      "keywords": [
+        "OCS",
+        "光交换机",
+        "数据中心网络"
+      ],
+      "confidence": 0.4,
+      "reason": "内容几乎为空，仅从标题判断为 OCS 光交换机，属算力网络硬件",
+      "extracted_at": "2026-07-20T15:39:51.290813"
+    },
+    {
+      "path": "2026/02/OpenClaw 全套核心提示词中文完整版",
+      "title": "OpenClaw 全套核心提示词中文完整版",
+      "source_area": "inbox",
+      "summary": "完整翻译 OpenClaw AI 助手框架的系统提示词，涵盖工具调用、安全规则、技能系统、记忆召回、CLI 参考等核心机制。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent框架提示词",
+      "article_type": "技术深度",
+      "keywords": [
+        "OpenClaw",
+        "系统提示词",
+        "Agent框架",
+        "Skills",
+        "记忆"
+      ],
+      "confidence": 0.95,
+      "reason": "核心是 AI Agent 框架的系统提示词解析，属 AI/Agent 范畴",
+      "extracted_at": "2026-07-20T15:39:51.290816"
+    },
+    {
+      "path": "2026/02/OpenViking 上下文压缩机制详解：从会话到长期记忆的「蒸馏」之路",
+      "title": "OpenViking 上下文压缩机制详解：从会话到长期记忆的「蒸馏」之路",
+      "source_area": "inbox",
+      "summary": "详解 OpenViking 的上下文压缩机制：将会话消息压缩归档，提炼结构化长期记忆写入存储，与 L0/L1/L2 层级和检索形成闭环。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "上下文/记忆管理",
+      "article_type": "技术深度",
+      "keywords": [
+        "OpenViking",
+        "上下文压缩",
+        "长期记忆",
+        "L0/L1/L2",
+        "RAG"
+      ],
+      "confidence": 0.95,
+      "reason": "核心讲 Agent 上下文压缩与记忆管理，属 AI/Agent 范畴",
+      "extracted_at": "2026-07-20T15:39:51.290821"
+    },
+    {
+      "path": "2026/02/RDMA网卡：字节如何系统性揪出18个RDMA子系统性能异常",
+      "title": "RDMA网卡：字节如何系统性揪出18个RDMA子系统性能异常",
+      "source_area": "inbox",
+      "summary": "解读字节 Collie 论文，系统性发现 RDMA 子系统性能异常，涵盖 Workload Engine、Anomaly Monitor 架构及 18 个异常发现。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "RDMA性能分析",
+      "article_type": "学术论文",
+      "keywords": [
+        "RDMA",
+        "Collie",
+        "性能异常",
+        "字节",
+        "RNIC"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 RDMA 网卡子系统性能分析，属网卡/RDMA 硬件范畴",
+      "extracted_at": "2026-07-20T15:39:51.290825"
+    },
+    {
+      "path": "2026/02/Untitled Article",
+      "title": "Untitled Article",
+      "source_area": "inbox",
+      "summary": "内容为空，无法判断文章主题。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "待人工确认",
+      "article_type": "",
+      "keywords": [],
+      "confidence": 0.1,
+      "reason": "内容为空，无法判断主题，兜底归入待人工确认",
+      "extracted_at": "2026-07-20T15:39:51.290892"
+    },
+    {
+      "path": "2026/02/Zvec- 开箱即用、高性能的嵌入式向量数据库",
+      "title": "Zvec- 开箱即用、高性能的嵌入式向量数据库",
+      "source_area": "inbox",
+      "summary": "介绍阿里开源的嵌入式向量数据库 Zvec，类 SQLite 架构，零依赖进程内运行，支持密集/稀疏向量混合查询，面向端侧 RAG 场景。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "向量数据库/RAG",
+      "article_type": "技术深度",
+      "keywords": [
+        "Zvec",
+        "向量数据库",
+        "嵌入式",
+        "RAG",
+        "端侧AI"
+      ],
+      "confidence": 0.9,
+      "reason": "向量数据库是 AI/RAG 基础设施，属 AI/Agent 范畴",
+      "extracted_at": "2026-07-20T15:39:51.290896"
+    },
+    {
+      "path": "2026/02/hyper_hl_article",
+      "title": "hyper_hl_article",
+      "source_area": "inbox",
+      "summary": "昊铂 HL 汽车评测：智驾系统、二排零重力座椅、增程版续航，定位家庭出行移动头等舱。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "汽车评测",
+      "article_type": "生活随笔",
+      "keywords": [
+        "昊铂HL",
+        "智驾",
+        "增程",
+        "汽车评测"
+      ],
+      "confidence": 0.8,
+      "reason": "汽车评测文章，无技术/学术归属，归入生活杂谈",
+      "extracted_at": "2026-07-20T15:39:51.290900"
+    },
+    {
+      "path": "2026/02/hyper_hl_review",
+      "title": "hyper_hl_review",
+      "source_area": "inbox",
+      "summary": "昊铂 HL 试驾评测：智驾系统、二排零重力座椅、增程版续航，定位家庭出行陆地头等舱。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "汽车评测",
+      "article_type": "生活随笔",
+      "keywords": [
+        "昊铂HL",
+        "智驾",
+        "增程",
+        "试驾"
+      ],
+      "confidence": 0.8,
+      "reason": "汽车评测文章，无技术归属，归入生活杂谈",
+      "extracted_at": "2026-07-20T15:42:11.131610"
+    },
+    {
+      "path": "2026/02/insurance_article/article.md",
+      "title": "article",
+      "source_area": "inbox",
+      "summary": "以哈佛校友会饭局为引，用接地气的方式讲中年人保险配置逻辑：重疾、医疗、寿险的优先级和断供防火墙理念。",
+      "primary_category": "finance",
+      "primary_category_name": "财经/投资",
+      "sub_topic": "保险理财",
+      "article_type": "生活随笔",
+      "keywords": [
+        "保险",
+        "重疾险",
+        "医疗险",
+        "中年",
+        "理财"
+      ],
+      "confidence": 0.75,
+      "reason": "讲保险配置逻辑，属理财/财经范畴",
+      "extracted_at": "2026-07-20T15:42:11.131643"
+    },
+    {
+      "path": "2026/02/insurance_article/harvard_insurance_article.md",
+      "title": "harvard_insurance_article",
+      "source_area": "inbox",
+      "summary": "哈佛校友会视角的中年保险配置指南，解析重疾、医疗、寿险配置逻辑和家庭断供防火墙理念。",
+      "primary_category": "finance",
+      "primary_category_name": "财经/投资",
+      "sub_topic": "保险理财",
+      "article_type": "生活随笔",
+      "keywords": [
+        "保险",
+        "重疾险",
+        "医疗险",
+        "中年",
+        "理财"
+      ],
+      "confidence": 0.7,
+      "reason": "保险配置文章，属理财/财经范畴",
+      "extracted_at": "2026-07-20T15:42:11.131649"
+    },
+    {
+      "path": "2026/02/k8s mellanox网卡使用dpdk驱动问题总结",
+      "title": "k8s mellanox网卡使用dpdk驱动问题总结",
+      "source_area": "inbox",
+      "summary": "总结 k8s 环境下 Mellanox 网卡使用 DPDK 驱动遇到的问题及解决方案，涵盖固件配置、hugepage、设备挂载等。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "网卡驱动/DPDK",
+      "article_type": "实战复盘",
+      "keywords": [
+        "Mellanox",
+        "DPDK",
+        "k8s",
+        "网卡驱动",
+        "固件"
+      ],
+      "confidence": 0.8,
+      "reason": "核心讲 Mellanox 网卡 DPDK 驱动问题，属网卡硬件运维",
+      "extracted_at": "2026-07-20T15:42:11.131654"
+    },
+    {
+      "path": "2026/02/middle_school_fragility/article.md",
+      "title": "article",
+      "source_area": "inbox",
+      "summary": "探讨当代初中生越来越玻璃心的原因：学业压力、家庭期待、社交媒体影响、挫折教育缺失等。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "教育观察",
+      "article_type": "生活随笔",
+      "keywords": [
+        "初中生",
+        "心理健康",
+        "教育",
+        "压力"
+      ],
+      "confidence": 0.8,
+      "reason": "教育心理类社会观察，无技术归属，归入生活杂谈",
+      "extracted_at": "2026-07-20T15:42:11.131658"
+    },
+    {
+      "path": "2026/02/一文概览国产核心存储厂商2025年度业绩",
+      "title": "一文概览国产核心存储厂商2025年度业绩",
+      "source_area": "inbox",
+      "summary": "概览国产核心存储厂商 2025 年度业绩，受益于 AI 服务器需求激增和存储价格回升，不同公司利润表现差异显著。",
+      "primary_category": "finance",
+      "primary_category_name": "财经/投资",
+      "sub_topic": "存储产业",
+      "article_type": "行业资讯",
+      "keywords": [
+        "存储厂商",
+        "业绩",
+        "国产存储",
+        "AI服务器",
+        "行业周期"
+      ],
+      "confidence": 0.85,
+      "reason": "讲存储厂商财务业绩，属行业市场报告范畴",
+      "extracted_at": "2026-07-20T15:42:11.131663"
+    },
+    {
+      "path": "2026/02/一文看懂数据中心运维服务月度报告",
+      "title": "一文看懂数据中心运维服务月度报告",
+      "source_area": "inbox",
+      "summary": "数据中心运维服务月度报告模板，涵盖基础设施可用性、供配电、空调、消防等运行数据与运维优化。",
+      "primary_category": "datacenter",
+      "primary_category_name": "数据中心/基础设施",
+      "sub_topic": "运维管理",
+      "article_type": "教程指南",
+      "keywords": [
+        "数据中心",
+        "运维报告",
+        "可用性",
+        "基础设施"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲数据中心物理基础设施运维，属数据中心范畴",
+      "extracted_at": "2026-07-20T15:42:11.131667"
+    },
+    {
+      "path": "2026/02/一片SSD能喂饱多少颗GPU？MLPerf Storage v2.0实测",
+      "title": "一片SSD能喂饱多少颗GPU？MLPerf Storage v2.0实测",
+      "source_area": "inbox",
+      "summary": "使用 MLPerf Storage v2.0 基准测试，实测一片 SSD 能支撑多少颗 GPU 的存储需求，评估 AI 训练存储瓶颈。",
+      "primary_category": "storage",
+      "primary_category_name": "存储",
+      "sub_topic": "存储评测",
+      "article_type": "实战复盘",
+      "keywords": [
+        "SSD",
+        "GPU",
+        "MLPerf Storage",
+        "存储评测",
+        "AI训练"
+      ],
+      "confidence": 0.9,
+      "reason": "核心是 SSD 存储 benchmark 实测，属存储评测范畴",
+      "extracted_at": "2026-07-20T15:42:11.131672"
+    },
+    {
+      "path": "2026/02/云网络基础：underlay网络和overlay网络",
+      "title": "云网络基础：underlay网络和overlay网络",
+      "source_area": "inbox",
+      "summary": "讲解云网络中 underlay 网络和 overlay 网络的概念、区别、工作原理及典型应用场景。",
+      "primary_category": "network",
+      "primary_category_name": "网络",
+      "sub_topic": "网络架构基础",
+      "article_type": "教程指南",
+      "keywords": [
+        "underlay",
+        "overlay",
+        "云网络",
+        "VXLAN",
+        "网络架构"
+      ],
+      "confidence": 0.95,
+      "reason": "核心讲云网络 underlay/overlay 架构，属网络范畴",
+      "extracted_at": "2026-07-20T15:42:11.131678"
+    },
+    {
+      "path": "2026/02/从7小时到50分钟：我的OpenClaw虚拟团队改造实录 （长文慎入）",
+      "title": "从7小时到50分钟：我的OpenClaw虚拟团队改造实录 （长文慎入）",
+      "source_area": "inbox",
+      "summary": "记录使用 OpenClaw 搭建虚拟团队的实践，通过多 Agent 协同将任务从 7 小时缩短到 50 分钟的改造实录。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent框架实践",
+      "article_type": "实战复盘",
+      "keywords": [
+        "OpenClaw",
+        "虚拟团队",
+        "多Agent",
+        "提效"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 OpenClaw Agent 框架的团队协同实践，属 AI/Agent 范畴",
+      "extracted_at": "2026-07-20T15:42:11.131682"
+    },
+    {
+      "path": "2026/02/企业网络里常说的专线，到底分哪几类？你公司用的是哪一种",
+      "title": "企业网络里常说的专线，到底分哪几类？你公司用的是哪一种",
+      "source_area": "inbox",
+      "summary": "讲解企业网络专线的分类（MSTP/MPLS VPN/SD-WAN 等），帮助判断公司适用的专线类型。",
+      "primary_category": "network",
+      "primary_category_name": "网络",
+      "sub_topic": "网络架构基础",
+      "article_type": "教程指南",
+      "keywords": [
+        "专线",
+        "MPLS VPN",
+        "SD-WAN",
+        "企业网络"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲企业网络专线分类，属网络范畴",
+      "extracted_at": "2026-07-20T15:44:10.435409"
+    },
+    {
+      "path": "2026/02/再见了, 网易!",
+      "title": "再见了, 网易!",
+      "source_area": "inbox",
+      "summary": "一篇离开网易的告别文，记录在网易的经历与感悟。",
+      "primary_category": "career",
+      "primary_category_name": "职场/职业发展",
+      "sub_topic": "离职告别",
+      "article_type": "生活随笔",
+      "keywords": [
+        "网易",
+        "离职",
+        "职业"
+      ],
+      "confidence": 0.7,
+      "reason": "离职告别文，属职场/职业发展范畴",
+      "extracted_at": "2026-07-20T15:44:10.435426"
+    },
+    {
+      "path": "2026/02/取得境外分红或股票交易所得，如何申报个人所得税？",
+      "title": "取得境外分红或股票交易所得，如何申报个人所得税？",
+      "source_area": "inbox",
+      "summary": "讲解取得境外分红或股票交易所得后的个人所得税申报流程与注意事项。",
+      "primary_category": "finance",
+      "primary_category_name": "财经/投资",
+      "sub_topic": "税务合规",
+      "article_type": "教程指南",
+      "keywords": [
+        "境外所得",
+        "个人所得税",
+        "税务申报",
+        "股票"
+      ],
+      "confidence": 0.9,
+      "reason": "讲境外所得税申报，属税务合规范畴",
+      "extracted_at": "2026-07-20T15:44:10.435432"
+    },
+    {
+      "path": "2026/02/大普微IPO，中国企业级 SSD 的历史性一跃，存储产业迎来关键力量",
+      "title": "大普微IPO，中国企业级 SSD 的历史性一跃，存储产业迎来关键力量",
+      "source_area": "inbox",
+      "summary": "分析大普微 IPO 及中国企业级 SSD 产业的发展，存储产业迎来关键力量。",
+      "primary_category": "finance",
+      "primary_category_name": "财经/投资",
+      "sub_topic": "存储产业/IPO",
+      "article_type": "行业资讯",
+      "keywords": [
+        "大普微",
+        "IPO",
+        "企业级SSD",
+        "存储产业"
+      ],
+      "confidence": 0.85,
+      "reason": "讲 SSD 企业 IPO 和存储产业动态，属行业市场报告",
+      "extracted_at": "2026-07-20T15:44:10.435438"
+    },
+    {
+      "path": "2026/02/大模型推理精度与显存估算指南",
+      "title": "大模型推理精度与显存估算指南",
+      "source_area": "inbox",
+      "summary": "指南：如何估算大模型推理所需的显存和精度选择，涵盖 FP16/INT8/INT4 等量化方案。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "推理性能优化",
+      "article_type": "教程指南",
+      "keywords": [
+        "大模型推理",
+        "显存估算",
+        "量化",
+        "FP16",
+        "INT8"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲大模型推理显存和精度，属 GPU 推理范畴",
+      "extracted_at": "2026-07-20T15:44:10.435442"
+    },
+    {
+      "path": "2026/02/好好说话",
+      "title": "好好说话",
+      "source_area": "inbox",
+      "summary": "探讨家庭沟通艺术：如何从河东狮吼到好好说话，涵盖与孩子和家人的沟通技巧。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "家庭沟通",
+      "article_type": "生活随笔",
+      "keywords": [
+        "家庭沟通",
+        "亲子关系",
+        "情绪管理"
+      ],
+      "confidence": 0.8,
+      "reason": "家庭沟通类生活随笔，无技术归属",
+      "extracted_at": "2026-07-20T15:44:10.435446"
+    },
+    {
+      "path": "2026/02/好好说话/好好说话-解套与容错性.md",
+      "title": "好好说话-解套与容错性",
+      "source_area": "inbox",
+      "summary": "好好说话系列的续篇，探讨沟通中的解套技巧与容错性，如何在说错话后挽回。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "家庭沟通",
+      "article_type": "生活随笔",
+      "keywords": [
+        "沟通",
+        "解套",
+        "容错性",
+        "家庭关系"
+      ],
+      "confidence": 0.7,
+      "reason": "家庭沟通技巧续篇，属生活杂谈",
+      "extracted_at": "2026-07-20T15:44:10.435451"
+    },
+    {
+      "path": "2026/02/如何推动数据中心技术发展？",
+      "title": "如何推动数据中心技术发展？",
+      "source_area": "inbox",
+      "summary": "探讨如何推动数据中心技术发展，分析当前趋势与未来方向。",
+      "primary_category": "datacenter",
+      "primary_category_name": "数据中心/基础设施",
+      "sub_topic": "技术发展",
+      "article_type": "观点评论",
+      "keywords": [
+        "数据中心",
+        "技术发展",
+        "趋势"
+      ],
+      "confidence": 0.7,
+      "reason": "核心讲数据中心技术发展，属数据中心范畴",
+      "extracted_at": "2026-07-20T15:44:10.435454"
+    },
+    {
+      "path": "2026/02/如何规划数据治理OKR？全网独家.pdf",
+      "title": "如何规划数据治理OKR？全网独家.pdf",
+      "source_area": "inbox",
+      "summary": "大厂数据负责人分享数据治理 OKR 规划实践，附 124 条 KR，来自故障复盘后的思考。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "数据治理",
+      "article_type": "教程指南",
+      "keywords": [
+        "数据治理",
+        "OKR",
+        "数据管理",
+        "故障复盘"
+      ],
+      "confidence": 0.65,
+      "reason": "数据治理 OKR 属 IT 运维管理范畴，暂归 aiops-sre",
+      "extracted_at": "2026-07-20T15:44:10.435458"
+    },
+    {
+      "path": "2026/02/学了Netflix的微服务架构，整个团队差点被优化……",
+      "title": "学了Netflix的微服务架构，整个团队差点被优化……",
+      "source_area": "inbox",
+      "summary": "讲述团队照搬 Netflix 微服务架构后踩坑的经历，反思架构选型应结合团队实际。",
+      "primary_category": "career",
+      "primary_category_name": "职场/职业发展",
+      "sub_topic": "架构踩坑",
+      "article_type": "实战复盘",
+      "keywords": [
+        "微服务",
+        "Netflix",
+        "架构选型",
+        "踩坑"
+      ],
+      "confidence": 0.7,
+      "reason": "讲团队架构踩坑和反思，属职场/技术管理范畴",
+      "extracted_at": "2026-07-20T15:44:10.435461"
+    },
+    {
+      "path": "2026/02/实现GPU大幅降本！顺丰科技基于自研的算力资源管理与调度实践",
+      "title": "实现GPU大幅降本！顺丰科技基于自研的算力资源管理与调度实践",
+      "source_area": "inbox",
+      "summary": "顺丰科技分享自研 GPU 算力资源管理与调度系统实践，实现 GPU 大幅降本。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "算力调度降本",
+      "article_type": "实战复盘",
+      "keywords": [
+        "GPU降本",
+        "算力调度",
+        "顺丰科技",
+        "资源管理"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 GPU 算力调度降本，属算力硬件范畴",
+      "extracted_at": "2026-07-20T15:44:10.435465"
+    },
+    {
+      "path": "2026/02/小小光模块，竟然是暴利产品！",
+      "title": "小小光模块，竟然是暴利产品！",
+      "source_area": "inbox",
+      "summary": "分析光模块产业的暴利现象，探讨光模块市场格局与盈利逻辑。",
+      "primary_category": "finance",
+      "primary_category_name": "财经/投资",
+      "sub_topic": "光模块产业",
+      "article_type": "行业资讯",
+      "keywords": [
+        "光模块",
+        "暴利",
+        "产业",
+        "市场"
+      ],
+      "confidence": 0.75,
+      "reason": "从商业角度分析光模块暴利，属行业市场报告",
+      "extracted_at": "2026-07-20T15:44:10.435469"
+    },
+    {
+      "path": "2026/02/微信WFS传统TCP网络Fio跑满200Gb网卡实践",
+      "title": "微信WFS传统TCP网络Fio跑满200Gb网卡实践",
+      "source_area": "inbox",
+      "summary": "微信 WFS 团队分享在传统 TCP 网络下用 Fio 跑满 200Gb 网卡的实践与调优经验。",
+      "primary_category": "network",
+      "primary_category_name": "网络",
+      "sub_topic": "网络性能",
+      "article_type": "实战复盘",
+      "keywords": [
+        "WFS",
+        "TCP",
+        "Fio",
+        "200Gb",
+        "网卡"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲网络性能调优实践，属网络范畴",
+      "extracted_at": "2026-07-20T15:44:10.435472"
+    },
+    {
+      "path": "2026/02/我国数据中心PUE的计算方法",
+      "title": "我国数据中心PUE的计算方法",
+      "source_area": "inbox",
+      "summary": "讲解我国数据中心 PUE 的计算方法、标准及测量要点。",
+      "primary_category": "datacenter",
+      "primary_category_name": "数据中心/基础设施",
+      "sub_topic": "PUE",
+      "article_type": "教程指南",
+      "keywords": [
+        "PUE",
+        "数据中心",
+        "能效",
+        "计算方法"
+      ],
+      "confidence": 0.95,
+      "reason": "核心讲数据中心 PUE 计算，属数据中心范畴",
+      "extracted_at": "2026-07-20T15:44:10.435476"
+    },
+    {
+      "path": "2026/02/我的 OpenClaw Token 账单降了72%，只因装了这个插件",
+      "title": "我的 OpenClaw Token 账单降了72%，只因装了这个插件",
+      "source_area": "inbox",
+      "summary": "分享通过安装插件将 OpenClaw Token 账单降低 72% 的实践经验。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent框架实践",
+      "article_type": "实战复盘",
+      "keywords": [
+        "OpenClaw",
+        "Token",
+        "降本",
+        "插件"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 OpenClaw Agent 框架的优化实践，属 AI/Agent 范畴",
+      "extracted_at": "2026-07-20T15:44:10.435480"
+    },
+    {
+      "path": "2026/02/扒一扒字节跳动自研的102.4T交换机",
+      "title": "扒一扒字节跳动自研的102.4T交换机",
+      "source_area": "inbox",
+      "summary": "扒一扒字节跳动自研的 102.4T 交换机，分析其架构设计与技术亮点。",
+      "primary_category": "network",
+      "primary_category_name": "网络",
+      "sub_topic": "数据中心网络",
+      "article_type": "技术深度",
+      "keywords": [
+        "字节跳动",
+        "102.4T交换机",
+        "自研",
+        "数据中心网络"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲自研交换机，属网络范畴",
+      "extracted_at": "2026-07-20T15:45:56.645805"
+    },
+    {
+      "path": "2026/02/捋一捋最近的光模块、CPO和NPO",
+      "title": "捋一捋最近的光模块、CPO和NPO",
+      "source_area": "inbox",
+      "summary": "梳理光模块、CPO（共封装光学）和 NPO（近封装光学）技术的最新进展与区别。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "光模块/CPO",
+      "article_type": "技术深度",
+      "keywords": [
+        "光模块",
+        "CPO",
+        "NPO",
+        "共封装光学"
+      ],
+      "confidence": 0.95,
+      "reason": "核心讲光模块 CPO NPO 技术，属算力硬件互连",
+      "extracted_at": "2026-07-20T15:45:56.645827"
+    },
+    {
+      "path": "2026/02/支撑亿级流量：小红书 2025 MySQL 内核做了哪些关键改造？",
+      "title": "支撑亿级流量：小红书 2025 MySQL 内核做了哪些关键改造？",
+      "source_area": "inbox",
+      "summary": "小红书分享 2025 年 MySQL 内核关键改造，支撑亿级流量场景。",
+      "primary_category": "storage",
+      "primary_category_name": "存储",
+      "sub_topic": "数据库内核",
+      "article_type": "实战复盘",
+      "keywords": [
+        "MySQL",
+        "小红书",
+        "内核改造",
+        "亿级流量"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 MySQL 数据库内核改造，属存储/数据库",
+      "extracted_at": "2026-07-20T15:45:56.645832"
+    },
+    {
+      "path": "2026/02/日志成本降低 83%：云上 Elasticsearch 和 SelectDB 的基准测试及成本分析",
+      "title": "日志成本降低 83%：云上 Elasticsearch 和 SelectDB 的基准测试及成本分析",
+      "source_area": "inbox",
+      "summary": "对比云上 Elasticsearch 和 SelectDB 的基准测试与成本分析，实现日志成本降低 83%。",
+      "primary_category": "storage",
+      "primary_category_name": "存储",
+      "sub_topic": "数据库/日志",
+      "article_type": "实战复盘",
+      "keywords": [
+        "Elasticsearch",
+        "SelectDB",
+        "日志",
+        "成本分析"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲数据库日志存储成本优化，属存储/数据库",
+      "extracted_at": "2026-07-20T15:45:56.645837"
+    },
+    {
+      "path": "2026/02/智算中心与GPU集群光模块常见故障分析",
+      "title": "智算中心与GPU集群光模块常见故障分析",
+      "source_area": "inbox",
+      "summary": "分析智算中心与 GPU 集群中光模块的常见故障类型、原因及排查方法。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "光模块故障",
+      "article_type": "实战复盘",
+      "keywords": [
+        "光模块",
+        "故障分析",
+        "智算中心",
+        "GPU集群"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 GPU 集群光模块故障，属算力硬件运维",
+      "extracted_at": "2026-07-20T15:45:56.645842"
+    },
+    {
+      "path": "2026/02/有道龙虾LobsterAI实测：养一只不咬人的 AI 龙虾要多久",
+      "title": "有道龙虾LobsterAI实测：养一只不咬人的 AI 龙虾要多久",
+      "source_area": "inbox",
+      "summary": "黄东旭谈 Agent 时代基础设施的重构，龙虾的记忆。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent基础设施",
+      "article_type": "观点评论",
+      "keywords": [
+        "黄东旭",
+        "Agent",
+        "基础设施",
+        "记忆"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 Agent 基础设施重构，属 AI/Agent",
+      "extracted_at": "2026-07-20T16:00:52.774024"
+    },
+    {
+      "path": "2026/02/服务器内存与普通内存的核心差异解读",
+      "title": "服务器内存与普通内存的核心差异解读",
+      "source_area": "inbox",
+      "summary": "解读服务器内存（RDIMM/LRDIMM）与普通内存的核心差异，涵盖 ECC、频率、容量等。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "服务器内存",
+      "article_type": "技术深度",
+      "keywords": [
+        "服务器内存",
+        "RDIMM",
+        "ECC",
+        "内存"
+      ],
+      "confidence": 0.8,
+      "reason": "核心讲服务器内存硬件，属算力硬件范畴",
+      "extracted_at": "2026-07-20T15:45:56.645853"
+    },
+    {
+      "path": "2026/02/每天5分钟，死亡风险降10%！《柳叶刀》研究揭示轻松长寿法",
+      "title": "每天5分钟，死亡风险降10%！《柳叶刀》研究揭示轻松长寿法",
+      "source_area": "inbox",
+      "summary": "《柳叶刀》研究揭示每天 5 分钟轻度运动可降低 10% 死亡风险，轻松长寿法。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "健康/长寿",
+      "article_type": "生活随笔",
+      "keywords": [
+        "长寿",
+        "运动",
+        "柳叶刀",
+        "健康"
+      ],
+      "confidence": 0.9,
+      "reason": "健康长寿类文章，归入生活杂谈",
+      "extracted_at": "2026-07-20T15:45:56.645858"
+    },
+    {
+      "path": "2026/02/深度解析2 - 英伟达 Rubin 平台全解析：NVLink 6+ConnectX-9+BlueField-4，构建 AI 工厂全栈架构",
+      "title": "深度解析2 - 英伟达 Rubin 平台全解析：NVLink 6+ConnectX-9+BlueField-4，构建 AI 工厂全栈架构",
+      "source_area": "inbox",
+      "summary": "全解析英伟达 Rubin 平台：NVLink 6、ConnectX-9、BlueField-4 如何构建 AI 工厂全栈架构。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "NVIDIA平台架构",
+      "article_type": "技术深度",
+      "keywords": [
+        "Rubin",
+        "NVLink",
+        "ConnectX-9",
+        "BlueField",
+        "NVIDIA"
+      ],
+      "confidence": 0.95,
+      "reason": "核心讲 NVIDIA Rubin 平台架构，属 GPU/算力硬件",
+      "extracted_at": "2026-07-20T15:45:56.645861"
+    },
+    {
+      "path": "2026/02/深度解读 HDD 14碟硬盘技术，容量冲刺144TB",
+      "title": "深度解读 HDD 14碟硬盘技术，容量冲刺144TB",
+      "source_area": "inbox",
+      "summary": "深度解读 HDD 14 碟硬盘技术，分析容量冲刺 144TB 的技术路径与挑战。",
+      "primary_category": "storage",
+      "primary_category_name": "存储",
+      "sub_topic": "HDD技术",
+      "article_type": "技术深度",
+      "keywords": [
+        "HDD",
+        "14碟",
+        "144TB",
+        "硬盘"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 HDD 硬盘技术，属存储范畴",
+      "extracted_at": "2026-07-20T15:45:56.645865"
+    },
+    {
+      "path": "2026/02/渐渐有人发现，游戏行业的降本增效，不对劲了",
+      "title": "渐渐有人发现，游戏行业的降本增效，不对劲了",
+      "source_area": "inbox",
+      "summary": "探讨游戏行业降本增效的问题与反思，分析行业趋势。",
+      "primary_category": "industry",
+      "primary_category_name": "产业/游戏",
+      "sub_topic": "游戏行业",
+      "article_type": "观点评论",
+      "keywords": [
+        "游戏行业",
+        "降本增效",
+        "行业趋势"
+      ],
+      "confidence": 0.8,
+      "reason": "游戏行业观点评论，属产业范畴",
+      "extracted_at": "2026-07-20T15:45:56.645868"
+    },
+    {
+      "path": "2026/02/游戏中心弱网优化实践",
+      "title": "游戏中心弱网优化实践",
+      "source_area": "inbox",
+      "summary": "分享游戏中心弱网环境下的网络优化实践经验。",
+      "primary_category": "network",
+      "primary_category_name": "网络",
+      "sub_topic": "弱网优化",
+      "article_type": "实战复盘",
+      "keywords": [
+        "弱网优化",
+        "游戏",
+        "网络",
+        "实践"
+      ],
+      "confidence": 0.75,
+      "reason": "核心讲弱网网络优化，属网络范畴",
+      "extracted_at": "2026-07-20T15:45:56.645872"
+    },
+    {
+      "path": "2026/02/玩转 OpenCode(一)：5分钟搭建一个专属个人超级的智能体，入门级教程！",
+      "title": "玩转 OpenCode(一)：5分钟搭建一个专属个人超级的智能体，入门级教程！",
+      "source_area": "inbox",
+      "summary": "OpenCode 入门教程：5 分钟搭建一个专属个人智能体。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "AI编程工具实践",
+      "article_type": "教程指南",
+      "keywords": [
+        "OpenCode",
+        "智能体",
+        "入门教程"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 OpenCode 智能体搭建，属 AI/Agent 范畴",
+      "extracted_at": "2026-07-20T15:45:56.645875"
+    },
+    {
+      "path": "2026/02/神经网络与AI基础详解",
+      "title": "神经网络与AI基础详解",
+      "source_area": "inbox",
+      "summary": "详解神经网络与 AI 基础知识，涵盖神经元模型、前向传播、反向传播等。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "AI基础",
+      "article_type": "教程指南",
+      "keywords": [
+        "神经网络",
+        "AI基础",
+        "深度学习"
+      ],
+      "confidence": 0.7,
+      "reason": "AI 基础知识教程，属 AI/Agent 范畴",
+      "extracted_at": "2026-07-20T15:45:56.645878"
+    },
+    {
+      "path": "2026/02/简单聊聊：CX8网卡的升级点以及B300组网，附资料包下载",
+      "title": "简单聊聊：CX8网卡的升级点以及B300组网，附资料包下载",
+      "source_area": "inbox",
+      "summary": "聊聊 NVIDIA CX8 网卡的升级点以及 B300 组网方案，附资料包。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "网卡/组网",
+      "article_type": "技术深度",
+      "keywords": [
+        "CX8",
+        "B300",
+        "网卡",
+        "组网",
+        "NVIDIA"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 CX8 网卡和 B300 组网，属网卡硬件",
+      "extracted_at": "2026-07-20T15:45:56.645882"
+    },
+    {
+      "path": "2026/02/警惕NVIDIA GPU“满载、饱和”的陷阱和误区！GPU利用率100%≠有效计算100%",
+      "title": "警惕NVIDIA GPU“满载、饱和”的陷阱和误区！GPU利用率100%≠有效计算100%",
+      "source_area": "inbox",
+      "summary": "警惕 NVIDIA GPU 满载和饱和的陷阱：GPU 利用率 100% 不等于有效计算 100%，解析真实计算效率。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "GPU利用率",
+      "article_type": "技术深度",
+      "keywords": [
+        "GPU利用率",
+        "NVIDIA",
+        "有效计算",
+        "饱和"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 GPU 利用率误区，属 GPU 硬件范畴",
+      "extracted_at": "2026-07-20T15:47:56.192943"
+    },
+    {
+      "path": "2026/02/谈谈光互连的一些问题",
+      "title": "谈谈光互连的一些问题",
+      "source_area": "inbox",
+      "summary": "探讨光互连技术中的若干问题，涵盖技术挑战与发展方向。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "光互连",
+      "article_type": "技术深度",
+      "keywords": [
+        "光互连",
+        "光通信",
+        "数据中心"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲光互连技术，属算力硬件互连",
+      "extracted_at": "2026-07-20T15:47:56.192959"
+    },
+    {
+      "path": "2026/02/谷歌TPU v7和英伟达GB300的架构，供应链差异",
+      "title": "谷歌TPU v7和英伟达GB300的架构，供应链差异",
+      "source_area": "inbox",
+      "summary": "对比谷歌 TPU v7 和英伟达 GB300 的架构设计与供应链差异。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "TPU/GPU架构",
+      "article_type": "技术深度",
+      "keywords": [
+        "TPU v7",
+        "GB300",
+        "架构对比",
+        "供应链"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 TPU 和 GPU 架构对比，属算力硬件",
+      "extracted_at": "2026-07-20T15:47:56.192965"
+    },
+    {
+      "path": "2026/02/赵何娟独家对话李飞飞：“我信仰的是人类，不是AI”-钛媒体官方网站",
+      "title": "赵何娟独家对话李飞飞：“我信仰的是人类，不是AI”-钛媒体官方网站",
+      "source_area": "inbox",
+      "summary": "赵何娟独家对话李飞飞，探讨 AI 与人类信仰、AI 发展方向等话题。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "AI人物访谈",
+      "article_type": "观点评论",
+      "keywords": [
+        "李飞飞",
+        "AI",
+        "访谈",
+        "钛媒体"
+      ],
+      "confidence": 0.6,
+      "reason": "AI 人物访谈，偏社会观察，归入生活杂谈",
+      "extracted_at": "2026-07-20T15:47:56.192969"
+    },
+    {
+      "path": "2026/02/超大规模数据中心跨机房组网方案研究",
+      "title": "超大规模数据中心跨机房组网方案研究",
+      "source_area": "inbox",
+      "summary": "研究超大规模数据中心的跨机房组网方案，分析架构设计与挑战。",
+      "primary_category": "network",
+      "primary_category_name": "网络",
+      "sub_topic": "数据中心网络",
+      "article_type": "技术深度",
+      "keywords": [
+        "数据中心",
+        "跨机房组网",
+        "超大规模",
+        "网络架构"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲数据中心跨机房组网，属网络范畴",
+      "extracted_at": "2026-07-20T15:47:56.192972"
+    },
+    {
+      "path": "2026/02/软件股崩盘启示录：当 AI 让代码变得廉价，软件真正的价值在哪里？",
+      "title": "软件股崩盘启示录：当 AI 让代码变得廉价，软件真正的价值在哪里？",
+      "source_area": "inbox",
+      "summary": "从软件股崩盘切入，探讨 AI 让代码廉价后软件的真正价值所在。",
+      "primary_category": "finance",
+      "primary_category_name": "财经/投资",
+      "sub_topic": "软件行业",
+      "article_type": "观点评论",
+      "keywords": [
+        "软件股",
+        "AI",
+        "代码廉价",
+        "软件价值"
+      ],
+      "confidence": 0.75,
+      "reason": "从金融视角分析软件行业，属财经/投资",
+      "extracted_at": "2026-07-20T15:47:56.192976"
+    },
+    {
+      "path": "2026/02/这大概是我读过关于AI大模型最全面、好读又易懂的文章了",
+      "title": "这大概是我读过关于AI大模型最全面、好读又易懂的文章了",
+      "source_area": "inbox",
+      "summary": "一篇全面、好读、易懂的 AI 大模型科普文章，适合入门。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "大模型基础",
+      "article_type": "教程指南",
+      "keywords": [
+        "大模型",
+        "AI",
+        "科普",
+        "入门"
+      ],
+      "confidence": 0.7,
+      "reason": "AI 大模型科普，属 AI/Agent 范畴",
+      "extracted_at": "2026-07-20T15:47:56.192979"
+    },
+    {
+      "path": "2026/02/避坑！AMD 服务器指令集引发的故障分析",
+      "title": "避坑！AMD 服务器指令集引发的故障分析",
+      "source_area": "inbox",
+      "summary": "分析 AMD 服务器指令集引发的故障，避坑指南。",
+      "primary_category": "datacenter",
+      "primary_category_name": "数据中心/基础设施",
+      "sub_topic": "服务器硬件",
+      "article_type": "实战复盘",
+      "keywords": [
+        "AMD",
+        "指令集",
+        "服务器",
+        "故障"
+      ],
+      "confidence": 0.6,
+      "reason": "讲服务器 CPU 指令集故障，属基础设施硬件，暂归 datacenter",
+      "extracted_at": "2026-07-20T15:47:56.192984"
+    },
+    {
+      "path": "2026/02/重大突破！全球首个采用“金刚石”冷却技术H200服务器完成交付！",
+      "title": "重大突破！全球首个采用“金刚石”冷却技术H200服务器完成交付！",
+      "source_area": "inbox",
+      "summary": "全球首个采用金刚石冷却技术的 H200 服务器完成交付，散热技术重大突破。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "散热",
+      "article_type": "行业资讯",
+      "keywords": [
+        "金刚石冷却",
+        "H200",
+        "散热",
+        "NVIDIA"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 GPU 服务器散热技术，属算力硬件散热",
+      "extracted_at": "2026-07-20T15:47:56.192989"
+    },
+    {
+      "path": "2026/02/领导未回祝福文章",
+      "title": "领导未回祝福文章",
+      "source_area": "inbox",
+      "summary": "探讨职场中领导未回复祝福消息背后的社交心理与应对。",
+      "primary_category": "career",
+      "primary_category_name": "职场/职业发展",
+      "sub_topic": "职场社交",
+      "article_type": "生活随笔",
+      "keywords": [
+        "职场",
+        "社交",
+        "领导",
+        "沟通"
+      ],
+      "confidence": 0.6,
+      "reason": "职场社交话题，归入职业发展",
+      "extracted_at": "2026-07-20T15:47:56.192993"
+    },
+    {
+      "path": "2026/03/1500亿！史上第二大IPO，登场了！",
+      "title": "1500亿！史上第二大IPO，登场了！",
+      "source_area": "inbox",
+      "summary": "1500 亿史上第二大 IPO 登场，分析其意义与影响。",
+      "primary_category": "finance",
+      "primary_category_name": "财经/投资",
+      "sub_topic": "IPO",
+      "article_type": "行业资讯",
+      "keywords": [
+        "IPO",
+        "1500亿",
+        "资本市场"
+      ],
+      "confidence": 0.8,
+      "reason": "讲 IPO 资本事件，属财经/投资",
+      "extracted_at": "2026-07-20T15:47:56.192996"
+    },
+    {
+      "path": "2026/03/AI Coding  确定性的边界 - Agent管理学论坛年度总结",
+      "title": "AI Coding  确定性的边界 - Agent管理学论坛年度总结",
+      "source_area": "inbox",
+      "summary": "Agent 管理学论坛年度总结，探讨 AI Coding 确定性的边界。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "AI编程",
+      "article_type": "观点评论",
+      "keywords": [
+        "AI Coding",
+        "Agent",
+        "确定性",
+        "论坛"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 AI Coding 和 Agent 管理，属 AI/Agent",
+      "extracted_at": "2026-07-20T15:47:56.192999"
+    },
+    {
+      "path": "2026/03/AI Coding思考：从工具提效到范式变革，我们还缺什么？",
+      "title": "AI Coding思考：从工具提效到范式变革，我们还缺什么？",
+      "source_area": "inbox",
+      "summary": "思考 AI Coding 从工具提效到范式变革的路径，探讨还缺什么。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "AI编程",
+      "article_type": "观点评论",
+      "keywords": [
+        "AI Coding",
+        "范式变革",
+        "工具提效"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 AI Coding 范式变革，属 AI/Agent",
+      "extracted_at": "2026-07-20T15:47:56.193003"
+    },
+    {
+      "path": "2026/03/AI 推广、工贼与囚徒困境",
+      "title": "AI 推广、工贼与囚徒困境",
+      "source_area": "inbox",
+      "summary": "用博弈论囚徒困境分析 AI 推广中的工贼现象与职场困境。",
+      "primary_category": "career",
+      "primary_category_name": "职场/职业发展",
+      "sub_topic": "AI对职场冲击",
+      "article_type": "观点评论",
+      "keywords": [
+        "AI推广",
+        "工贼",
+        "囚徒困境",
+        "职场"
+      ],
+      "confidence": 0.8,
+      "reason": "用博弈论分析 AI 对职场的影响，属职业发展",
+      "extracted_at": "2026-07-20T15:47:56.193006"
+    },
+    {
+      "path": "2026/03/AI算力基建迎多重突破！HBF标准化落地+800V DC提前量产",
+      "title": "AI算力基建迎多重突破！HBF标准化落地+800V DC提前量产",
+      "source_area": "inbox",
+      "summary": "AI 算力基建多重突破：HBF 标准化落地和 800V 直流供电提前量产。",
+      "primary_category": "datacenter",
+      "primary_category_name": "数据中心/基础设施",
+      "sub_topic": "算力基建",
+      "article_type": "行业资讯",
+      "keywords": [
+        "HBF",
+        "800V DC",
+        "算力基建",
+        "供电"
+      ],
+      "confidence": 0.75,
+      "reason": "讲算力基础设施（供电/HBF），属数据中心基建",
+      "extracted_at": "2026-07-20T15:47:56.193010"
+    },
+    {
+      "path": "2026/03/AI越发达，这一点越稀缺",
+      "title": "AI越发达，这一点越稀缺",
+      "source_area": "inbox",
+      "summary": "探讨 AI 越发达，什么东西变得越稀缺的思考。",
+      "primary_category": "career",
+      "primary_category_name": "职场/职业发展",
+      "sub_topic": "AI影响",
+      "article_type": "观点评论",
+      "keywords": [
+        "AI",
+        "稀缺",
+        "思考"
+      ],
+      "confidence": 0.6,
+      "reason": "AI 对社会/职场影响的思考，归入职业发展",
+      "extracted_at": "2026-07-20T15:47:56.193014"
+    },
+    {
+      "path": "2026/03/CFM闪存市场《2025-2026年全球存储市场趋势白皮书》",
+      "title": "CFM闪存市场《2025-2026年全球存储市场趋势白皮书》",
+      "source_area": "inbox",
+      "summary": "CFM 闪存市场发布的 2025-2026 年全球存储市场趋势白皮书。",
+      "primary_category": "finance",
+      "primary_category_name": "财经/投资",
+      "sub_topic": "存储市场",
+      "article_type": "行业资讯",
+      "keywords": [
+        "CFM",
+        "闪存市场",
+        "存储",
+        "白皮书"
+      ],
+      "confidence": 0.9,
+      "reason": "存储市场趋势报告，属行业市场报告",
+      "extracted_at": "2026-07-20T15:47:56.193017"
+    },
+    {
+      "path": "2026/03/FAST'26 论文速递  ACOS：苹果 EB 级全球分布式对象存储",
+      "title": "FAST'26 论文速递  ACOS：苹果 EB 级全球分布式对象存储",
+      "source_area": "inbox",
+      "summary": "FAST'26 论文：腾讯与三星联合发布数据中心 SSD 故障预测方案。",
+      "primary_category": "storage",
+      "primary_category_name": "存储",
+      "sub_topic": "SSD故障预测",
+      "article_type": "学术论文",
+      "keywords": [
+        "FAST26",
+        "SSD",
+        "故障预测",
+        "腾讯",
+        "三星"
+      ],
+      "confidence": 0.85,
+      "reason": "FAST 顶会论文讲 SSD 故障预测，属存储",
+      "extracted_at": "2026-07-20T16:00:52.774040"
+    },
+    {
+      "path": "2026/03/FAST'26 论文速递  华为云 基于磁带的高性价比归档云存储-设计与部署",
+      "title": "FAST'26 论文速递  华为云 基于磁带的高性价比归档云存储-设计与部署",
+      "source_area": "inbox",
+      "summary": "FAST'26 论文：腾讯与三星联合发布数据中心 SSD 故障预测方案。",
+      "primary_category": "storage",
+      "primary_category_name": "存储",
+      "sub_topic": "SSD故障预测",
+      "article_type": "学术论文",
+      "keywords": [
+        "FAST26",
+        "SSD",
+        "故障预测",
+        "腾讯",
+        "三星"
+      ],
+      "confidence": 0.85,
+      "reason": "FAST 顶会论文讲 SSD 故障预测，属存储",
+      "extracted_at": "2026-07-20T16:00:52.774046"
+    },
+    {
+      "path": "2026/03/TrendForce 2026 年 2 月 NAND 市场报告，行业供应保守，长江存储持续扩张",
+      "title": "TrendForce 2026 年 2 月 NAND 市场报告，行业供应保守，长江存储持续扩张",
+      "source_area": "inbox",
+      "summary": "TrendForce 2026 年 2 月 NAND 市场报告：行业供应保守，长江存储持续扩张。",
+      "primary_category": "finance",
+      "primary_category_name": "财经/投资",
+      "sub_topic": "存储市场",
+      "article_type": "行业资讯",
+      "keywords": [
+        "TrendForce",
+        "NAND",
+        "长江存储",
+        "市场报告"
+      ],
+      "confidence": 0.9,
+      "reason": "NAND 市场报告，属行业市场报告",
+      "extracted_at": "2026-07-20T15:47:56.193027"
+    },
+    {
+      "path": "2026/03/一次错误 BGP 设计导致的算力瓶颈",
+      "title": "一次错误 BGP 设计导致的算力瓶颈",
+      "source_area": "inbox",
+      "summary": "分析一次错误 BGP 设计导致的算力瓶颈，复盘网络设计对算力集群的影响。",
+      "primary_category": "network",
+      "primary_category_name": "网络",
+      "sub_topic": "BGP",
+      "article_type": "实战复盘",
+      "keywords": [
+        "BGP",
+        "算力瓶颈",
+        "网络设计"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 BGP 设计导致网络瓶颈，属网络范畴",
+      "extracted_at": "2026-07-20T15:50:30.691245"
+    },
+    {
+      "path": "2026/03/下一个HBM：HBF，能行吗？",
+      "title": "下一个HBM：HBF，能行吗？",
+      "source_area": "inbox",
+      "summary": "探讨 HBM 的下一代 HBF 技术可行性，分析技术路线与挑战。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "HBM/HBF",
+      "article_type": "技术深度",
+      "keywords": [
+        "HBM",
+        "HBF",
+        "存储器",
+        "AI芯片"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 HBM/HBF 存储技术，属算力硬件",
+      "extracted_at": "2026-07-20T15:50:30.691267"
+    },
+    {
+      "path": "2026/03/什么是Tier等级？数据中心可靠性标准详解",
+      "title": "什么是Tier等级？数据中心可靠性标准详解",
+      "source_area": "inbox",
+      "summary": "详解数据中心 Tier 等级可靠性标准（Tier I-IV），涵盖各级别要求与区别。",
+      "primary_category": "datacenter",
+      "primary_category_name": "数据中心/基础设施",
+      "sub_topic": "Tier等级",
+      "article_type": "教程指南",
+      "keywords": [
+        "Tier",
+        "数据中心",
+        "可靠性",
+        "标准"
+      ],
+      "confidence": 0.95,
+      "reason": "核心讲数据中心 Tier 等级标准，属数据中心范畴",
+      "extracted_at": "2026-07-20T15:50:30.691273"
+    },
+    {
+      "path": "2026/03/今年的金三银四，离职的人更多了",
+      "title": "今年的金三银四，离职的人更多了",
+      "source_area": "inbox",
+      "summary": "观察今年金三银四离职潮，分析职场跳槽趋势。",
+      "primary_category": "career",
+      "primary_category_name": "职场/职业发展",
+      "sub_topic": "跳槽",
+      "article_type": "观点评论",
+      "keywords": [
+        "金三银四",
+        "离职",
+        "跳槽",
+        "职场"
+      ],
+      "confidence": 0.8,
+      "reason": "职场跳槽话题，属职业发展",
+      "extracted_at": "2026-07-20T15:50:30.691277"
+    },
+    {
+      "path": "2026/03/叠纸GDC首次揭秘：《恋与深空》300人团队的内容生产管线",
+      "title": "叠纸GDC首次揭秘：《恋与深空》300人团队的内容生产管线",
+      "source_area": "inbox",
+      "summary": "叠纸 GDC 首次揭秘《恋与深空》300 人团队的内容生产管线。",
+      "primary_category": "industry",
+      "primary_category_name": "产业/游戏",
+      "sub_topic": "游戏GDC",
+      "article_type": "实战复盘",
+      "keywords": [
+        "叠纸",
+        "GDC",
+        "恋与深空",
+        "内容管线"
+      ],
+      "confidence": 0.85,
+      "reason": "游戏公司 GDC 生产管线分享，属产业范畴",
+      "extracted_at": "2026-07-20T15:50:30.691282"
+    },
+    {
+      "path": "2026/03/在腾17年，现身GDC，腾讯游戏技术负责人：AI冲击下不焦虑",
+      "title": "在腾17年，现身GDC，腾讯游戏技术负责人：AI冲击下不焦虑",
+      "source_area": "inbox",
+      "summary": "腾讯游戏技术负责人在 GDC 谈 AI 冲击下的游戏技术发展，从业 17 年的思考。",
+      "primary_category": "industry",
+      "primary_category_name": "产业/游戏",
+      "sub_topic": "游戏GDC",
+      "article_type": "观点评论",
+      "keywords": [
+        "腾讯",
+        "GDC",
+        "游戏技术",
+        "AI冲击"
+      ],
+      "confidence": 0.75,
+      "reason": "游戏行业 GDC 观点，属产业范畴",
+      "extracted_at": "2026-07-20T15:50:30.691286"
+    },
+    {
+      "path": "2026/03/如何写出好的 Skill？拆解 skill-creator 背后的设计",
+      "title": "如何写出好的 Skill？拆解 skill-creator 背后的设计",
+      "source_area": "inbox",
+      "summary": "拆解 skill-creator 背后的设计理念，探讨如何写出好的 AI Agent Skill。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Skills",
+      "article_type": "技术深度",
+      "keywords": [
+        "Skill",
+        "skill-creator",
+        "Agent",
+        "设计"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 Agent Skill 设计，属 AI/Agent",
+      "extracted_at": "2026-07-20T15:50:30.691291"
+    },
+    {
+      "path": "2026/03/字节员工爆料：34岁程序员被裁，拿了28万赔偿，当场哭了，在杭州买房，每月房贷2.6万，老婆全职带娃，加上家庭固定开销每个月近4万",
+      "title": "字节员工爆料：34岁程序员被裁，拿了28万赔偿，当场哭了，在杭州买房，每月房贷2.6万，老婆全职带娃，加上家庭固定开销每个月近4万",
+      "source_area": "inbox",
+      "summary": "字节 34 岁程序员被裁爆料，反映中年程序员的职场与生活压力。",
+      "primary_category": "career",
+      "primary_category_name": "职场/职业发展",
+      "sub_topic": "裁员",
+      "article_type": "观点评论",
+      "keywords": [
+        "字节",
+        "裁员",
+        "程序员",
+        "中年"
+      ],
+      "confidence": 0.85,
+      "reason": "裁员话题，属职业发展",
+      "extracted_at": "2026-07-20T15:50:30.691294"
+    },
+    {
+      "path": "2026/03/当 AI 使用率变成 KPI：初级开发者“复制粘贴化”的组织风险",
+      "title": "当 AI 使用率变成 KPI：初级开发者“复制粘贴化”的组织风险",
+      "source_area": "inbox",
+      "summary": "探讨 AI 使用率变成 KPI 后初级开发者复制粘贴化的组织风险。",
+      "primary_category": "career",
+      "primary_category_name": "职场/职业发展",
+      "sub_topic": "AI对职场冲击",
+      "article_type": "观点评论",
+      "keywords": [
+        "AI",
+        "KPI",
+        "初级开发者",
+        "组织风险"
+      ],
+      "confidence": 0.85,
+      "reason": "AI 对开发者职场的影响，属职业发展",
+      "extracted_at": "2026-07-20T15:50:30.691298"
+    },
+    {
+      "path": "2026/03/当前关于 Vibe Engineering 的所有认知都会在 1 个月内严重过时",
+      "title": "当前关于 Vibe Engineering 的所有认知都会在 1 个月内严重过时",
+      "source_area": "inbox",
+      "summary": "探讨 Vibe Engineering 的快速演进，认为当前认知会很快过时。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Vibe Engineering",
+      "article_type": "观点评论",
+      "keywords": [
+        "Vibe Engineering",
+        "AI编程",
+        "范式"
+      ],
+      "confidence": 0.8,
+      "reason": "Vibe Engineering 属 AI/Agent 编程范式",
+      "extracted_at": "2026-07-20T15:50:30.691302"
+    },
+    {
+      "path": "2026/03/我们身上有8个“长寿信号”，来对照看看你占了几个？",
+      "title": "我们身上有8个“长寿信号”，来对照看看你占了几个？",
+      "source_area": "inbox",
+      "summary": "盘点 8 个长寿身体信号，对照自查。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "健康/长寿",
+      "article_type": "生活随笔",
+      "keywords": [
+        "长寿",
+        "健康",
+        "信号"
+      ],
+      "confidence": 0.9,
+      "reason": "健康长寿类文章，归入生活杂谈",
+      "extracted_at": "2026-07-20T15:50:30.691305"
+    },
+    {
+      "path": "2026/03/揭秘长寿密码！这5类小习惯，坚持就是赚到✨",
+      "title": "揭秘长寿密码！这5类小习惯，坚持就是赚到✨",
+      "source_area": "inbox",
+      "summary": "揭秘 5 类有助长寿的小习惯，鼓励坚持。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "健康/长寿",
+      "article_type": "生活随笔",
+      "keywords": [
+        "长寿",
+        "习惯",
+        "健康"
+      ],
+      "confidence": 0.9,
+      "reason": "健康长寿类文章，归入生活杂谈",
+      "extracted_at": "2026-07-20T15:50:30.691310"
+    },
+    {
+      "path": "2026/03/未来1500天，游戏行业的钱会被这1%的人赚走？",
+      "title": "未来1500天，游戏行业的钱会被这1%的人赚走？",
+      "source_area": "inbox",
+      "summary": "探讨未来 1500 天游戏行业的盈利格局，分析谁将赚走行业利润。",
+      "primary_category": "industry",
+      "primary_category_name": "产业/游戏",
+      "sub_topic": "游戏行业",
+      "article_type": "观点评论",
+      "keywords": [
+        "游戏行业",
+        "盈利",
+        "趋势"
+      ],
+      "confidence": 0.8,
+      "reason": "游戏行业趋势分析，属产业范畴",
+      "extracted_at": "2026-07-20T15:50:30.691313"
+    },
+    {
+      "path": "2026/03/浙大研究20年发现长寿的秘诀，就6个字！",
+      "title": "浙大研究20年发现长寿的秘诀，就6个字！",
+      "source_area": "inbox",
+      "summary": "浙大 20 年研究发现长寿秘诀，总结为 6 个字。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "健康/长寿",
+      "article_type": "生活随笔",
+      "keywords": [
+        "长寿",
+        "浙大",
+        "研究",
+        "健康"
+      ],
+      "confidence": 0.9,
+      "reason": "健康长寿类文章，归入生活杂谈",
+      "extracted_at": "2026-07-20T15:50:30.691317"
+    },
+    {
+      "path": "2026/03/研究研究江波龙",
+      "title": "研究研究江波龙",
+      "source_area": "inbox",
+      "summary": "研究分析江波龙公司，涵盖存储模组业务与投资价值。",
+      "primary_category": "finance",
+      "primary_category_name": "财经/投资",
+      "sub_topic": "存储产业",
+      "article_type": "行业资讯",
+      "keywords": [
+        "江波龙",
+        "存储模组",
+        "投资分析"
+      ],
+      "confidence": 0.75,
+      "reason": "存储公司分析，属行业市场报告",
+      "extracted_at": "2026-07-20T15:50:30.691320"
+    },
+    {
+      "path": "2026/03/网易游戏 Tmax 平台实践：基于 Fluid 的云原生 AI 大模型推理加速架构",
+      "title": "网易游戏 Tmax 平台实践：基于 Fluid 的云原生 AI 大模型推理加速架构",
+      "source_area": "inbox",
+      "summary": "网易游戏 Tmax 平台基于 Fluid 的云原生 AI 大模型推理加速架构实践。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "推理性能优化",
+      "article_type": "实战复盘",
+      "keywords": [
+        "Tmax",
+        "Fluid",
+        "推理加速",
+        "云原生",
+        "网易"
+      ],
+      "confidence": 0.8,
+      "reason": "核心讲大模型推理加速架构，属算力硬件推理",
+      "extracted_at": "2026-07-20T15:50:30.691323"
+    },
+    {
+      "path": "2026/03/长寿的秘诀：就是长年累月坚持不懈地做一些小事情；",
+      "title": "长寿的秘诀：就是长年累月坚持不懈地做一些小事情；",
+      "source_area": "inbox",
+      "summary": "分享长寿秘诀：长年累月坚持做小事情。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "健康/长寿",
+      "article_type": "生活随笔",
+      "keywords": [
+        "长寿",
+        "坚持",
+        "习惯"
+      ],
+      "confidence": 0.9,
+      "reason": "健康长寿类文章，归入生活杂谈",
+      "extracted_at": "2026-07-20T15:50:30.691326"
+    },
+    {
+      "path": "2026/03/阿里云 AI安全护栏2.0发布Agent运行时防护，抓住“自主执行任务”的“虾”",
+      "title": "阿里云 AI安全护栏2.0发布Agent运行时防护，抓住“自主执行任务”的“虾”",
+      "source_area": "inbox",
+      "summary": "阿里云 AI 安全护栏 2.0 发布，提供 Agent 运行时防护，抓住自主执行任务的安全风险。",
+      "primary_category": "security",
+      "primary_category_name": "安全/合规",
+      "sub_topic": "Agent安全",
+      "article_type": "行业资讯",
+      "keywords": [
+        "阿里云",
+        "AI安全",
+        "Agent防护",
+        "运行时"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 Agent 安全防护，属安全范畴",
+      "extracted_at": "2026-07-20T15:50:30.691330"
+    },
+    {
+      "path": "2026/03/阿里云重磅新品：Agent安全中心，全新安全框架下AI Agent一体化防御平台",
+      "title": "阿里云重磅新品：Agent安全中心，全新安全框架下AI Agent一体化防御平台",
+      "source_area": "inbox",
+      "summary": "阿里云发布 Agent 安全中心，全新安全框架下 AI Agent 一体化防御平台。",
+      "primary_category": "security",
+      "primary_category_name": "安全/合规",
+      "sub_topic": "Agent安全",
+      "article_type": "行业资讯",
+      "keywords": [
+        "阿里云",
+        "Agent安全中心",
+        "防御平台"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 Agent 安全防御平台，属安全范畴",
+      "extracted_at": "2026-07-20T15:50:30.691333"
+    },
+    {
+      "path": "2026/03/顶会FAST'26解读｜超低延迟SSD的IO栈优化",
+      "title": "顶会FAST'26解读｜超低延迟SSD的IO栈优化",
+      "source_area": "inbox",
+      "summary": "FAST'26 论文：腾讯与三星联合发布数据中心 SSD 故障预测方案。",
+      "primary_category": "storage",
+      "primary_category_name": "存储",
+      "sub_topic": "SSD故障预测",
+      "article_type": "学术论文",
+      "keywords": [
+        "FAST26",
+        "SSD",
+        "故障预测",
+        "腾讯",
+        "三星"
+      ],
+      "confidence": 0.85,
+      "reason": "FAST 顶会论文讲 SSD 故障预测，属存储",
+      "extracted_at": "2026-07-20T16:00:52.774050"
+    },
+    {
+      "path": "2026/03/顶会FAST26最佳论文｜阿里云本地存储的过去、现在与未来",
+      "title": "顶会FAST26最佳论文｜阿里云本地存储的过去、现在与未来",
+      "source_area": "inbox",
+      "summary": "FAST'26 论文：腾讯与三星联合发布数据中心 SSD 故障预测方案。",
+      "primary_category": "storage",
+      "primary_category_name": "存储",
+      "sub_topic": "SSD故障预测",
+      "article_type": "学术论文",
+      "keywords": [
+        "FAST26",
+        "SSD",
+        "故障预测",
+        "腾讯",
+        "三星"
+      ],
+      "confidence": 0.85,
+      "reason": "FAST 顶会论文讲 SSD 故障预测，属存储",
+      "extracted_at": "2026-07-20T16:00:52.774053"
+    },
+    {
+      "path": "2026/04/11分钟惊魂：一个网卡驱动bug如何让整个存储集群数百台虚机io hung住？",
+      "title": "11分钟惊魂：一个网卡驱动bug如何让整个存储集群数百台虚机io hung住？",
+      "source_area": "inbox",
+      "summary": "复盘一个网卡驱动 bug 导致存储集群数百台虚机 IO hung 的 11 分钟故障。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "故障复盘",
+      "article_type": "实战复盘",
+      "keywords": [
+        "网卡驱动",
+        "bug",
+        "存储集群",
+        "IO hung",
+        "故障"
+      ],
+      "confidence": 0.8,
+      "reason": "核心是故障复盘 postmortem，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T15:52:40.012698"
+    },
+    {
+      "path": "2026/04/Claude Code Skill Monitor一个可靠的skill管理工具",
+      "title": "Claude Code Skill Monitor一个可靠的skill管理工具",
+      "source_area": "inbox",
+      "summary": "介绍 Claude Code Skill Monitor，一个可靠的 skill 管理工具。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Skills",
+      "article_type": "行业资讯",
+      "keywords": [
+        "Claude Code",
+        "Skill Monitor",
+        "skill管理"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 Agent Skill 管理工具，属 AI/Agent",
+      "extracted_at": "2026-07-20T15:52:40.012705"
+    },
+    {
+      "path": "2026/04/Harness实践 ，开发应该多向运维同学学习",
+      "title": "Harness实践 ，开发应该多向运维同学学习",
+      "source_area": "inbox",
+      "summary": "Harness CI/CD 平台实践分享，探讨开发向运维学习 DevOps 理念。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "DevOps",
+      "article_type": "实战复盘",
+      "keywords": [
+        "Harness",
+        "CI/CD",
+        "DevOps",
+        "运维"
+      ],
+      "confidence": 0.65,
+      "reason": "DevOps 实践分享，属 AIOps/SRE 范畴",
+      "extracted_at": "2026-07-20T15:52:40.012710"
+    },
+    {
+      "path": "2026/04/NVMe新特性：Power Limit功能解读",
+      "title": "NVMe新特性：Power Limit功能解读",
+      "source_area": "inbox",
+      "summary": "解读 NVMe 新特性 Power Limit 功能，涵盖功耗管理机制。",
+      "primary_category": "storage",
+      "primary_category_name": "存储",
+      "sub_topic": "NVMe",
+      "article_type": "技术深度",
+      "keywords": [
+        "NVMe",
+        "Power Limit",
+        "功耗管理",
+        "SSD"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 NVMe SSD 特性，属存储范畴",
+      "extracted_at": "2026-07-20T15:52:40.017908"
+    },
+    {
+      "path": "2026/04/Skill太多命中率太低怎么办？阿里发布SkillRouter：Agent选择的关键竟然是body，1.2B参数碾压8B模型",
+      "title": "Skill太多命中率太低怎么办？阿里发布SkillRouter：Agent选择的关键竟然是body，1.2B参数碾压8B模型",
+      "source_area": "inbox",
+      "summary": "阿里发布 SkillRouter，解决 Skill 过多命中率低的问题，1.2B 参数碾压 8B 模型。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Skills",
+      "article_type": "学术论文",
+      "keywords": [
+        "SkillRouter",
+        "Skill",
+        "Agent",
+        "阿里"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 Agent Skill 路由选择，属 AI/Agent",
+      "extracted_at": "2026-07-20T15:52:40.017919"
+    },
+    {
+      "path": "2026/04/博客评论：谷歌TPU能撼动英伟达吗？前TPU工程师首次揭秘",
+      "title": "博客评论：谷歌TPU能撼动英伟达吗？前TPU工程师首次揭秘",
+      "source_area": "inbox",
+      "summary": "前 TPU 工程师首次揭秘，探讨谷歌 TPU 能否撼动英伟达。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "TPU/GPU架构",
+      "article_type": "观点评论",
+      "keywords": [
+        "TPU",
+        "英伟达",
+        "GPU",
+        "竞争"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 TPU vs GPU 架构竞争，属算力硬件",
+      "extracted_at": "2026-07-20T15:52:40.017925"
+    },
+    {
+      "path": "2026/04/我用1400年前的三省六部制，搞了一套很酷的多Agent协同方案。",
+      "title": "我用1400年前的三省六部制，搞了一套很酷的多Agent协同方案。",
+      "source_area": "inbox",
+      "summary": "用唐朝三省六部制类比设计多 Agent 协同方案，探索 Agent 组织架构。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "多Agent协同",
+      "article_type": "技术深度",
+      "keywords": [
+        "多Agent",
+        "三省六部",
+        "协同",
+        "组织架构"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲多 Agent 协同方案，属 AI/Agent",
+      "extracted_at": "2026-07-20T15:52:40.017929"
+    },
+    {
+      "path": "2026/04/米哈游坦白局：AI全面升级游戏管线，崩坏IP正在做什么？",
+      "title": "米哈游坦白局：AI全面升级游戏管线，崩坏IP正在做什么？",
+      "source_area": "inbox",
+      "summary": "米哈游坦白局分享 AI 全面升级游戏管线，崩坏 IP 的 AI 应用方向。",
+      "primary_category": "industry",
+      "primary_category_name": "产业/游戏",
+      "sub_topic": "游戏AI",
+      "article_type": "行业资讯",
+      "keywords": [
+        "米哈游",
+        "AI",
+        "游戏管线",
+        "崩坏"
+      ],
+      "confidence": 0.85,
+      "reason": "游戏公司 AI 应用动态，属产业范畴",
+      "extracted_at": "2026-07-20T15:52:40.018238"
+    },
+    {
+      "path": "2026/04/起底135家公司7055个岗位：一边高薪抢人，一边裁员在家，今年人才太“乱”了",
+      "title": "起底135家公司7055个岗位：一边高薪抢人，一边裁员在家，今年人才太“乱”了",
+      "source_area": "inbox",
+      "summary": "起底 135 家公司 7055 个岗位，分析今年人才市场一边抢人一边裁员的乱象。",
+      "primary_category": "career",
+      "primary_category_name": "职场/职业发展",
+      "sub_topic": "人才市场",
+      "article_type": "行业资讯",
+      "keywords": [
+        "人才市场",
+        "招聘",
+        "裁员",
+        "岗位"
+      ],
+      "confidence": 0.85,
+      "reason": "人才市场分析，属职业发展",
+      "extracted_at": "2026-07-20T15:52:40.018244"
+    },
+    {
+      "path": "2026/04/这也许就是Harness诞生的过程：从文档协作到 SDD（Spec-Kit），我们如何摸索出一套 AI 协作研发范式",
+      "title": "这也许就是Harness诞生的过程：从文档协作到 SDD（Spec-Kit），我们如何摸索出一套 AI 协作研发范式",
+      "source_area": "inbox",
+      "summary": "分享 Harness 诞生过程：从文档协作到 SDD（Spec-Kit），摸索 AI 协作研发范式。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "AI协作研发",
+      "article_type": "实战复盘",
+      "keywords": [
+        "Harness",
+        "SDD",
+        "Spec-Kit",
+        "AI协作"
+      ],
+      "confidence": 0.8,
+      "reason": "核心讲 AI 协作研发范式，属 AI/Agent",
+      "extracted_at": "2026-07-20T15:52:40.018251"
+    },
+    {
+      "path": "2026/04/风暴中的网易",
+      "title": "风暴中的网易",
+      "source_area": "inbox",
+      "summary": "分析网易在当前市场风暴中的处境与挑战。",
+      "primary_category": "industry",
+      "primary_category_name": "产业/游戏",
+      "sub_topic": "公司动态",
+      "article_type": "观点评论",
+      "keywords": [
+        "网易",
+        "公司",
+        "挑战"
+      ],
+      "confidence": 0.7,
+      "reason": "公司动态分析，属产业范畴",
+      "extracted_at": "2026-07-20T15:52:40.018255"
+    },
+    {
+      "path": "2026/05/AWS 新网络架构曝光：设备砍掉 69%、吞吐量反增 33%、运营成本降 27%",
+      "title": "AWS 新网络架构曝光：设备砍掉 69%、吞吐量反增 33%、运营成本降 27%",
+      "source_area": "inbox",
+      "summary": "AWS 新网络架构曝光：设备砍掉 69%、吞吐量反增 33%、运营成本降 27%。",
+      "primary_category": "network",
+      "primary_category_name": "网络",
+      "sub_topic": "网络架构",
+      "article_type": "技术深度",
+      "keywords": [
+        "AWS",
+        "网络架构",
+        "吞吐量",
+        "成本"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 AWS 网络架构，属网络范畴",
+      "extracted_at": "2026-07-20T15:52:40.018259"
+    },
+    {
+      "path": "2026/05/Designing AI Chip - Hardware and Software",
+      "title": "Designing AI Chip - Hardware and Software",
+      "source_area": "inbox",
+      "summary": "Designing AI Chip 硬件与软件设计，涵盖 AI 芯片全栈设计。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "AI芯片设计",
+      "article_type": "技术深度",
+      "keywords": [
+        "AI Chip",
+        "芯片设计",
+        "硬件",
+        "软件"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 AI 芯片设计，属算力硬件",
+      "extracted_at": "2026-07-20T15:52:40.018264"
+    },
+    {
+      "path": "2026/05/GPU集群交付那些坑：从网卡到PCIe，从RoCE到NCCL的调试与排障指南",
+      "title": "GPU集群交付那些坑：从网卡到PCIe，从RoCE到NCCL的调试与排障指南",
+      "source_area": "inbox",
+      "summary": "GPU 集群交付踩坑指南：从网卡到 PCIe，从 RoCE 到 NCCL 的调试与排障。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "GPU集群排障",
+      "article_type": "实战复盘",
+      "keywords": [
+        "GPU集群",
+        "网卡",
+        "PCIe",
+        "RoCE",
+        "NCCL"
+      ],
+      "confidence": 0.95,
+      "reason": "核心讲 GPU 集群交付排障，属算力硬件运维",
+      "extracted_at": "2026-07-20T15:52:40.018272"
+    },
+    {
+      "path": "2026/05/Simon Zhu与质量效应、使命召唤制作人共同创业",
+      "title": "Simon Zhu与质量效应、使命召唤制作人共同创业",
+      "source_area": "inbox",
+      "summary": "Simon Zhu 与质量效应、使命召唤制作人共同创业，游戏行业人事动态。",
+      "primary_category": "industry",
+      "primary_category_name": "产业/游戏",
+      "sub_topic": "游戏创业",
+      "article_type": "行业资讯",
+      "keywords": [
+        "Simon Zhu",
+        "创业",
+        "游戏",
+        "使命召唤"
+      ],
+      "confidence": 0.8,
+      "reason": "游戏行业创业动态，属产业范畴",
+      "extracted_at": "2026-07-20T15:52:40.018278"
+    },
+    {
+      "path": "2026/05/“加害者”再次被转移，“毒杨梅”荡出一朵新波浪",
+      "title": "“加害者”再次被转移，“毒杨梅”荡出一朵新波浪",
+      "source_area": "inbox",
+      "summary": "评论毒杨梅事件中加害者转移的社会现象，社会观察。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "社会观察",
+      "article_type": "观点评论",
+      "keywords": [
+        "毒杨梅",
+        "食品安全",
+        "社会观察"
+      ],
+      "confidence": 0.8,
+      "reason": "社会观察评论，归入生活杂谈",
+      "extracted_at": "2026-07-20T15:52:40.018282"
+    },
+    {
+      "path": "2026/05/【微分享】数据中心温湿度要求",
+      "title": "【微分享】数据中心温湿度要求",
+      "source_area": "inbox",
+      "summary": "分享数据中心温湿度要求规范。",
+      "primary_category": "datacenter",
+      "primary_category_name": "数据中心/基础设施",
+      "sub_topic": "机房规范",
+      "article_type": "教程指南",
+      "keywords": [
+        "数据中心",
+        "温湿度",
+        "机房规范"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲数据中心温湿度规范，属数据中心",
+      "extracted_at": "2026-07-20T15:52:40.018288"
+    },
+    {
+      "path": "2026/04/Image2 + MiniMax CLI，一句话到成片。拆解 MiniMax CLI  的Agent 设计哲学",
+      "title": "Image2 + MiniMax CLI，一句话到成片。拆解 MiniMax CLI  的Agent 设计哲学",
+      "source_area": "inbox",
+      "summary": "拆解 MiniMax CLI 的 Agent 设计哲学，一句话到成片的 AI 视频生成。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent框架",
+      "article_type": "技术深度",
+      "keywords": [
+        "MiniMax CLI",
+        "Agent",
+        "AI视频",
+        "设计哲学"
+      ],
+      "confidence": 0.85,
+      "reason": "核心拆解 Agent 设计哲学，属 AI/Agent",
+      "extracted_at": "2026-07-20T15:54:03.345335"
+    },
+    {
+      "path": "2026/04/智能体 AI 的身份管理 (Identity Management for Agentic AI) —— OpenID",
+      "title": "智能体 AI 的身份管理 (Identity Management for Agentic AI) —— OpenID",
+      "source_area": "inbox",
+      "summary": "探讨智能体 AI 的身份管理，基于 OpenID 的 Agentic AI 身份方案。",
+      "primary_category": "security",
+      "primary_category_name": "安全/合规",
+      "sub_topic": "身份管理",
+      "article_type": "技术深度",
+      "keywords": [
+        "身份管理",
+        "Agentic AI",
+        "OpenID",
+        "安全"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 Agent 身份管理安全，属安全范畴",
+      "extracted_at": "2026-07-20T15:54:03.345353"
+    },
+    {
+      "path": "2026/05/万卡 NVIDIA GPU 集群自动化装机实战从 BMC 就绪到全集群上线",
+      "title": "万卡 NVIDIA GPU 集群自动化装机实战从 BMC 就绪到全集群上线",
+      "source_area": "inbox",
+      "summary": "万卡 NVIDIA GPU 集群自动化装机实战，从 BMC 就绪到全集群上线全流程。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "GPU集群装机",
+      "article_type": "实战复盘",
+      "keywords": [
+        "GPU集群",
+        "装机",
+        "BMC",
+        "NVIDIA",
+        "自动化"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 GPU 集群装机，属算力硬件运维",
+      "extracted_at": "2026-07-20T15:55:47.688341"
+    },
+    {
+      "path": "2026/05/从 305 GB 到 7.4 GB：大模型 KVCache 架构演进全景",
+      "title": "从 305 GB 到 7.4 GB：大模型 KVCache 架构演进全景",
+      "source_area": "inbox",
+      "summary": "全景梳理大模型 KVCache 架构演进，从 305GB 降到 7.4GB 的优化路径。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "KV-Cache",
+      "article_type": "技术深度",
+      "keywords": [
+        "KVCache",
+        "大模型",
+        "推理",
+        "显存优化"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 KVCache 架构演进，属推理性能优化",
+      "extracted_at": "2026-07-20T15:55:47.688358"
+    },
+    {
+      "path": "2026/05/再说浮宫杨梅",
+      "title": "再说浮宫杨梅",
+      "source_area": "inbox",
+      "summary": "再说浮宫杨梅，继续探讨杨梅食品安全问题。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "社会观察",
+      "article_type": "观点评论",
+      "keywords": [
+        "杨梅",
+        "食品安全",
+        "浮宫"
+      ],
+      "confidence": 0.8,
+      "reason": "社会观察评论，归入生活杂谈",
+      "extracted_at": "2026-07-20T15:55:47.688364"
+    },
+    {
+      "path": "2026/05/我们把所有数据都扔在S3标准存储里，每月花费5万，配了一个Intelligent-Tiering之后，下个月财务问我是不是换了云厂商！",
+      "title": "我们把所有数据都扔在S3标准存储里，每月花费5万，配了一个Intelligent-Tiering之后，下个月财务问我是不是换了云厂商！",
+      "source_area": "inbox",
+      "summary": "分享 S3 存储从标准层切换到 Intelligent-Tiering 后成本大幅下降的实战经验。",
+      "primary_category": "storage",
+      "primary_category_name": "存储",
+      "sub_topic": "对象存储",
+      "article_type": "实战复盘",
+      "keywords": [
+        "S3",
+        "Intelligent-Tiering",
+        "存储成本",
+        "AWS"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 S3 对象存储成本优化，属存储范畴",
+      "extracted_at": "2026-07-20T15:55:47.688368"
+    },
+    {
+      "path": "2026/05/智能体第一份国家级文件来了：《智能体规范应用与创新发展实施意见》解读",
+      "title": "智能体第一份国家级文件来了：《智能体规范应用与创新发展实施意见》解读",
+      "source_area": "inbox",
+      "summary": "解读智能体第一份国家级文件《智能体规范应用与创新发展实施意见》。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent政策",
+      "article_type": "行业资讯",
+      "keywords": [
+        "智能体",
+        "国家级文件",
+        "政策",
+        "规范"
+      ],
+      "confidence": 0.75,
+      "reason": "核心讲 Agent 政策法规，属 AI/Agent 范畴",
+      "extracted_at": "2026-07-20T15:55:47.688372"
+    },
+    {
+      "path": "2026/05/毒杨梅15年前已被警示，可惜他们的诡辩一以贯之",
+      "title": "毒杨梅15年前已被警示，可惜他们的诡辩一以贯之",
+      "source_area": "inbox",
+      "summary": "评论毒杨梅 15 年前已被警示，批评诡辩话术。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "社会观察",
+      "article_type": "观点评论",
+      "keywords": [
+        "毒杨梅",
+        "食品安全",
+        "警示"
+      ],
+      "confidence": 0.8,
+      "reason": "食品安全社会观察，归入生活杂谈",
+      "extracted_at": "2026-07-20T15:55:47.688375"
+    },
+    {
+      "path": "2026/05/网易贵安数据中心11亿元全液冷项目启动建设：单机柜30kW+全Direct-to-Chip方案，承载10万台服务器，一期9月试运行",
+      "title": "网易贵安数据中心11亿元全液冷项目启动建设：单机柜30kW+全Direct-to-Chip方案，承载10万台服务器，一期9月试运行",
+      "source_area": "inbox",
+      "summary": "网易贵安数据中心 11 亿元全液冷项目启动，单机柜 30kW+ 全 Direct-to-Chip 方案。",
+      "primary_category": "datacenter",
+      "primary_category_name": "数据中心/基础设施",
+      "sub_topic": "液冷",
+      "article_type": "行业资讯",
+      "keywords": [
+        "网易",
+        "贵安",
+        "液冷",
+        "Direct-to-Chip",
+        "数据中心"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲数据中心液冷项目，属数据中心范畴",
+      "extracted_at": "2026-07-20T15:55:47.688379"
+    },
+    {
+      "path": "2026/05/追踪出口内销“双标”    如果诡辩话术继续大行其道，“药水杨梅”必将涛声依旧",
+      "title": "追踪出口内销“双标”    如果诡辩话术继续大行其道，“药水杨梅”必将涛声依旧",
+      "source_area": "inbox",
+      "summary": "追踪出口内销双标问题，批评药水杨梅诡辩话术。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "社会观察",
+      "article_type": "观点评论",
+      "keywords": [
+        "双标",
+        "杨梅",
+        "食品安全",
+        "出口内销"
+      ],
+      "confidence": 0.8,
+      "reason": "食品安全社会观察，归入生活杂谈",
+      "extracted_at": "2026-07-20T15:55:47.688382"
+    },
+    {
+      "path": "2026/05/隐性缺电：GPU服务器供电不足掉卡的排查与原理分析",
+      "title": "隐性缺电：GPU服务器供电不足掉卡的排查与原理分析",
+      "source_area": "inbox",
+      "summary": "分析 GPU 服务器隐性缺电导致掉卡的排查方法与原理。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "供电/掉卡",
+      "article_type": "实战复盘",
+      "keywords": [
+        "GPU",
+        "供电不足",
+        "掉卡",
+        "排查"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 GPU 服务器供电掉卡，属算力硬件故障",
+      "extracted_at": "2026-07-20T15:55:47.688385"
+    },
+    {
+      "path": "2026/06/01-AI Infra工程师是干什么的",
+      "title": "01-AI Infra工程师是干什么的",
+      "source_area": "inbox",
+      "summary": "介绍 AI Infra 工程师的职责与工作内容。",
+      "primary_category": "career",
+      "primary_category_name": "职场/职业发展",
+      "sub_topic": "职业发展",
+      "article_type": "观点评论",
+      "keywords": [
+        "AI Infra",
+        "工程师",
+        "职业",
+        "岗位"
+      ],
+      "confidence": 0.7,
+      "reason": "讲 AI Infra 工程师岗位，属职业发展",
+      "extracted_at": "2026-07-20T15:55:47.688390"
+    },
+    {
+      "path": "2026/06/AWS 全新RNG数据中心网络论文详解（附下载）",
+      "title": "AWS 全新RNG数据中心网络论文详解（附下载）",
+      "source_area": "inbox",
+      "summary": "详解 AWS 全新 RNG 数据中心网络论文，附下载。",
+      "primary_category": "network",
+      "primary_category_name": "网络",
+      "sub_topic": "网络架构",
+      "article_type": "学术论文",
+      "keywords": [
+        "AWS",
+        "RNG",
+        "数据中心网络",
+        "论文"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 AWS 网络论文，属网络范畴",
+      "extracted_at": "2026-07-20T15:55:47.688393"
+    },
+    {
+      "path": "2026/06/Agent 评估介绍",
+      "title": "Agent 评估介绍",
+      "source_area": "inbox",
+      "summary": "介绍 Agent 评估的方法、基准与指标。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent评估",
+      "article_type": "技术深度",
+      "keywords": [
+        "Agent",
+        "评估",
+        "基准",
+        "指标"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 Agent 评估，属 AI/Agent",
+      "extracted_at": "2026-07-20T15:55:47.688397"
+    },
+    {
+      "path": "2026/06/Agent-Memory 评测全景：基准、评估与记忆系统（理论篇）",
+      "title": "Agent-Memory 评测全景：基准、评估与记忆系统（理论篇）",
+      "source_area": "inbox",
+      "summary": "Agent-Memory 评测全景：基准、评估方法与记忆系统理论篇。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent评估",
+      "article_type": "技术深度",
+      "keywords": [
+        "Agent-Memory",
+        "评测",
+        "记忆系统",
+        "基准"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 Agent 记忆评测，属 AI/Agent",
+      "extracted_at": "2026-07-20T15:55:47.688401"
+    },
+    {
+      "path": "2026/06/DeepSeek 融资故事",
+      "title": "DeepSeek 融资故事",
+      "source_area": "inbox",
+      "summary": "讲述 DeepSeek 融资背后的故事。",
+      "primary_category": "finance",
+      "primary_category_name": "财经/投资",
+      "sub_topic": "融资",
+      "article_type": "行业资讯",
+      "keywords": [
+        "DeepSeek",
+        "融资",
+        "AI"
+      ],
+      "confidence": 0.85,
+      "reason": "讲 AI 公司融资，属财经/投资",
+      "extracted_at": "2026-07-20T15:55:47.688404"
+    },
+    {
+      "path": "2026/06/GlassBridge玻璃桥出现，你还相信光吗？",
+      "title": "GlassBridge玻璃桥出现，你还相信光吗？",
+      "source_area": "inbox",
+      "summary": "GlassBridge 玻璃桥现象探讨，你还相信光吗？",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "待人工确认",
+      "article_type": "观点评论",
+      "keywords": [
+        "GlassBridge",
+        "玻璃桥"
+      ],
+      "confidence": 0.3,
+      "reason": "主题不明确，待人工确认",
+      "extracted_at": "2026-07-20T15:55:47.688407"
+    },
+    {
+      "path": "2026/06/Redis 8.4 Atomic Slot Migration",
+      "title": "Redis 8.4 Atomic Slot Migration",
+      "source_area": "inbox",
+      "summary": "Redis 8.4 Atomic Slot Migration 特性解析。",
+      "primary_category": "storage",
+      "primary_category_name": "存储",
+      "sub_topic": "Redis",
+      "article_type": "技术深度",
+      "keywords": [
+        "Redis",
+        "Slot Migration",
+        "数据库"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 Redis 数据库特性，属存储/数据库",
+      "extracted_at": "2026-07-20T15:55:47.688410"
+    },
+    {
+      "path": "2026/06/TACO  PaTGen：基于时序相似性的云工作负载代理基准测试生成方法",
+      "title": "TACO  PaTGen：基于时序相似性的云工作负载代理基准测试生成方法",
+      "source_area": "inbox",
+      "summary": "TACO PaTGen：基于时序相似性的云工作负载代理基准测试生成方法。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "工作负载基准",
+      "article_type": "学术论文",
+      "keywords": [
+        "TACO",
+        "PaTGen",
+        "工作负载",
+        "基准测试"
+      ],
+      "confidence": 0.65,
+      "reason": "云工作负载基准测试，属运维/监控范畴",
+      "extracted_at": "2026-07-20T15:55:47.688413"
+    },
+    {
+      "path": "2026/06/今日父亲节，谨以此篇记录我家老陈跌宕又精彩的传奇一生",
+      "title": "今日父亲节，谨以此篇记录我家老陈跌宕又精彩的传奇一生",
+      "source_area": "inbox",
+      "summary": "父亲节记录父亲老陈跌宕精彩的传奇一生。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "生活随笔",
+      "article_type": "生活随笔",
+      "keywords": [
+        "父亲节",
+        "父亲",
+        "回忆",
+        "家庭"
+      ],
+      "confidence": 0.9,
+      "reason": "家庭纪念文章，归入生活杂谈",
+      "extracted_at": "2026-07-20T15:55:47.688417"
+    },
+    {
+      "path": "2026/06/从系统负责人到不确定性管理者：CTO 正在变形",
+      "title": "从系统负责人到不确定性管理者：CTO 正在变形",
+      "source_area": "inbox",
+      "summary": "探讨 CTO 角色从系统负责人到不确定性管理者的转变。",
+      "primary_category": "career",
+      "primary_category_name": "职场/职业发展",
+      "sub_topic": "CTO转型",
+      "article_type": "观点评论",
+      "keywords": [
+        "CTO",
+        "角色转变",
+        "不确定性",
+        "管理"
+      ],
+      "confidence": 0.85,
+      "reason": "CTO 角色转型，属职业发展",
+      "extracted_at": "2026-07-20T15:55:47.688421"
+    },
+    {
+      "path": "2026/06/傲腾之后的最强SSDDapuStor X5900P 1.6T SCM评测报告",
+      "title": "傲腾之后的最强SSDDapuStor X5900P 1.6T SCM评测报告",
+      "source_area": "inbox",
+      "summary": "DapuStor X5900P 1.6T SCM SSD 评测报告，傲腾之后的最强 SCM 存储。",
+      "primary_category": "storage",
+      "primary_category_name": "存储",
+      "sub_topic": "SSD评测",
+      "article_type": "实战复盘",
+      "keywords": [
+        "DapuStor",
+        "X5900P",
+        "SCM",
+        "SSD",
+        "评测"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 SSD SCM 评测，属存储范畴",
+      "extracted_at": "2026-07-20T15:55:47.688424"
+    },
+    {
+      "path": "2026/06/刚刚，2026年福建中考试卷及答案发布！",
+      "title": "刚刚，2026年福建中考试卷及答案发布！",
+      "source_area": "inbox",
+      "summary": "2026 年福建中考试卷及答案发布。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "教育",
+      "article_type": "生活随笔",
+      "keywords": [
+        "中考",
+        "福建",
+        "试卷"
+      ],
+      "confidence": 0.8,
+      "reason": "教育资源类，归入生活杂谈",
+      "extracted_at": "2026-07-20T15:58:10.748433"
+    },
+    {
+      "path": "2026/06/国家及地方政府对数据中心PUE要求政策汇总",
+      "title": "国家及地方政府对数据中心PUE要求政策汇总",
+      "source_area": "inbox",
+      "summary": "汇总国家及地方政府对数据中心 PUE 要求的政策法规。",
+      "primary_category": "datacenter",
+      "primary_category_name": "数据中心/基础设施",
+      "sub_topic": "PUE政策",
+      "article_type": "行业资讯",
+      "keywords": [
+        "PUE",
+        "数据中心",
+        "政策",
+        "法规"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲数据中心 PUE 政策，属数据中心范畴",
+      "extracted_at": "2026-07-20T15:58:10.748458"
+    },
+    {
+      "path": "2026/06/如何构建一个更“好”的知识库？",
+      "title": "如何构建一个更“好”的知识库？",
+      "source_area": "inbox",
+      "summary": "探讨如何构建一个更好的知识库，涵盖知识管理方法论。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "知识库/RAG",
+      "article_type": "技术深度",
+      "keywords": [
+        "知识库",
+        "知识管理",
+        "RAG"
+      ],
+      "confidence": 0.7,
+      "reason": "知识库构建与 RAG 相关，属 AI/Agent 范畴",
+      "extracted_at": "2026-07-20T15:58:10.748464"
+    },
+    {
+      "path": "2026/06/谷歌 TPU 2027 年出货量分析",
+      "title": "谷歌 TPU 2027 年出货量分析",
+      "source_area": "inbox",
+      "summary": "分析谷歌 TPU 2027 年出货量预测与市场影响。",
+      "primary_category": "finance",
+      "primary_category_name": "财经/投资",
+      "sub_topic": "算力硬件市场",
+      "article_type": "行业资讯",
+      "keywords": [
+        "TPU",
+        "出货量",
+        "谷歌",
+        "市场分析"
+      ],
+      "confidence": 0.75,
+      "reason": "TPU 出货量市场分析，属行业市场报告",
+      "extracted_at": "2026-07-20T15:58:10.753004"
+    },
+    {
+      "path": "2026/06/谷歌首席工程师：二十年自然生长出来的软件工程生态，快被大模型 10 倍提速撑爆",
+      "title": "谷歌首席工程师：二十年自然生长出来的软件工程生态，快被大模型 10 倍提速撑爆",
+      "source_area": "inbox",
+      "summary": "谷歌首席工程师反思二十年软件工程生态被大模型 10 倍提速撑爆的挑战。",
+      "primary_category": "career",
+      "primary_category_name": "职场/职业发展",
+      "sub_topic": "AI对工程影响",
+      "article_type": "观点评论",
+      "keywords": [
+        "软件工程",
+        "大模型",
+        "谷歌",
+        "工程生态"
+      ],
+      "confidence": 0.7,
+      "reason": "AI 对软件工程生态影响的反思，属职业发展",
+      "extracted_at": "2026-07-20T15:58:10.753012"
+    },
+    {
+      "path": "2026/06/阿里云负载均衡技术：从 CLB 到 ALBNLBGWLB 的架构演进与实现",
+      "title": "阿里云负载均衡技术：从 CLB 到 ALBNLBGWLB 的架构演进与实现",
+      "source_area": "inbox",
+      "summary": "阿里云负载均衡技术从 CLB 到 ALB/NLB/GWLB 的架构演进与实现详解。",
+      "primary_category": "network",
+      "primary_category_name": "网络",
+      "sub_topic": "负载均衡",
+      "article_type": "技术深度",
+      "keywords": [
+        "CLB",
+        "ALB",
+        "NLB",
+        "GWLB",
+        "负载均衡"
+      ],
+      "confidence": 0.95,
+      "reason": "核心讲负载均衡架构演进，属网络范畴",
+      "extracted_at": "2026-07-20T15:58:10.753019"
+    },
+    {
+      "path": "2026/07/AI Infra 全景图：Agent Framework、调度、编排、沙箱、记忆管理、Tracing 分层拆解",
+      "title": "AI Infra 全景图：Agent Framework、调度、编排、沙箱、记忆管理、Tracing 分层拆解",
+      "source_area": "inbox",
+      "summary": "AI Infra 全景图分层拆解：Agent Framework、调度、编排、沙箱、记忆管理、Tracing。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "AI Infra",
+      "article_type": "技术深度",
+      "keywords": [
+        "AI Infra",
+        "Agent Framework",
+        "调度",
+        "沙箱",
+        "Tracing"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 AI Infra 全景，属 AI/Agent",
+      "extracted_at": "2026-07-20T15:58:10.753023"
+    },
+    {
+      "path": "2026/07/Agent-狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局/article.md",
+      "title": "article",
+      "source_area": "inbox",
+      "summary": "冷思考 Agent 狂欢热潮，分析为什么规模化落地总是陷入僵局。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent落地",
+      "article_type": "观点评论",
+      "keywords": [
+        "Agent",
+        "规模化落地",
+        "冷思考"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 Agent 落地困境，属 AI/Agent",
+      "extracted_at": "2026-07-20T15:58:10.753027"
+    },
+    {
+      "path": "2026/07/OpenCode 与 Dax Raad：一个唱衰 AI 编程的人，为什么能做出增长最快的开源编程 Agent",
+      "title": "OpenCode 与 Dax Raad：一个唱衰 AI 编程的人，为什么能做出增长最快的开源编程 Agent",
+      "source_area": "inbox",
+      "summary": "介绍 OpenCode 与 Dax Raad，一个唱衰 AI 编程的人做出增长最快的开源编程 Agent。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "AI编程工具",
+      "article_type": "观点评论",
+      "keywords": [
+        "OpenCode",
+        "Dax Raad",
+        "开源",
+        "编程Agent"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲开源编程 Agent，属 AI/Agent",
+      "extracted_at": "2026-07-20T15:58:10.753030"
+    },
+    {
+      "path": "2026/07/SLO 落地的工程实践：从 SLI 设计到燃烧率告警的体系化方法",
+      "title": "SLO 落地的工程实践：从 SLI 设计到燃烧率告警的体系化方法",
+      "source_area": "inbox",
+      "summary": "SLO 落地工程实践：从 SLI 设计到燃烧率告警的体系化方法。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "SLO/SLI",
+      "article_type": "技术深度",
+      "keywords": [
+        "SLO",
+        "SLI",
+        "燃烧率",
+        "告警"
+      ],
+      "confidence": 0.95,
+      "reason": "核心讲 SLO/SLI 工程实践，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T15:58:10.753034"
+    },
+    {
+      "path": "2026/07/万字长文：做了些爆款 Skills 以后，我对 Skills 的看法",
+      "title": "万字长文：做了些爆款 Skills 以后，我对 Skills 的看法",
+      "source_area": "inbox",
+      "summary": "万字长文分享做了爆款 Skills 后对 Skills 的深度思考。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Skills",
+      "article_type": "观点评论",
+      "keywords": [
+        "Skills",
+        "爆款",
+        "思考"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 Agent Skills 的思考，属 AI/Agent",
+      "extracted_at": "2026-07-20T15:58:10.753037"
+    },
+    {
+      "path": "2026/07/业务系统 CLI 化授权方案：抢占 Agent 时代的流量入口",
+      "title": "业务系统 CLI 化授权方案：抢占 Agent 时代的流量入口",
+      "source_area": "inbox",
+      "summary": "业务系统 CLI 化授权方案，探讨如何抢占 Agent 时代的流量入口。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "CLI化",
+      "article_type": "技术深度",
+      "keywords": [
+        "CLI化",
+        "授权",
+        "Agent",
+        "流量入口"
+      ],
+      "confidence": 0.8,
+      "reason": "核心讲 Agent 时代 CLI 化，属 AI/Agent",
+      "extracted_at": "2026-07-20T15:58:10.753040"
+    },
+    {
+      "path": "2026/07/为什么 Agent 时代，大家都在做 CLI ？",
+      "title": "为什么 Agent 时代，大家都在做 CLI ？",
+      "source_area": "inbox",
+      "summary": "探讨为什么 Agent 时代大家都在做 CLI。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "CLI化",
+      "article_type": "观点评论",
+      "keywords": [
+        "Agent",
+        "CLI",
+        "时代趋势"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 Agent 时代 CLI 趋势，属 AI/Agent",
+      "extracted_at": "2026-07-20T15:58:10.753045"
+    },
+    {
+      "path": "2026/07/什么是置信区间，这是我听过最透彻的工程学解释",
+      "title": "什么是置信区间，这是我听过最透彻的工程学解释",
+      "source_area": "inbox",
+      "summary": "用工程学视角透彻解释置信区间的概念与应用。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "方法论",
+      "article_type": "教程指南",
+      "keywords": [
+        "置信区间",
+        "统计学",
+        "工程学"
+      ],
+      "confidence": 0.8,
+      "reason": "统计学方法论科普，归入生活杂谈",
+      "extracted_at": "2026-07-20T15:58:10.753049"
+    },
+    {
+      "path": "2026/07/别把“指出问题”，当成“解决问题”",
+      "title": "别把“指出问题”，当成“解决问题”",
+      "source_area": "inbox",
+      "summary": "探讨别把指出问题当成解决问题，思维方法论。",
+      "primary_category": "life",
+      "primary_category_name": "生活/健康/杂谈",
+      "sub_topic": "方法论",
+      "article_type": "观点评论",
+      "keywords": [
+        "问题解决",
+        "思维",
+        "方法论"
+      ],
+      "confidence": 0.8,
+      "reason": "思维方法论，归入生活杂谈",
+      "extracted_at": "2026-07-20T15:58:10.753052"
+    },
+    {
+      "path": "2026/07/当 SRE 遇上大模型：唯品会 SREAgent 落地全拆解",
+      "title": "当 SRE 遇上大模型：唯品会 SREAgent 落地全拆解",
+      "source_area": "inbox",
+      "summary": "唯品会 SREAgent 落地全拆解：当 SRE 遇上大模型的实践。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "SREAgent",
+      "article_type": "实战复盘",
+      "keywords": [
+        "SRE",
+        "大模型",
+        "SREAgent",
+        "唯品会"
+      ],
+      "confidence": 0.95,
+      "reason": "核心讲 SRE Agent 落地，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T15:58:10.753055"
+    },
+    {
+      "path": "2026/07/面向 Agent Skill 的 CLISSO 鉴权体系：安全、无感、可追溯",
+      "title": "面向 Agent Skill 的 CLISSO 鉴权体系：安全、无感、可追溯",
+      "source_area": "inbox",
+      "summary": "面向 Agent Skill 的 CLISSO 鉴权体系，实现安全、无感、可追溯的认证。",
+      "primary_category": "security",
+      "primary_category_name": "安全/合规",
+      "sub_topic": "鉴权",
+      "article_type": "技术深度",
+      "keywords": [
+        "CLISSO",
+        "鉴权",
+        "Agent Skill",
+        "安全"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 Agent Skill 鉴权安全，属安全范畴",
+      "extracted_at": "2026-07-20T15:58:10.753059"
+    },
+    {
+      "path": "aiops/02/Agent Infra- sandbox技术和选型",
+      "title": "Agent Infra- sandbox技术和选型",
+      "source_area": "aiops",
+      "summary": "Agent Infra sandbox 技术和选型分析。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent沙箱",
+      "article_type": "技术深度",
+      "keywords": [
+        "Agent",
+        "sandbox",
+        "沙箱",
+        "选型"
+      ],
+      "confidence": 0.8,
+      "reason": "核心讲 Agent 沙箱技术，属 AI/Agent Infra",
+      "extracted_at": "2026-07-20T15:58:10.753063"
+    },
+    {
+      "path": "aiops/02/SRE 的尽头是 Prompt？用 LLM 自动分析 100G 运维日志的工程化复盘",
+      "title": "SRE 的尽头是 Prompt？用 LLM 自动分析 100G 运维日志的工程化复盘",
+      "source_area": "aiops",
+      "summary": "用 LLM 自动分析 100G 运维日志的工程化复盘，探讨 SRE 的尽头是 Prompt。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "日志分析",
+      "article_type": "实战复盘",
+      "keywords": [
+        "SRE",
+        "LLM",
+        "日志分析",
+        "Prompt",
+        "运维"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 LLM 运维日志分析，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T15:58:10.753066"
+    },
+    {
+      "path": "2026/06/等保新规今天起实施，数据安全终于转正了——你的系统跟得上吗？",
+      "title": "等保新规今天起实施，数据安全终于转正了——你的系统跟得上吗？",
+      "source_area": "inbox",
+      "summary": "等保新规实施，数据安全转正，探讨系统合规要求。",
+      "primary_category": "security",
+      "primary_category_name": "安全/合规",
+      "sub_topic": "等保/数据安全",
+      "article_type": "行业资讯",
+      "keywords": [
+        "等保",
+        "数据安全",
+        "合规",
+        "新规"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲等保数据安全合规，属安全范畴",
+      "extracted_at": "2026-07-20T15:58:45.727401"
+    },
+    {
+      "path": "aiops/02/万卡GPU 集群真实运维",
+      "title": "万卡GPU 集群真实运维",
+      "source_area": "aiops",
+      "summary": "万卡 GPU 集群真实运维经验分享。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "GPU集群运维",
+      "article_type": "实战复盘",
+      "keywords": [
+        "GPU集群",
+        "运维",
+        "万卡"
+      ],
+      "confidence": 0.75,
+      "reason": "GPU 集群运维实践，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:00:52.774058"
+    },
+    {
+      "path": "aiops/02/我做了个会进化的SREAgents，每个公司都能用",
+      "title": "我做了个会进化的SREAgents，每个公司都能用",
+      "source_area": "aiops",
+      "summary": "分享做了一个会进化的 SREAgents，每个公司都能用。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "SREAgent",
+      "article_type": "实战复盘",
+      "keywords": [
+        "SREAgent",
+        "进化",
+        "AIOps"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 SRE Agent，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:00:52.774062"
+    },
+    {
+      "path": "aiops/03/AIOps探索：故障根因分析怎么做，才能从\"辅助排障\"走向\"可自动决策\"/AIOps探索：故障根因分析怎么做，才能从“辅助排障”走向“可自动决策”.md",
+      "title": "AIOps探索：故障根因分析怎么做，才能从“辅助排障”走向“可自动决策”",
+      "source_area": "aiops",
+      "summary": "AIOps 探索：故障根因分析如何从辅助排障走向可自动决策。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "故障根因分析",
+      "article_type": "技术深度",
+      "keywords": [
+        "AIOps",
+        "根因分析",
+        "故障",
+        "自动决策"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 AIOps 故障根因分析，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:00:52.774065"
+    },
+    {
+      "path": "aiops/03/顶会FAST'26解读｜腾讯与三星联合发布数据中心SSD故障预测方案",
+      "title": "顶会FAST'26解读｜腾讯与三星联合发布数据中心SSD故障预测方案",
+      "source_area": "aiops",
+      "summary": "FAST'26 论文：腾讯与三星联合发布数据中心 SSD 故障预测方案。",
+      "primary_category": "storage",
+      "primary_category_name": "存储",
+      "sub_topic": "SSD故障预测",
+      "article_type": "学术论文",
+      "keywords": [
+        "FAST26",
+        "SSD",
+        "故障预测",
+        "腾讯",
+        "三星"
+      ],
+      "confidence": 0.85,
+      "reason": "FAST 顶会论文讲 SSD 故障预测，属存储",
+      "extracted_at": "2026-07-20T16:00:52.774069"
+    },
+    {
+      "path": "aiops/04/AI Agent Skill全生命周期治理：从可用能力到可信资产",
+      "title": "AI Agent Skill全生命周期治理：从可用能力到可信资产",
+      "source_area": "aiops",
+      "summary": "AI Agent Skill 全生命周期治理：从可用能力到可信资产。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Skills",
+      "article_type": "技术深度",
+      "keywords": [
+        "Agent Skill",
+        "生命周期",
+        "治理",
+        "可信"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 Agent Skill 治理，属 AI/Agent",
+      "extracted_at": "2026-07-20T16:00:52.774073"
+    },
+    {
+      "path": "aiops/04/Resolve AI：为什么 AI SRE 领域有望诞生下一代 Datadog",
+      "title": "Resolve AI：为什么 AI SRE 领域有望诞生下一代 Datadog",
+      "source_area": "aiops",
+      "summary": "Resolve AI：为什么 AI SRE 领域有望诞生下一代 Datadog。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "AI SRE",
+      "article_type": "观点评论",
+      "keywords": [
+        "Resolve AI",
+        "AI SRE",
+        "Datadog"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 AI SRE 赛道，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:00:52.774076"
+    },
+    {
+      "path": "aiops/04/为什么现有的 Agent Infra 无法支撑生产级应用？",
+      "title": "为什么现有的 Agent Infra 无法支撑生产级应用？",
+      "source_area": "aiops",
+      "summary": "探讨为什么现有的 Agent Infra 无法支撑生产级应用。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent Infra",
+      "article_type": "观点评论",
+      "keywords": [
+        "Agent Infra",
+        "生产级",
+        "挑战"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 Agent Infra 生产级挑战，属 AI/Agent",
+      "extracted_at": "2026-07-20T16:00:52.774079"
+    },
+    {
+      "path": "aiops/04/基于端网协同的智算中心智能运维关键技术研究与实践",
+      "title": "基于端网协同的智算中心智能运维关键技术研究与实践",
+      "source_area": "aiops",
+      "summary": "基于端网协同的智算中心智能运维关键技术研究与实践。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "智能运维",
+      "article_type": "技术深度",
+      "keywords": [
+        "端网协同",
+        "智算中心",
+        "智能运维"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲智算中心智能运维，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:00:52.774082"
+    },
+    {
+      "path": "aiops/05/Agent Skills 开放标准及其最佳实践",
+      "title": "Agent Skills 开放标准及其最佳实践",
+      "source_area": "aiops",
+      "summary": "Agent Skills 开放标准及其最佳实践。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Skills",
+      "article_type": "技术深度",
+      "keywords": [
+        "Agent Skills",
+        "开放标准",
+        "最佳实践"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 Agent Skill 标准，属 AI/Agent",
+      "extracted_at": "2026-07-20T16:00:52.774085"
+    },
+    {
+      "path": "aiops/05/PagerDuty 的 AI RCA 不是找一个根因，而是把告警变成可处理的事故",
+      "title": "PagerDuty 的 AI RCA 不是找一个根因，而是把告警变成可处理的事故",
+      "source_area": "aiops",
+      "summary": "PagerDuty 的 AI RCA 不是找一个根因，而是把告警变成可处理的事故。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "RCA",
+      "article_type": "观点评论",
+      "keywords": [
+        "PagerDuty",
+        "AI RCA",
+        "告警",
+        "事故"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 AI RCA，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:00:52.774090"
+    },
+    {
+      "path": "aiops/05/某集团IT运维智能体（AIOps Agent）自主故障诊断与自愈平台详细设计方案（WORD）",
+      "title": "某集团IT运维智能体（AIOps Agent）自主故障诊断与自愈平台详细设计方案（WORD）",
+      "source_area": "aiops",
+      "summary": "某集团 IT 运维智能体 AIOps Agent 自主故障诊断与自愈平台详细设计方案。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "AIOps Agent",
+      "article_type": "技术深度",
+      "keywords": [
+        "AIOps Agent",
+        "故障诊断",
+        "自愈",
+        "运维"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 AIOps Agent 自愈平台，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:00:52.774093"
+    },
+    {
+      "path": "aiops/05/生产级 AI Agent 构建指南：MCP、CLI 与 Skills 的正确使用姿势",
+      "title": "生产级 AI Agent 构建指南：MCP、CLI 与 Skills 的正确使用姿势",
+      "source_area": "aiops",
+      "summary": "生产级 AI Agent 构建指南：MCP、CLI 与 Skills 的正确使用姿势。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent构建",
+      "article_type": "技术深度",
+      "keywords": [
+        "AI Agent",
+        "MCP",
+        "CLI",
+        "Skills",
+        "生产级"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 Agent 构建指南，属 AI/Agent",
+      "extracted_at": "2026-07-20T16:00:52.774096"
+    },
+    {
+      "path": "aiops/05/飞书 lark-cli  是如何避密钥泄露给 LLM 的",
+      "title": "飞书 lark-cli  是如何避密钥泄露给 LLM 的",
+      "source_area": "aiops",
+      "summary": "飞书 lark-cli 是如何避免密钥泄露给 LLM 的。",
+      "primary_category": "security",
+      "primary_category_name": "安全/合规",
+      "sub_topic": "密钥管理",
+      "article_type": "技术深度",
+      "keywords": [
+        "lark-cli",
+        "密钥",
+        "安全",
+        "LLM"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲密钥安全防泄露，属安全范畴",
+      "extracted_at": "2026-07-20T16:00:52.774099"
+    },
+    {
+      "path": "aiops/05/龙虾的\"记忆\" —— 黄东旭谈Agent 时代基础设施的重构/龙虾的“记忆” —— 黄东旭谈Agent 时代基础设施的重构.md",
+      "title": "龙虾的“记忆” —— 黄东旭谈Agent 时代基础设施的重构",
+      "source_area": "aiops",
+      "summary": "黄东旭谈 Agent 时代基础设施的重构，龙虾的记忆。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent基础设施",
+      "article_type": "观点评论",
+      "keywords": [
+        "黄东旭",
+        "Agent",
+        "基础设施",
+        "记忆"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲 Agent 基础设施重构，属 AI/Agent",
+      "extracted_at": "2026-07-20T16:00:52.774102"
+    },
+    {
+      "path": "aiops/06/L4级全自治运维体系升级方案",
+      "title": "L4级全自治运维体系升级方案",
+      "source_area": "aiops",
+      "summary": "L4 级全自治运维体系升级方案。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "自治运维",
+      "article_type": "技术深度",
+      "keywords": [
+        "L4",
+        "自治运维",
+        "运维体系"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲自治运维体系，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:00:52.774105"
+    },
+    {
+      "path": "aiops/06/Mythos ：当攻防进入火器时代，防御策略和人的技能栈，都要重写",
+      "title": "Mythos ：当攻防进入火器时代，防御策略和人的技能栈，都要重写",
+      "source_area": "aiops",
+      "summary": "Mythos：当攻防进入火器时代，防御策略和人的技能栈都要重写。",
+      "primary_category": "security",
+      "primary_category_name": "安全/合规",
+      "sub_topic": "攻防",
+      "article_type": "观点评论",
+      "keywords": [
+        "Mythos",
+        "攻防",
+        "安全",
+        "防御"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲安全攻防，属安全范畴",
+      "extracted_at": "2026-07-20T16:00:52.774108"
+    },
+    {
+      "path": "aiops/06/【思】关于基于AI Agents 构建AIOps智能运维底座的一点思考",
+      "title": "【思】关于基于AI Agents 构建AIOps智能运维底座的一点思考",
+      "source_area": "aiops",
+      "summary": "关于基于 AI Agents 构建 AIOps 智能运维底座的思考。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "AIOps底座",
+      "article_type": "观点评论",
+      "keywords": [
+        "AIOps",
+        "AI Agents",
+        "运维底座"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 AIOps 底座构建，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:00:52.774111"
+    },
+    {
+      "path": "aiops/06/京东三面：CLI有什么用，能不能取代MCP？我说：都在用CLI，会将MCP取代掉。面试官让我回去再想清楚",
+      "title": "京东三面：CLI有什么用，能不能取代MCP？我说：都在用CLI，会将MCP取代掉。面试官让我回去再想清楚",
+      "source_area": "aiops",
+      "summary": "京东三面：CLI 有什么用，能不能取代 MCP 的讨论。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "CLI/MCP",
+      "article_type": "观点评论",
+      "keywords": [
+        "CLI",
+        "MCP",
+        "面试",
+        "京东"
+      ],
+      "confidence": 0.8,
+      "reason": "核心讲 CLI vs MCP，属 AI/Agent",
+      "extracted_at": "2026-07-20T16:00:52.774114"
+    },
+    {
+      "path": "aiops/06/从人工稽核到智能变更风控：运维工单AI多智能体落地实战与避坑指南",
+      "title": "从人工稽核到智能变更风控：运维工单AI多智能体落地实战与避坑指南",
+      "source_area": "aiops",
+      "summary": "从人工稽核到智能变更风控：运维工单 AI 多智能体落地实战。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "变更风控",
+      "article_type": "实战复盘",
+      "keywords": [
+        "变更风控",
+        "运维工单",
+        "多智能体",
+        "AIOps"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲运维变更风控，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:00:52.774117"
+    },
+    {
+      "path": "aiops/06/企业AI落地新范式：系统CLI化，流程skill化，员工Agent化",
+      "title": "企业AI落地新范式：系统CLI化，流程skill化，员工Agent化",
+      "source_area": "aiops",
+      "summary": "企业 AI 落地新范式：系统 CLI 化，流程 skill 化，员工 Agent 化。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "企业AI落地",
+      "article_type": "观点评论",
+      "keywords": [
+        "CLI化",
+        "skill化",
+        "Agent化",
+        "企业AI"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲企业 AI 落地范式，属 AI/Agent",
+      "extracted_at": "2026-07-20T16:00:52.774120"
+    },
+    {
+      "path": "aiops/06/告警发到群里，不等于故障有人负责",
+      "title": "告警发到群里，不等于故障有人负责",
+      "source_area": "aiops",
+      "summary": "告警发到群里不等于故障有人负责，探讨告警治理。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "告警治理",
+      "article_type": "观点评论",
+      "keywords": [
+        "告警",
+        "故障",
+        "责任"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲告警治理，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:04:01.278129"
+    },
+    {
+      "path": "aiops/06/安全运营的下一步：不是大屏，而是 Agent",
+      "title": "安全运营的下一步：不是大屏，而是 Agent",
+      "source_area": "aiops",
+      "summary": "安全运营的下一步不是大屏而是 Agent。",
+      "primary_category": "security",
+      "primary_category_name": "安全/合规",
+      "sub_topic": "安全运营Agent",
+      "article_type": "观点评论",
+      "keywords": [
+        "安全运营",
+        "Agent",
+        "安全"
+      ],
+      "confidence": 0.8,
+      "reason": "核心讲安全运营 Agent，属安全范畴",
+      "extracted_at": "2026-07-20T16:04:01.278145"
+    },
+    {
+      "path": "aiops/06/群体智能涌现：模拟多角色Agent共同诊断一次P0级核心故障",
+      "title": "群体智能涌现：模拟多角色Agent共同诊断一次P0级核心故障",
+      "source_area": "aiops",
+      "summary": "模拟多角色 Agent 共同诊断一次 P0 级核心故障。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "多Agent故障诊断",
+      "article_type": "实战复盘",
+      "keywords": [
+        "多Agent",
+        "P0故障",
+        "诊断",
+        "群体智能"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲多 Agent 故障诊断，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:04:01.278151"
+    },
+    {
+      "path": "aiops/07/AI 运维智能体评测基准开源与实战指南",
+      "title": "AI 运维智能体评测基准开源与实战指南",
+      "source_area": "aiops",
+      "summary": "AI 运维智能体评测基准开源与实战指南。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "评测基准",
+      "article_type": "技术深度",
+      "keywords": [
+        "AIOps",
+        "评测基准",
+        "开源"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 AIOps 评测基准，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:04:01.278156"
+    },
+    {
+      "path": "aiops/07/AIOps一次P0故障复盘：告警泛滥，真正问题被海量信息淹没",
+      "title": "AIOps一次P0故障复盘：告警泛滥，真正问题被海量信息淹没",
+      "source_area": "aiops",
+      "summary": "AIOps 一次 P0 故障复盘：告警泛滥，真正问题被海量信息淹没。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "P0故障复盘",
+      "article_type": "实战复盘",
+      "keywords": [
+        "AIOps",
+        "P0",
+        "故障复盘",
+        "告警"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 P0 故障复盘，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:04:01.278159"
+    },
+    {
+      "path": "aiops/07/AIOps：老运维转型最大的思维壁垒只会救火，不会做平台与稳定性体系",
+      "title": "AIOps：老运维转型最大的思维壁垒只会救火，不会做平台与稳定性体系",
+      "source_area": "aiops",
+      "summary": "AIOps 老运维转型最大的思维壁垒：只会救火不会做平台。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "运维转型",
+      "article_type": "观点评论",
+      "keywords": [
+        "AIOps",
+        "运维转型",
+        "思维壁垒"
+      ],
+      "confidence": 0.85,
+      "reason": "核心讲运维转型，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:04:01.278163"
+    },
+    {
+      "path": "aiops/07/SRE实战：基于多智能体协同构建一键隔离流量自愈体系架构方案",
+      "title": "SRE实战：基于多智能体协同构建一键隔离流量自愈体系架构方案",
+      "source_area": "aiops",
+      "summary": "SRE 实战：基于多智能体协同构建一键隔离流量自愈体系。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "自愈体系",
+      "article_type": "实战复盘",
+      "keywords": [
+        "SRE",
+        "多智能体",
+        "自愈",
+        "流量隔离"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 SRE 自愈体系，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:04:01.278167"
+    },
+    {
+      "path": "aiops/07/[有图版］循序渐进 落地为王：腾讯 IEG 技术运营部落地 AIOps，重塑 SRE 质效实践",
+      "title": "[有图版］循序渐进 落地为王：腾讯 IEG 技术运营部落地 AIOps，重塑 SRE 质效实践",
+      "source_area": "aiops",
+      "summary": "腾讯 IEG 技术运营部落地 AIOps，重塑 SRE 质效实践。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "AIOps落地",
+      "article_type": "实战复盘",
+      "keywords": [
+        "腾讯",
+        "IEG",
+        "AIOps",
+        "SRE"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 AIOps 落地实践，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:04:01.278170"
+    },
+    {
+      "path": "aiops/07/告警疲劳终结者：如何用AIOps把误报率从45%压到5%以下",
+      "title": "告警疲劳终结者：如何用AIOps把误报率从45%压到5%以下",
+      "source_area": "aiops",
+      "summary": "告警疲劳终结者：如何用 AIOps 把误报率从 45% 压到 5% 以下。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "告警治理",
+      "article_type": "实战复盘",
+      "keywords": [
+        "告警",
+        "AIOps",
+        "误报率"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲告警治理，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:04:01.278174"
+    },
+    {
+      "path": "aiops/07/认知型AIOps实践：基于LLM Agent与知识图谱的工单变更自动化框架",
+      "title": "认知型AIOps实践：基于LLM Agent与知识图谱的工单变更自动化框架",
+      "source_area": "aiops",
+      "summary": "认知型 AIOps 实践：基于 LLM Agent 与知识图谱的工单变更自动化。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "认知型AIOps",
+      "article_type": "技术深度",
+      "keywords": [
+        "认知型AIOps",
+        "LLM",
+        "知识图谱",
+        "工单"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲认知型 AIOps，属 AIOps/SRE",
+      "extracted_at": "2026-07-20T16:04:01.278177"
+    },
+    {
+      "path": "gpu-tpu/2026/05/From SIMT to Systolic - A Foundation for GPU and TPU Architecture",
+      "title": "From SIMT to Systolic - A Foundation for GPU and TPU Architecture",
+      "source_area": "gpu-tpu",
+      "summary": "From SIMT to Systolic: GPU 和 TPU 架构基础。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "GPU/TPU架构",
+      "article_type": "技术深度",
+      "keywords": [
+        "SIMT",
+        "Systolic",
+        "GPU",
+        "TPU",
+        "架构"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 GPU/TPU 架构基础，属算力硬件",
+      "extracted_at": "2026-07-20T16:04:01.278180"
+    },
+    {
+      "path": "gpu-tpu/2026/05/GPU 和 TPU 设计理念简介",
+      "title": "GPU 和 TPU 设计理念简介",
+      "source_area": "gpu-tpu",
+      "summary": "GPU 和 TPU 设计理念简介。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "GPU/TPU架构",
+      "article_type": "技术深度",
+      "keywords": [
+        "GPU",
+        "TPU",
+        "设计理念"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 GPU/TPU 设计，属算力硬件",
+      "extracted_at": "2026-07-20T16:04:01.278184"
+    },
+    {
+      "path": "gpu-tpu/2026/05/The Two Stacks",
+      "title": "The Two Stacks",
+      "source_area": "gpu-tpu",
+      "summary": "The Two Stacks：GPU 与 TPU 两种计算栈对比。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "GPU/TPU架构",
+      "article_type": "技术深度",
+      "keywords": [
+        "GPU",
+        "TPU",
+        "计算栈"
+      ],
+      "confidence": 0.7,
+      "reason": "GPU/TPU 计算栈对比，属算力硬件",
+      "extracted_at": "2026-07-20T16:04:01.278187"
+    },
+    {
+      "path": "gpu-tpu/2026/07/CPU、GPU、TPU 到底谁更聪明？从逻辑运算到光互连，一篇看懂 AI Infra",
+      "title": "CPU、GPU、TPU 到底谁更聪明？从逻辑运算到光互连，一篇看懂 AI Infra",
+      "source_area": "gpu-tpu",
+      "summary": "CPU、GPU、TPU 到底谁更聪明？从逻辑运算到光互连看懂 AI Infra。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "GPU/TPU架构",
+      "article_type": "技术深度",
+      "keywords": [
+        "CPU",
+        "GPU",
+        "TPU",
+        "AI Infra",
+        "光互连"
+      ],
+      "confidence": 0.9,
+      "reason": "核心讲 GPU/TPU 架构对比，属算力硬件",
+      "extracted_at": "2026-07-20T16:04:01.278191"
+    },
+    {
+      "path": "mem/2026/02/MEM论文模型构建五大关键步骤！",
+      "title": "MEM论文模型构建五大关键步骤！",
+      "source_area": "mem",
+      "summary": "MEM 论文模型构建五大关键步骤。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "模型构建",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "模型构建",
+        "论文"
+      ],
+      "confidence": 0.95,
+      "reason": "MEM 论文模型构建，属 MEM/论文",
+      "extracted_at": "2026-07-20T16:04:01.278195"
+    },
+    {
+      "path": "mem/2026/02/上海交通大学MEM论文答辩流程详解（基于2025-2026年最新信息）",
+      "title": "上海交通大学MEM论文答辩流程详解（基于2025-2026年最新信息）",
+      "source_area": "mem",
+      "summary": "上海交通大学 MEM 论文答辩流程详解。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "答辩",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "答辩",
+        "上海交大"
+      ],
+      "confidence": 0.95,
+      "reason": "MEM 答辩流程，属 MEM/论文",
+      "extracted_at": "2026-07-20T16:04:01.278198"
+    },
+    {
+      "path": "mem/2026/02/与职业发展深度绑定！3个步骤锁定你的MEM最佳论文方向",
+      "title": "与职业发展深度绑定！3个步骤锁定你的MEM最佳论文方向",
+      "source_area": "mem",
+      "summary": "与职业发展深度绑定！3 个步骤锁定 MEM 最佳论文方向。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "选题",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "选题",
+        "职业发展"
+      ],
+      "confidence": 0.95,
+      "reason": "MEM 选题指南，属 MEM/论文",
+      "extracted_at": "2026-07-20T16:04:01.278203"
+    },
+    {
+      "path": "mem/2026/02/工程管理案例怎么选？MEM论文实战指南",
+      "title": "工程管理案例怎么选？MEM论文实战指南",
+      "source_area": "mem",
+      "summary": "工程管理案例怎么选？MEM 论文实战指南。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "案例选择",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "案例选择",
+        "论文"
+      ],
+      "confidence": 0.95,
+      "reason": "MEM 案例选择，属 MEM/论文",
+      "extracted_at": "2026-07-20T16:04:01.278206"
+    },
+    {
+      "path": "mem/2026/02/工程管理（MEM）专业毕业论文往哪个方向写比较好或者比较容易成文？",
+      "title": "工程管理（MEM）专业毕业论文往哪个方向写比较好或者比较容易成文？",
+      "source_area": "mem",
+      "summary": "工程管理 MEM 专业毕业论文往哪个方向写比较好。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "选题",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "选题",
+        "方向"
+      ],
+      "confidence": 0.95,
+      "reason": "MEM 选题方向，属 MEM/论文",
+      "extracted_at": "2026-07-20T16:04:01.278209"
+    },
+    {
+      "path": "mem/2026/02/还在瞎套理论？MEM 论文理论与工程实践结合的正确写法！",
+      "title": "还在瞎套理论？MEM 论文理论与工程实践结合的正确写法！",
+      "source_area": "mem",
+      "summary": "还在瞎套理论？MEM 论文理论与工程实践结合的正确写法。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "理论结合",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "理论",
+        "工程实践"
+      ],
+      "confidence": 0.95,
+      "reason": "MEM 理论结合实践，属 MEM/论文",
+      "extracted_at": "2026-07-20T16:04:01.278213"
+    },
+    {
+      "path": "mem/2026/02/零基础也能写！MEM论文数据收集与分析超全攻略",
+      "title": "零基础也能写！MEM论文数据收集与分析超全攻略",
+      "source_area": "mem",
+      "summary": "零基础也能写！MEM 论文数据收集与分析超全攻略。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "数据分析",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "数据收集",
+        "数据分析"
+      ],
+      "confidence": 0.95,
+      "reason": "MEM 数据分析，属 MEM/论文",
+      "extracted_at": "2026-07-20T16:04:01.278216"
+    },
+    {
+      "path": "mem/2026/03/MEM硕士学位论文的一般选题范围有哪些？",
+      "title": "MEM硕士学位论文的一般选题范围有哪些？",
+      "source_area": "mem",
+      "summary": "MEM 硕士学位论文的一般选题范围有哪些？",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "选题",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "选题",
+        "范围"
+      ],
+      "confidence": 0.95,
+      "reason": "MEM 选题范围，属 MEM/论文",
+      "extracted_at": "2026-07-20T16:04:01.278219"
+    },
+    {
+      "path": "mem/2026/05/2025年最新MEM（工程管理硕士）论文优秀选题60篇！",
+      "title": "2025年最新MEM（工程管理硕士）论文优秀选题60篇！",
+      "source_area": "mem",
+      "summary": "2025 年最新 MEM 工程管理硕士论文优秀选题 60 篇。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "选题",
+      "article_type": "行业资讯",
+      "keywords": [
+        "MEM",
+        "选题",
+        "60篇"
+      ],
+      "confidence": 0.95,
+      "reason": "MEM 选题合集，属 MEM/论文",
+      "extracted_at": "2026-07-20T16:04:01.278222"
+    },
+    {
+      "path": "mem/2026/05/2025最新MEM项目管理论文精选3篇！",
+      "title": "2025最新MEM项目管理论文精选3篇！",
+      "source_area": "mem",
+      "summary": "2025 最新 MEM 项目管理论文精选 3 篇。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "论文精选",
+      "article_type": "行业资讯",
+      "keywords": [
+        "MEM",
+        "项目管理",
+        "论文精选"
+      ],
+      "confidence": 0.95,
+      "reason": "MEM 论文精选，属 MEM/论文",
+      "extracted_at": "2026-07-20T16:04:01.278226"
+    },
+    {
+      "path": "mem/2026/05/AI写论文常用语句汇总！（破解导师一眼识破AI论文的秘密）",
+      "title": "AI写论文常用语句汇总！（破解导师一眼识破AI论文的秘密）",
+      "source_area": "mem",
+      "summary": "AI 写论文常用语句汇总，破解导师一眼识破 AI 论文的秘密。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "AI写论文",
+      "article_type": "教程指南",
+      "keywords": [
+        "AI",
+        "论文",
+        "语句",
+        "MEM"
+      ],
+      "confidence": 0.9,
+      "reason": "AI 写论文技巧，属 MEM/论文",
+      "extracted_at": "2026-07-20T16:04:01.278229"
+    },
+    {
+      "path": "mem/2026/05/MEM硕士学位论文的一般选题范围有哪些？",
+      "title": "MEM硕士学位论文的一般选题范围有哪些？",
+      "source_area": "mem",
+      "summary": "MEM 硕士学位论文的一般选题范围有哪些？",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "选题",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "选题",
+        "范围"
+      ],
+      "confidence": 0.95,
+      "reason": "MEM 选题范围，属 MEM/论文",
+      "extracted_at": "2026-07-20T16:04:01.278232"
+    },
+    {
+      "path": "mem/2026/05/工程管理（MEM）专业毕业论文往哪个方向写比较好或者比较容易成文",
+      "title": "工程管理（MEM）专业毕业论文往哪个方向写比较好或者比较容易成文",
+      "source_area": "mem",
+      "summary": "工程管理 MEM 专业毕业论文往哪个方向写比较好。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "选题",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "选题",
+        "方向"
+      ],
+      "confidence": 0.95,
+      "reason": "MEM 选题方向，属 MEM/论文",
+      "extracted_at": "2026-07-20T16:04:01.278235"
+    },
+    {
+      "path": "mem/2026/05/MBAMPAMEM论文如何找课题？八种方法让你告别迷茫",
+      "title": "MBAMPAMEM论文如何找课题？八种方法让你告别迷茫",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：MBAMPAMEM论文如何找课题？八种方法让你告别迷茫",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "选题",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "选题"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645528"
+    },
+    {
+      "path": "mem/2026/05/MEM工程项目管理方向论文开题报告具体写法！",
+      "title": "MEM工程项目管理方向论文开题报告具体写法！",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：MEM工程项目管理方向论文开题报告具体写法！",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "开题",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "开题"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645555"
+    },
+    {
+      "path": "mem/2026/05/MEM毕业论文主要数量模型方法",
+      "title": "MEM毕业论文主要数量模型方法",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：MEM毕业论文主要数量模型方法",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "方法论",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "方法论"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645561"
+    },
+    {
+      "path": "mem/2026/05/MEM毕业论文定量研究方法的成功案例分享！",
+      "title": "MEM毕业论文定量研究方法的成功案例分享！",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：MEM毕业论文定量研究方法的成功案例分享！",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "方法论",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "方法论"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645565"
+    },
+    {
+      "path": "mem/2026/05/MEM毕业论文常用的数据分析和统计方法总结",
+      "title": "MEM毕业论文常用的数据分析和统计方法总结",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：MEM毕业论文常用的数据分析和统计方法总结",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "数据分析",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "数据分析"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645569"
+    },
+    {
+      "path": "mem/2026/05/MEM硕士论文方向大揭秘！轻松写作攻略！",
+      "title": "MEM硕士论文方向大揭秘！轻松写作攻略！",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：MEM硕士论文方向大揭秘！轻松写作攻略！",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "选题",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "选题"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645574"
+    },
+    {
+      "path": "mem/2026/05/MEM答辩通过率仅60%？导师总结8大高频问题+应答模板，考前必看！",
+      "title": "MEM答辩通过率仅60%？导师总结8大高频问题+应答模板，考前必看！",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：MEM答辩通过率仅60%？导师总结8大高频问题+应答模板，考前必看！",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "答辩",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "答辩"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645578"
+    },
+    {
+      "path": "mem/2026/05/MEM论文哪个方向好写，如何搭建理论框架？",
+      "title": "MEM论文哪个方向好写，如何搭建理论框架？",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：MEM论文哪个方向好写，如何搭建理论框架？",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "选题",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "选题"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645583"
+    },
+    {
+      "path": "mem/2026/05/MEM论文框架示例：仿真模型在A汽车公司总装车间产能优化中的应用研究",
+      "title": "MEM论文框架示例：仿真模型在A汽车公司总装车间产能优化中的应用研究",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：MEM论文框架示例：仿真模型在A汽车公司总装车间产能优化中的应用研究",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "框架",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "框架"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645586"
+    },
+    {
+      "path": "mem/2026/05/MEM论文盲审70分以下，到底哪里出了问题？",
+      "title": "MEM论文盲审70分以下，到底哪里出了问题？",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：MEM论文盲审70分以下，到底哪里出了问题？",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "盲审",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "盲审"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645590"
+    },
+    {
+      "path": "mem/2026/05/MEM论文选题，如何从 “烂选题” 到 “好选题” 的修改技巧！",
+      "title": "MEM论文选题，如何从 “烂选题” 到 “好选题” 的修改技巧！",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：MEM论文选题，如何从 “烂选题” 到 “好选题” 的修改技巧！",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "选题",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "选题"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645594"
+    },
+    {
+      "path": "mem/2026/05/如何写好一篇MEM非全日制硕士论文 - 从开题到答辩的务实指南（开篇）",
+      "title": "如何写好一篇MEM非全日制硕士论文 - 从开题到答辩的务实指南（开篇）",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：如何写好一篇MEM非全日制硕士论文 - 从开题到答辩的务实指南（开篇）",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "开题",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "开题"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645598"
+    },
+    {
+      "path": "mem/2026/05/如何写好一篇MEM非全日制硕士论文 - 开题篇：研究内容与研究方法的“避坑指南”",
+      "title": "如何写好一篇MEM非全日制硕士论文 - 开题篇：研究内容与研究方法的“避坑指南”",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：如何写好一篇MEM非全日制硕士论文 - 开题篇：研究内容与研究方法的“避坑指南”",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "开题",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "开题"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645603"
+    },
+    {
+      "path": "mem/2026/05/如何写好一篇MEM非全日制硕士论文 - 数据采集与处理篇：数据从哪里来、怎么洗干净",
+      "title": "如何写好一篇MEM非全日制硕士论文 - 数据采集与处理篇：数据从哪里来、怎么洗干净",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：如何写好一篇MEM非全日制硕士论文 - 数据采集与处理篇：数据从哪里来、怎么洗干净",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "数据分析",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "数据分析"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645608"
+    },
+    {
+      "path": "mem/2026/05/如何写好一篇MEM非全日制硕士论文 - 文献工具篇：搜得准、管得好、引得对",
+      "title": "如何写好一篇MEM非全日制硕士论文 - 文献工具篇：搜得准、管得好、引得对",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：如何写好一篇MEM非全日制硕士论文 - 文献工具篇：搜得准、管得好、引得对",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "文献综述",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "文献综述"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645611"
+    },
+    {
+      "path": "mem/2026/05/如何写好一篇MEM非全日制硕士论文 - 文献综述篇：不做文献的搬运工",
+      "title": "如何写好一篇MEM非全日制硕士论文 - 文献综述篇：不做文献的搬运工",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：如何写好一篇MEM非全日制硕士论文 - 文献综述篇：不做文献的搬运工",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "文献综述",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "文献综述"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645617"
+    },
+    {
+      "path": "mem/2026/05/如何写好一篇MEM非全日制硕士论文 - 现状诊断篇：让数据开口说话",
+      "title": "如何写好一篇MEM非全日制硕士论文 - 现状诊断篇：让数据开口说话",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：如何写好一篇MEM非全日制硕士论文 - 现状诊断篇：让数据开口说话",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "数据分析",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "数据分析"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645620"
+    },
+    {
+      "path": "mem/2026/05/如何写好一篇MEM非全日制硕士论文 - 骨架篇：从零到一搭建黄金框架",
+      "title": "如何写好一篇MEM非全日制硕士论文 - 骨架篇：从零到一搭建黄金框架",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：如何写好一篇MEM非全日制硕士论文 - 骨架篇：从零到一搭建黄金框架",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "框架",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "框架"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645624"
+    },
+    {
+      "path": "mem/2026/05/如何精准定位你的“真问题”——MEM论文选题的三大法则",
+      "title": "如何精准定位你的“真问题”——MEM论文选题的三大法则",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：如何精准定位你的“真问题”——MEM论文选题的三大法则",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "选题",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "选题"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645627"
+    },
+    {
+      "path": "mem/2026/05/经验之谈：能让导师一次认可的MEM论文框架！",
+      "title": "经验之谈：能让导师一次认可的MEM论文框架！",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：经验之谈：能让导师一次认可的MEM论文框架！",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "框架",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "框架"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645631"
+    },
+    {
+      "path": "mem/2026/05/超全攻略MBAMEM论文全流程解析！",
+      "title": "超全攻略MBAMEM论文全流程解析！",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：超全攻略MBAMEM论文全流程解析！",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "写作攻略",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "写作攻略"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645635"
+    },
+    {
+      "path": "mem/2026/05/超全超详细的MEM工程管理硕士论文撰写攻略",
+      "title": "超全超详细的MEM工程管理硕士论文撰写攻略",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：超全超详细的MEM工程管理硕士论文撰写攻略",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "写作攻略",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "写作攻略"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645638"
+    },
+    {
+      "path": "mem/2026/06/118篇浙江大学MEM毕业论文/article.md",
+      "title": "article",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：article",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "写作方法",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "写作方法"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645642"
+    },
+    {
+      "path": "mem/2026/06/MEM论文，如何运用AHP联合分析法确定评价体系的指标权重",
+      "title": "MEM论文，如何运用AHP联合分析法确定评价体系的指标权重",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：MEM论文，如何运用AHP联合分析法确定评价体系的指标权重",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "方法论",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "方法论"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645646"
+    },
+    {
+      "path": "mem/2026/06/MEM｜42.2026年最新MEM优秀论文选题119篇",
+      "title": "MEM｜42.2026年最新MEM优秀论文选题119篇",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：MEM｜42.2026年最新MEM优秀论文选题119篇",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "选题",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "选题"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645650"
+    },
+    {
+      "path": "mem/2026/06/硕士论文插表格式规范｜保姆级书写要求，照着做零出错！",
+      "title": "硕士论文插表格式规范｜保姆级书写要求，照着做零出错！",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：硕士论文插表格式规范｜保姆级书写要求，照着做零出错！",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "格式规范",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "格式规范"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645654"
+    },
+    {
+      "path": "mem/2026/07/没有具体项目，怎么写MEM论文？",
+      "title": "没有具体项目，怎么写MEM论文？",
+      "source_area": "mem",
+      "summary": "MEM 论文写作相关：没有具体项目，怎么写MEM论文？",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "选题",
+      "article_type": "教程指南",
+      "keywords": [
+        "MEM",
+        "论文",
+        "选题"
+      ],
+      "confidence": 0.9,
+      "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
+      "extracted_at": "2026-07-20T16:05:07.645658"
+    }
+  ]
+}
