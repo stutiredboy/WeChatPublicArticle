@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T17:10:13.317007",
-  "total": 244,
+  "generated_at": "2026-07-27T17:32:29.108395",
+  "total": 246,
   "articles": [
     {
       "path": "2026/02/GPUDirect RDMA技术详解",
@@ -4598,6 +4598,44 @@
       "confidence": 0.9,
       "reason": "腾讯研究院发布的行业观察报告，核心是 AI 时代组织与个体的变革趋势",
       "extracted_at": "2026-07-27T17:07:54.946013"
+    },
+    {
+      "path": "mem/2026/07/MEM工程管理论文开题答辩及盲审环节中必挂问题!",
+      "title": "MEM工程管理论文开题答辩及盲审环节中必挂问题!",
+      "source_area": "mem",
+      "summary": "系统梳理 MEM 工程管理论文开题答辩和盲审环节的高频必挂问题，包括选题偏离 MEM 定位、假大空无工程载体、数据造假、理论两张皮等，附避坑指南。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "开题盲审",
+      "article_type": "方法论",
+      "keywords": [
+        "MEM",
+        "开题答辩",
+        "盲审",
+        "工程管理"
+      ],
+      "confidence": 0.95,
+      "reason": "核心是 MEM 论文开题答辩与盲审的高频挂因分析",
+      "extracted_at": "2026-07-27T17:32:22.451844"
+    },
+    {
+      "path": "mem/2026/07/MEM毕业论文模型该怎么挑？",
+      "title": "MEM毕业论文模型该怎么挑？",
+      "source_area": "mem",
+      "summary": "指导 MEM 毕业论文如何选择研究模型，涵盖模型与问题匹配、理论支撑、数据可得性、模型组合策略、创新程度把控及案例适配六个维度。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "模型选择",
+      "article_type": "方法论",
+      "keywords": [
+        "MEM",
+        "模型选择",
+        "毕业论文",
+        "工程管理"
+      ],
+      "confidence": 0.95,
+      "reason": "核心是 MEM 毕业论文研究模型的选择方法论",
+      "extracted_at": "2026-07-27T17:32:22.451868"
     }
   ]
 }
