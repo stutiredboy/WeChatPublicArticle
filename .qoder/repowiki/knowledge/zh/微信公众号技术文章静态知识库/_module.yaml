@@ -1,0 +1,17 @@
+schema_version: 1
+module_path: ""
+title: 微信公众号技术文章静态知识库
+scope:
+    - README.md
+    - AGENTS.md
+    - CLAUDE.md
+    - .gitignore
+    - knowledge_index.json
+    - taxonomy.yaml
+    - .env.example
+    - INDEX.md
+    - LICENSE
+    - WeChatArticleDownloader-1.4.4.dmg
+source_files: []
+depends_on: []
+related_to: []

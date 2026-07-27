@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: aiops_articles
+title: AIOps 技术文章与案例库
+scope:
+    - aiops/
+source_files: []
+depends_on: []
+related_to:
+    - path: articles_2026
+    - path: gpu_tpu_articles
+    - path: km_tool
+    - path: mem_articles

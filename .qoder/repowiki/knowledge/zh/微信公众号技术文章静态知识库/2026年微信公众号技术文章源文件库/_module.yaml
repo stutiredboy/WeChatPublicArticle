@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: articles_2026
+title: 2026年微信公众号技术文章源文件库
+scope:
+    - 2026/
+source_files: []
+depends_on: []
+related_to:
+    - path: aiops_articles
+    - path: gpu_tpu_articles
+    - path: km_tool
+    - path: mem_articles

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T16:05:07.645664",
-  "total": 236,
+  "generated_at": "2026-07-27T17:10:13.317007",
+  "total": 244,
   "articles": [
     {
       "path": "2026/02/GPUDirect RDMA技术详解",
@@ -2811,137 +2811,6 @@
       "extracted_at": "2026-07-20T15:58:10.753019"
     },
     {
-      "path": "2026/07/AI Infra 全景图：Agent Framework、调度、编排、沙箱、记忆管理、Tracing 分层拆解",
-      "title": "AI Infra 全景图：Agent Framework、调度、编排、沙箱、记忆管理、Tracing 分层拆解",
-      "source_area": "inbox",
-      "summary": "AI Infra 全景图分层拆解：Agent Framework、调度、编排、沙箱、记忆管理、Tracing。",
-      "primary_category": "ai-agent",
-      "primary_category_name": "AI/Agent",
-      "sub_topic": "AI Infra",
-      "article_type": "技术深度",
-      "keywords": [
-        "AI Infra",
-        "Agent Framework",
-        "调度",
-        "沙箱",
-        "Tracing"
-      ],
-      "confidence": 0.9,
-      "reason": "核心讲 AI Infra 全景，属 AI/Agent",
-      "extracted_at": "2026-07-20T15:58:10.753023"
-    },
-    {
-      "path": "2026/07/Agent-狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局/article.md",
-      "title": "article",
-      "source_area": "inbox",
-      "summary": "冷思考 Agent 狂欢热潮，分析为什么规模化落地总是陷入僵局。",
-      "primary_category": "ai-agent",
-      "primary_category_name": "AI/Agent",
-      "sub_topic": "Agent落地",
-      "article_type": "观点评论",
-      "keywords": [
-        "Agent",
-        "规模化落地",
-        "冷思考"
-      ],
-      "confidence": 0.85,
-      "reason": "核心讲 Agent 落地困境，属 AI/Agent",
-      "extracted_at": "2026-07-20T15:58:10.753027"
-    },
-    {
-      "path": "2026/07/OpenCode 与 Dax Raad：一个唱衰 AI 编程的人，为什么能做出增长最快的开源编程 Agent",
-      "title": "OpenCode 与 Dax Raad：一个唱衰 AI 编程的人，为什么能做出增长最快的开源编程 Agent",
-      "source_area": "inbox",
-      "summary": "介绍 OpenCode 与 Dax Raad，一个唱衰 AI 编程的人做出增长最快的开源编程 Agent。",
-      "primary_category": "ai-agent",
-      "primary_category_name": "AI/Agent",
-      "sub_topic": "AI编程工具",
-      "article_type": "观点评论",
-      "keywords": [
-        "OpenCode",
-        "Dax Raad",
-        "开源",
-        "编程Agent"
-      ],
-      "confidence": 0.85,
-      "reason": "核心讲开源编程 Agent，属 AI/Agent",
-      "extracted_at": "2026-07-20T15:58:10.753030"
-    },
-    {
-      "path": "2026/07/SLO 落地的工程实践：从 SLI 设计到燃烧率告警的体系化方法",
-      "title": "SLO 落地的工程实践：从 SLI 设计到燃烧率告警的体系化方法",
-      "source_area": "inbox",
-      "summary": "SLO 落地工程实践：从 SLI 设计到燃烧率告警的体系化方法。",
-      "primary_category": "aiops-sre",
-      "primary_category_name": "AIOps/SRE",
-      "sub_topic": "SLO/SLI",
-      "article_type": "技术深度",
-      "keywords": [
-        "SLO",
-        "SLI",
-        "燃烧率",
-        "告警"
-      ],
-      "confidence": 0.95,
-      "reason": "核心讲 SLO/SLI 工程实践，属 AIOps/SRE",
-      "extracted_at": "2026-07-20T15:58:10.753034"
-    },
-    {
-      "path": "2026/07/万字长文：做了些爆款 Skills 以后，我对 Skills 的看法",
-      "title": "万字长文：做了些爆款 Skills 以后，我对 Skills 的看法",
-      "source_area": "inbox",
-      "summary": "万字长文分享做了爆款 Skills 后对 Skills 的深度思考。",
-      "primary_category": "ai-agent",
-      "primary_category_name": "AI/Agent",
-      "sub_topic": "Skills",
-      "article_type": "观点评论",
-      "keywords": [
-        "Skills",
-        "爆款",
-        "思考"
-      ],
-      "confidence": 0.9,
-      "reason": "核心讲 Agent Skills 的思考，属 AI/Agent",
-      "extracted_at": "2026-07-20T15:58:10.753037"
-    },
-    {
-      "path": "2026/07/业务系统 CLI 化授权方案：抢占 Agent 时代的流量入口",
-      "title": "业务系统 CLI 化授权方案：抢占 Agent 时代的流量入口",
-      "source_area": "inbox",
-      "summary": "业务系统 CLI 化授权方案，探讨如何抢占 Agent 时代的流量入口。",
-      "primary_category": "ai-agent",
-      "primary_category_name": "AI/Agent",
-      "sub_topic": "CLI化",
-      "article_type": "技术深度",
-      "keywords": [
-        "CLI化",
-        "授权",
-        "Agent",
-        "流量入口"
-      ],
-      "confidence": 0.8,
-      "reason": "核心讲 Agent 时代 CLI 化，属 AI/Agent",
-      "extracted_at": "2026-07-20T15:58:10.753040"
-    },
-    {
-      "path": "2026/07/为什么 Agent 时代，大家都在做 CLI ？",
-      "title": "为什么 Agent 时代，大家都在做 CLI ？",
-      "source_area": "inbox",
-      "summary": "探讨为什么 Agent 时代大家都在做 CLI。",
-      "primary_category": "ai-agent",
-      "primary_category_name": "AI/Agent",
-      "sub_topic": "CLI化",
-      "article_type": "观点评论",
-      "keywords": [
-        "Agent",
-        "CLI",
-        "时代趋势"
-      ],
-      "confidence": 0.9,
-      "reason": "核心讲 Agent 时代 CLI 趋势，属 AI/Agent",
-      "extracted_at": "2026-07-20T15:58:10.753045"
-    },
-    {
       "path": "2026/07/什么是置信区间，这是我听过最透彻的工程学解释",
       "title": "什么是置信区间，这是我听过最透彻的工程学解释",
       "source_area": "inbox",
@@ -2976,44 +2845,6 @@
       "confidence": 0.8,
       "reason": "思维方法论，归入生活杂谈",
       "extracted_at": "2026-07-20T15:58:10.753052"
-    },
-    {
-      "path": "2026/07/当 SRE 遇上大模型：唯品会 SREAgent 落地全拆解",
-      "title": "当 SRE 遇上大模型：唯品会 SREAgent 落地全拆解",
-      "source_area": "inbox",
-      "summary": "唯品会 SREAgent 落地全拆解：当 SRE 遇上大模型的实践。",
-      "primary_category": "aiops-sre",
-      "primary_category_name": "AIOps/SRE",
-      "sub_topic": "SREAgent",
-      "article_type": "实战复盘",
-      "keywords": [
-        "SRE",
-        "大模型",
-        "SREAgent",
-        "唯品会"
-      ],
-      "confidence": 0.95,
-      "reason": "核心讲 SRE Agent 落地，属 AIOps/SRE",
-      "extracted_at": "2026-07-20T15:58:10.753055"
-    },
-    {
-      "path": "2026/07/面向 Agent Skill 的 CLISSO 鉴权体系：安全、无感、可追溯",
-      "title": "面向 Agent Skill 的 CLISSO 鉴权体系：安全、无感、可追溯",
-      "source_area": "inbox",
-      "summary": "面向 Agent Skill 的 CLISSO 鉴权体系，实现安全、无感、可追溯的认证。",
-      "primary_category": "security",
-      "primary_category_name": "安全/合规",
-      "sub_topic": "鉴权",
-      "article_type": "技术深度",
-      "keywords": [
-        "CLISSO",
-        "鉴权",
-        "Agent Skill",
-        "安全"
-      ],
-      "confidence": 0.85,
-      "reason": "核心讲 Agent Skill 鉴权安全，属安全范畴",
-      "extracted_at": "2026-07-20T15:58:10.753059"
     },
     {
       "path": "aiops/02/Agent Infra- sandbox技术和选型",
@@ -4428,6 +4259,345 @@
       "confidence": 0.9,
       "reason": "MEM 工程管理硕士论文写作相关，属 MEM/论文范畴",
       "extracted_at": "2026-07-20T16:05:07.645658"
+    },
+    {
+      "path": "aiops/07/告警治理：如何把每天 500+ 条告警降到 50 条",
+      "title": "告警治理：如何把每天 500+ 条告警降到 50 条",
+      "source_area": "aiops",
+      "summary": "从告警疲劳的系统性危害出发，用两个真实案例（400条/夜降到8条、1200条/天降到80条）和完整Prometheus+Alertmanager配置，给出可直接落地的告警治理方案，涵盖告警审计、降噪策略、分组路由和SLO关联。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "告警治理",
+      "article_type": "实战复盘",
+      "keywords": [
+        "告警治理",
+        "降噪",
+        "Prometheus",
+        "Alertmanager",
+        "SRE"
+      ],
+      "confidence": 0.98,
+      "reason": "核心主题是运维告警治理与降噪实战，属于AIOps/SRE范畴",
+      "extracted_at": "2026-07-27T14:34:26.323861"
+    },
+    {
+      "path": "aiops/07/为什么 Agent 时代，大家都在做 CLI ？",
+      "title": "为什么 Agent 时代，大家都在做 CLI ？",
+      "source_area": "aiops",
+      "summary": "分析Agent时代CLI回归的结构性原因：LLM与终端天然同构、CLI自描述、Unix管道组合能力，并提出CLI/MCP/Skill三层分层模型及人机协作界面的未来方向。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "CLI化",
+      "article_type": "观点评论",
+      "keywords": [
+        "CLI",
+        "Agent",
+        "MCP",
+        "Skill",
+        "AI友好"
+      ],
+      "confidence": 0.95,
+      "reason": "核心讨论Agent时代CLI化的必然性与CLI/MCP/Skill分层关系，属于AI/Agent范畴",
+      "extracted_at": "2026-07-27T14:34:26.323887"
+    },
+    {
+      "path": "aiops/07/面向 Agent Skill 的 CLISSO 鉴权体系：安全、无感、可追溯",
+      "title": "面向 Agent Skill 的 CLISSO 鉴权体系：安全、无感、可追溯",
+      "source_area": "aiops",
+      "summary": "针对Agent通过Skill调用企业内部系统时的鉴权难题，设计了一套基于sso-cli、业务CLI和sso-sdk的纵深防御体系，实现token不落盘、多用户隔离、登录过程无感的安全鉴权。",
+      "primary_category": "security",
+      "primary_category_name": "安全/合规",
+      "sub_topic": "Agent鉴权",
+      "article_type": "技术深度",
+      "keywords": [
+        "CLISSO",
+        "SSO",
+        "Agent鉴权",
+        "Token安全",
+        "keychain"
+      ],
+      "confidence": 0.92,
+      "reason": "核心是Agent场景下的SSO鉴权安全方案，CLISSO在taxonomy中明确归入security类",
+      "extracted_at": "2026-07-27T14:34:26.323893"
+    },
+    {
+      "path": "aiops/07/你花大价钱上的 AIOps，为什么生产上还压不住告警？",
+      "title": "你花大价钱上的 AIOps，为什么生产上还压不住告警？",
+      "source_area": "aiops",
+      "summary": "剖析AIOps竞赛方案照搬上线的三大坑：特征黑盒、温室假设、全自动决策，提出历史故障回放、人工确认闸门、知识图谱不可砍的三条落地清单。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "AIOps落地",
+      "article_type": "观点评论",
+      "keywords": [
+        "AIOps",
+        "告警",
+        "MTTR",
+        "竞赛方案",
+        "避坑"
+      ],
+      "confidence": 0.95,
+      "reason": "讨论AIOps在生产环境落地的问题与避坑，属于AIOps/SRE范畴",
+      "extracted_at": "2026-07-27T14:34:26.323897"
+    },
+    {
+      "path": "aiops/07/业务系统 CLI 化授权方案：抢占 Agent 时代的流量入口",
+      "title": "业务系统 CLI 化授权方案：抢占 Agent 时代的流量入口",
+      "source_area": "aiops",
+      "summary": "从飞书/钉钉/瑞幸CLI化趋势出发，详细设计业务系统CLI化的授权方案：PAT令牌体系、会话隔离、Token管理与安全防护，给出后端改造和CLI SDK实现。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "CLI化授权",
+      "article_type": "技术深度",
+      "keywords": [
+        "CLI化",
+        "授权",
+        "PAT",
+        "Agent",
+        "会话隔离"
+      ],
+      "confidence": 0.9,
+      "reason": "核心是业务系统CLI化的授权方案设计，属于Agent时代CLI化范畴",
+      "extracted_at": "2026-07-27T14:34:26.323901"
+    },
+    {
+      "path": "aiops/07/万字长文：做了些爆款 Skills 以后，我对 Skills 的看法",
+      "title": "万字长文：做了些爆款 Skills 以后，我对 Skills 的看法",
+      "source_area": "aiops",
+      "summary": "万字深度思考Skill的本质：Skill是把专家经验、工作流、工具调用封装成可分发的能力单元，不是简单提示词。分析Skill与Prompt/MCP/CLI的关系，以及Skill如何弥合Agent使用能力的K型分化。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Skills",
+      "article_type": "观点评论",
+      "keywords": [
+        "Skills",
+        "Agent",
+        "能力商品",
+        "MCP",
+        "Prompt"
+      ],
+      "confidence": 0.97,
+      "reason": "核心是对Agent Skills的深度思考和定义，属于AI/Agent范畴",
+      "extracted_at": "2026-07-27T14:34:26.323904"
+    },
+    {
+      "path": "aiops/07/当 SRE 遇上大模型：唯品会 SREAgent 落地全拆解",
+      "title": "当 SRE 遇上大模型：唯品会 SREAgent 落地全拆解",
+      "source_area": "aiops",
+      "summary": "拆解唯品会VIPBrain(SREAgent)的技术底座：意图识别、pipeline+ReAct双模式编排、HITL人在环、知识图谱替代纯RAG做爆炸半径分析，实现故障定位从小时级到秒级、准确率>85%。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "SREAgent",
+      "article_type": "实战复盘",
+      "keywords": [
+        "SREAgent",
+        "唯品会",
+        "知识图谱",
+        "HITL",
+        "故障定位"
+      ],
+      "confidence": 0.98,
+      "reason": "唯品会SREAgent运维智能体落地拆解，属于AIOps/SRE范畴",
+      "extracted_at": "2026-07-27T14:34:26.323908"
+    },
+    {
+      "path": "aiops/07/Agent 评测：方法论与体系设计",
+      "title": "Agent 评测：方法论与体系设计",
+      "source_area": "aiops",
+      "summary": "系统化阐述Agent评测方法论：Agent类型与评测侧重、五大类指标体系(P0/P1/P2)、黄金评测集建设、规则+LLM Judge评分器、根因归类与持续优化闭环。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent评测",
+      "article_type": "方法论",
+      "keywords": [
+        "Agent评测",
+        "指标体系",
+        "LLM Judge",
+        "Golden Set",
+        "评测集"
+      ],
+      "confidence": 0.95,
+      "reason": "核心是Agent评测方法论与体系设计，属于AI/Agent范畴",
+      "extracted_at": "2026-07-27T14:34:26.323911"
+    },
+    {
+      "path": "aiops/07/Agent-狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局/article.md",
+      "title": "article",
+      "source_area": "aiops",
+      "summary": "分析Agent规模化落地的三大核心难题：弹性(单机单用户)、运维(异构有状态Pet模型)、治理(行为不可预测)，介绍腾讯云Agent Runtime的四层架构(接入/运行/治理/智能)和Cube Sandbox开源沙箱。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent基础设施",
+      "article_type": "观点评论",
+      "keywords": [
+        "Agent Runtime",
+        "Agent基础设施",
+        "Cube Sandbox",
+        "腾讯云",
+        "AgentOps"
+      ],
+      "confidence": 0.92,
+      "reason": "讨论Agent规模化落地的基础设施挑战与解决方案，属于AI/Agent范畴",
+      "extracted_at": "2026-07-27T14:34:26.323914"
+    },
+    {
+      "path": "aiops/07/AI Infra 全景图：Agent Framework、调度、编排、沙箱、记忆管理、Tracing 分层拆解",
+      "title": "AI Infra 全景图：Agent Framework、调度、编排、沙箱、记忆管理、Tracing 分层拆解",
+      "source_area": "aiops",
+      "summary": "从L0到L8逐层拆解生产级AI Agent的9层架构(基础资源/模型推理/数据知识/Prompt上下文/编排Agent/工具执行/状态记忆/评测质量/可观测运营)+4个横切能力(安全/CI-CD/FinOps/DevEx)，给出工具选型与最佳实践。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "AI Infra",
+      "article_type": "技术深度",
+      "keywords": [
+        "AI Infra",
+        "Agent Framework",
+        "沙箱",
+        "记忆管理",
+        "Tracing"
+      ],
+      "confidence": 0.97,
+      "reason": "全景拆解AI Agent基础设施9层架构，属于AI/Agent范畴",
+      "extracted_at": "2026-07-27T14:34:26.323917"
+    },
+    {
+      "path": "aiops/07/AIOps 迈入 Agent 时代！行业标准落地，智能运维迎来全新增长赛道",
+      "title": "AIOps 迈入 Agent 时代！行业标准落地，智能运维迎来全新增长赛道",
+      "source_area": "aiops",
+      "summary": "梳理国内AIOps成熟度标准体系(五大核心模块/五级成熟度/工具分级/可观测性标准)，解读AI Agent从Advisory到Copilot再到自主智能体的三级跨越，以及AgentOps全生命周期管理模式。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "AIOps标准",
+      "article_type": "行业资讯",
+      "keywords": [
+        "AIOps",
+        "行业标准",
+        "AgentOps",
+        "成熟度模型",
+        "智能运维"
+      ],
+      "confidence": 0.93,
+      "reason": "解读AIOps行业标准落地与Agent化趋势，属于AIOps/SRE范畴",
+      "extracted_at": "2026-07-27T14:34:26.323921"
+    },
+    {
+      "path": "aiops/07/OpenCode 与 Dax Raad：一个唱衰 AI 编程的人，为什么能做出增长最快的开源编程 Agent",
+      "title": "OpenCode 与 Dax Raad：一个唱衰 AI 编程的人，为什么能做出增长最快的开源编程 Agent",
+      "source_area": "aiops",
+      "summary": "深度拆解OpenCode联合创始人Dax Raad的访谈：model-agnostic架构设计、Zen推理网关、开源是结构必需而非姿态的论断，以及对AI编程工具生产力提升的冷静评价。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "AI编程工具",
+      "article_type": "观点评论",
+      "keywords": [
+        "OpenCode",
+        "开源",
+        "model-agnostic",
+        "AI编程",
+        "Dax Raad"
+      ],
+      "confidence": 0.95,
+      "reason": "核心是开源AI编程Agent工具OpenCode的架构与创始理念，属于AI/Agent范畴",
+      "extracted_at": "2026-07-27T14:34:26.323924"
+    },
+    {
+      "path": "aiops/07/SLO 落地的工程实践：从 SLI 设计到燃烧率告警的体系化方法",
+      "title": "SLO 落地的工程实践：从 SLI 设计到燃烧率告警的体系化方法",
+      "source_area": "aiops",
+      "summary": "从工程化视角系统梳理SLO落地四核心组件：SLI设计(四类选型矩阵)、错误预算、燃烧率告警(Prometheus规则)、6个月分阶段实施路径，解决SLI选型陷阱、告警噪音平衡和组织落地可行性。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "SLO/SLI",
+      "article_type": "实战复盘",
+      "keywords": [
+        "SLO",
+        "SLI",
+        "燃烧率",
+        "错误预算",
+        "Prometheus"
+      ],
+      "confidence": 0.98,
+      "reason": "SLO体系化落地工程实践，属于AIOps/SRE范畴",
+      "extracted_at": "2026-07-27T14:34:26.323927"
+    },
+    {
+      "path": "aiops/07/企业级全链路SRE稳定性工程体系建设方案",
+      "title": "企业级全链路SRE稳定性工程体系建设方案",
+      "source_area": "aiops",
+      "summary": "构建面向云原生/混合多云/信创的全域SRE韧性工程体系：五大指导思想(故障客观规律/AI动态错误预算/用户体验度量/左移防御/AI原生自治)、一体两翼三层四域架构，覆盖稳定性+安全+信创一体化治理。",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "稳定性体系",
+      "article_type": "方法论",
+      "keywords": [
+        "SRE",
+        "稳定性工程",
+        "韧性体系",
+        "AIOps",
+        "信创"
+      ],
+      "confidence": 0.95,
+      "reason": "企业级SRE稳定性工程体系建设方案，属于AIOps/SRE范畴",
+      "extracted_at": "2026-07-27T14:34:26.323932"
+    },
+    {
+      "path": "2026/07/MEM工程管理论文开题答辩及盲审环节中必挂问题!",
+      "title": "MEM工程管理论文开题答辩及盲审环节中必挂问题!",
+      "source_area": "inbox",
+      "summary": "系统梳理 MEM 工程管理论文开题答辩和盲审环节的高频必挂问题，包括选题偏离 MEM 定位、假大空无工程载体、数据造假、理论两张皮等雷区，附避坑指南。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "开题盲审",
+      "article_type": "方法论",
+      "keywords": [
+        "MEM",
+        "开题答辩",
+        "盲审",
+        "工程管理"
+      ],
+      "confidence": 0.95,
+      "reason": "文章围绕 MEM 论文开题和盲审的常见挂因展开，属于论文写作方法论",
+      "extracted_at": "2026-07-27T17:07:54.945981"
+    },
+    {
+      "path": "2026/07/MEM毕业论文模型该怎么挑？",
+      "title": "MEM毕业论文模型该怎么挑？",
+      "source_area": "inbox",
+      "summary": "指导 MEM 毕业论文如何选择研究模型，涵盖模型与问题匹配、理论支撑、数据可得性、模型组合策略、创新程度把控及案例适配六个维度。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "模型选择",
+      "article_type": "方法论",
+      "keywords": [
+        "MEM",
+        "毕业论文",
+        "模型选择",
+        "DEA",
+        "AHP"
+      ],
+      "confidence": 0.95,
+      "reason": "文章系统讲解 MEM 论文中模型选择的方法论，属于论文写作指导",
+      "extracted_at": "2026-07-27T17:07:54.946007"
+    },
+    {
+      "path": "2026/07/超级个体时代｜腾讯研究院3万字报告",
+      "title": "超级个体时代｜腾讯研究院3万字报告",
+      "source_area": "inbox",
+      "summary": "腾讯研究院 3 万字报告，从个体觉醒、能力溢出、团队涌现到组织启示，系统论述 AI 时代超级个体的诞生与超级团队的形成机制，包含大量企业调研案例。",
+      "primary_category": "industry",
+      "primary_category_name": "产业/游戏",
+      "sub_topic": "AI组织变革",
+      "article_type": "行业资讯",
+      "keywords": [
+        "超级个体",
+        "AI转型",
+        "组织变革",
+        "腾讯研究院",
+        "AI原生"
+      ],
+      "confidence": 0.9,
+      "reason": "腾讯研究院发布的行业观察报告，核心是 AI 时代组织与个体的变革趋势",
+      "extracted_at": "2026-07-27T17:07:54.946013"
     }
   ]
 }

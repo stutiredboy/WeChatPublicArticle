@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: km_tool
+title: 知识库文章扫描与 LLM 分类工具
+scope:
+    - km/
+source_files: []
+depends_on: []
+related_to:
+    - path: aiops_articles
+    - path: articles_2026
+    - path: gpu_tpu_articles
+    - path: mem_articles

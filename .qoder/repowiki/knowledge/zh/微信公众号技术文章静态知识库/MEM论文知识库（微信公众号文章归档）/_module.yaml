@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: mem_articles
+title: MEM论文知识库（微信公众号文章归档）
+scope:
+    - mem/
+source_files: []
+depends_on: []
+related_to:
+    - path: aiops_articles
+    - path: articles_2026
+    - path: gpu_tpu_articles
+    - path: km_tool

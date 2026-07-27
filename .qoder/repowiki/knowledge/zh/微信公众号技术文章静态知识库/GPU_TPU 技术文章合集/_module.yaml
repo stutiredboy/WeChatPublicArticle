@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: gpu_tpu_articles
+title: GPU/TPU 技术文章合集
+scope:
+    - gpu-tpu/
+source_files: []
+depends_on: []
+related_to:
+    - path: aiops_articles
+    - path: articles_2026
+    - path: km_tool
+    - path: mem_articles

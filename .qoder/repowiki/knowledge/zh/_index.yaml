@@ -1,0 +1,95 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: zh-CN
+branch: main
+nodes_managed: true
+exported_at: "2026-07-26T13:40:36Z"
+modules:
+    "":
+        dir_name: 微信公众号技术文章静态知识库
+        title: 微信公众号技术文章静态知识库
+        scope:
+            - README.md
+            - AGENTS.md
+            - CLAUDE.md
+            - .gitignore
+            - knowledge_index.json
+            - taxonomy.yaml
+            - .env.example
+            - INDEX.md
+            - LICENSE
+            - WeChatArticleDownloader-1.4.4.dmg
+        source_files: []
+        children:
+            - aiops_articles
+            - articles_2026
+            - gpu_tpu_articles
+            - km_tool
+            - mem_articles
+        depends_on: []
+        related_to: []
+    aiops_articles:
+        dir_name: AIOps 技术文章与案例库
+        title: AIOps 技术文章与案例库
+        scope:
+            - aiops/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: articles_2026
+            - path: gpu_tpu_articles
+            - path: km_tool
+            - path: mem_articles
+    articles_2026:
+        dir_name: 2026年微信公众号技术文章源文件库
+        title: 2026年微信公众号技术文章源文件库
+        scope:
+            - 2026/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: aiops_articles
+            - path: gpu_tpu_articles
+            - path: km_tool
+            - path: mem_articles
+    gpu_tpu_articles:
+        dir_name: GPU_TPU 技术文章合集
+        title: GPU/TPU 技术文章合集
+        scope:
+            - gpu-tpu/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: aiops_articles
+            - path: articles_2026
+            - path: km_tool
+            - path: mem_articles
+    km_tool:
+        dir_name: 知识库文章扫描与 LLM 分类工具
+        title: 知识库文章扫描与 LLM 分类工具
+        scope:
+            - km/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: aiops_articles
+            - path: articles_2026
+            - path: gpu_tpu_articles
+            - path: mem_articles
+    mem_articles:
+        dir_name: MEM论文知识库（微信公众号文章归档）
+        title: MEM论文知识库（微信公众号文章归档）
+        scope:
+            - mem/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: aiops_articles
+            - path: articles_2026
+            - path: gpu_tpu_articles
+            - path: km_tool
