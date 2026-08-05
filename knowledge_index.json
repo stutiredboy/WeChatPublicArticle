@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T17:32:29.108395",
-  "total": 246,
+  "generated_at": "2026-08-05T16:35:54.484597",
+  "total": 256,
   "articles": [
     {
       "path": "2026/02/GPUDirect RDMA技术详解",
@@ -4636,6 +4636,204 @@
       "confidence": 0.95,
       "reason": "核心是 MEM 毕业论文研究模型的选择方法论",
       "extracted_at": "2026-07-27T17:32:22.451868"
+    },
+    {
+      "path": "2026/07/MEM论文中，哪些研究方法和工具容易因缺乏深度被质疑？",
+      "title": "MEM论文中，哪些研究方法和工具容易因缺乏深度被质疑？",
+      "source_area": "inbox",
+      "summary": "分析MEM论文中问卷SPSS、AHP模糊评价、SWOT等基础工具、Python/机器学习、案例分析等五类方法容易被判定深度不足的常见问题，并给出优化建议。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "研究方法深度",
+      "article_type": "方法论",
+      "keywords": [
+        "MEM",
+        "论文写作",
+        "研究方法",
+        "AHP",
+        "问卷调研"
+      ],
+      "confidence": 0.98,
+      "reason": "直接讨论MEM论文研究方法的深度要求与常见坑点",
+      "extracted_at": "2026-08-05T16:34:21.663265"
+    },
+    {
+      "path": "2026/07/一文讲清 FP64、FP32、TF32、BF16、FP16、FP8、INT8、INT4、NVFP4",
+      "title": "一文讲清 FP64、FP32、TF32、BF16、FP16、FP8、INT8、INT4、NVFP4",
+      "source_area": "inbox",
+      "summary": "用π的比喻通俗讲解AI芯片中各种数值精度格式的含义、显存占用与速度取舍，覆盖FP64到NVFP4的全部格式。",
+      "primary_category": "gpu-tpu",
+      "primary_category_name": "GPU/TPU/算力硬件",
+      "sub_topic": "数值精度格式",
+      "article_type": "教程指南",
+      "keywords": [
+        "GPU",
+        "数值精度",
+        "FP8",
+        "BF16",
+        "量化"
+      ],
+      "confidence": 0.95,
+      "reason": "系统讲解GPU/AI芯片的数值精度格式体系",
+      "extracted_at": "2026-08-05T16:34:21.663295"
+    },
+    {
+      "path": "2026/07/加快推进IPv6单栈部署恰逢其时",
+      "title": "加快推进IPv6单栈部署恰逢其时",
+      "source_area": "inbox",
+      "summary": "第五届中国IPv6创新发展大会论坛报道，倡导从IPv4/IPv6双栈向IPv6单栈演进，提出技术攻关、设施升级等七方面倡议。",
+      "primary_category": "network",
+      "primary_category_name": "网络",
+      "sub_topic": "IPv6演进",
+      "article_type": "行业资讯",
+      "keywords": [
+        "IPv6",
+        "单栈部署",
+        "网络演进"
+      ],
+      "confidence": 0.92,
+      "reason": "IPv6单栈部署的行业政策与会议报道",
+      "extracted_at": "2026-08-05T16:34:21.663301"
+    },
+    {
+      "path": "2026/07/长鑫不是一种必然",
+      "title": "长鑫不是一种必然",
+      "source_area": "inbox",
+      "summary": "从朱一明赴荷兰ASML求购EUV光刻机切入，讲述长鑫存储在中国DRAM芯片产业从零到一的艰难创业历程，以及紫光赵伟国的对比故事。",
+      "primary_category": "industry",
+      "primary_category_name": "产业/游戏",
+      "sub_topic": "半导体产业",
+      "article_type": "观点评论",
+      "keywords": [
+        "长鑫存储",
+        "DRAM",
+        "半导体",
+        "朱一明",
+        "国产芯片"
+      ],
+      "confidence": 0.92,
+      "reason": "中国存储芯片产业发展史的深度长文",
+      "extracted_at": "2026-08-05T16:34:21.663307"
+    },
+    {
+      "path": "2026/08/Agent Infra 赛道更新，一年后为 Agent 设计的基建发展如何？",
+      "title": "Agent Infra 赛道更新，一年后为 Agent 设计的基建发展如何？",
+      "source_area": "inbox",
+      "summary": "回顾Agent Infra赛道一年变化，分析从Cloud Hosting到Agent Runtime的演进，核心判断Runtime、Identity、Eval、Search、Payment、Context六个方向的机会与挑战。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent基础设施",
+      "article_type": "行业资讯",
+      "keywords": [
+        "Agent",
+        "基础设施",
+        "Runtime",
+        "MCP",
+        "Agent Infra"
+      ],
+      "confidence": 0.95,
+      "reason": "系统分析Agent基础设施赛道格局与演进趋势",
+      "extracted_at": "2026-08-05T16:34:21.663310"
+    },
+    {
+      "path": "2026/08/MEM硕士专业学位论文写作常用分析方法-结构方程模型",
+      "title": "MEM硕士专业学位论文写作常用分析方法-结构方程模型",
+      "source_area": "inbox",
+      "summary": "详解结构方程模型（SEM）在MEM论文中的适用场景、CB-SEM与PLS-SEM选择、标准写作结构、高频坑点及工具汇报要点。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "结构方程模型",
+      "article_type": "方法论",
+      "keywords": [
+        "MEM",
+        "结构方程模型",
+        "SEM",
+        "PLS-SEM",
+        "论文方法"
+      ],
+      "confidence": 0.98,
+      "reason": "专门讲解MEM论文中SEM方法的写作规范",
+      "extracted_at": "2026-08-05T16:34:21.663314"
+    },
+    {
+      "path": "2026/08/MEM｜46.我的MEM论文AI本地知识库",
+      "title": "MEM｜46.我的MEM论文AI本地知识库",
+      "source_area": "inbox",
+      "summary": "介绍用Obsidian+ClaudeCode在本地搭建MEM论文AI知识库的完整方案，包括三层架构（raw/wiki/schema）、AI自动编译论文笔记、知识图谱关联等核心功能。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "AI知识库",
+      "article_type": "方法论",
+      "keywords": [
+        "MEM",
+        "AI知识库",
+        "Obsidian",
+        "ClaudeCode",
+        "文献管理"
+      ],
+      "confidence": 0.97,
+      "reason": "MEM论文写作工具链搭建实践，基于AI+Obsidian构建本地知识库",
+      "extracted_at": "2026-08-05T16:34:21.663318"
+    },
+    {
+      "path": "mem/2026/07/MEM论文中，哪些研究方法和工具容易因缺乏深度被质疑？",
+      "title": "MEM论文中，哪些研究方法和工具容易因缺乏深度被质疑？",
+      "source_area": "mem",
+      "summary": "分析MEM论文中问卷SPSS、AHP模糊评价、SWOT等基础工具、Python/机器学习、案例分析等五类方法容易被判定深度不足的常见问题，并给出优化建议。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "研究方法深度",
+      "article_type": "方法论",
+      "keywords": [
+        "MEM",
+        "论文写作",
+        "研究方法",
+        "AHP",
+        "问卷调研"
+      ],
+      "confidence": 0.98,
+      "reason": "直接讨论MEM论文研究方法的深度要求与常见坑点",
+      "extracted_at": "2026-08-05T16:35:44.261260"
+    },
+    {
+      "path": "mem/2026/08/MEM硕士专业学位论文写作常用分析方法-结构方程模型",
+      "title": "MEM硕士专业学位论文写作常用分析方法-结构方程模型",
+      "source_area": "mem",
+      "summary": "详解结构方程模型（SEM）在MEM论文中的适用场景、CB-SEM与PLS-SEM选择、标准写作结构、高频坑点及工具汇报要点。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "结构方程模型",
+      "article_type": "方法论",
+      "keywords": [
+        "MEM",
+        "结构方程模型",
+        "SEM",
+        "PLS-SEM",
+        "论文方法"
+      ],
+      "confidence": 0.98,
+      "reason": "专门讲解MEM论文中SEM方法的写作规范",
+      "extracted_at": "2026-08-05T16:35:44.261278"
+    },
+    {
+      "path": "mem/2026/08/MEM｜46.我的MEM论文AI本地知识库",
+      "title": "MEM｜46.我的MEM论文AI本地知识库",
+      "source_area": "mem",
+      "summary": "介绍用Obsidian+ClaudeCode在本地搭建MEM论文AI知识库的完整方案，包括三层架构（raw/wiki/schema）、AI自动编译论文笔记、知识图谱关联等核心功能。",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "AI知识库",
+      "article_type": "方法论",
+      "keywords": [
+        "MEM",
+        "AI知识库",
+        "Obsidian",
+        "ClaudeCode",
+        "文献管理"
+      ],
+      "confidence": 0.97,
+      "reason": "MEM论文写作工具链搭建实践，基于AI+Obsidian构建本地知识库",
+      "extracted_at": "2026-08-05T16:35:44.261285"
     }
   ]
 }
