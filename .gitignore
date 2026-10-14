@@ -10,3 +10,6 @@ build_wiki.py
 非全日制MEM毕业论文实战指南_SCUT阅读版.pdf
 .gstack/
 AI赋能运维质量_MEM论文选题建议报告.md
+
+# md2 渲染预览临时文件
+.md2-preview-*.html

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-05T16:35:54.484597",
-  "total": 256,
+  "generated_at": "2026-10-14T12:05:19.912394",
+  "total": 272,
   "articles": [
     {
       "path": "2026/02/GPUDirect RDMA技术详解",
@@ -4541,45 +4541,6 @@
       "extracted_at": "2026-07-27T14:34:26.323932"
     },
     {
-      "path": "2026/07/MEM工程管理论文开题答辩及盲审环节中必挂问题!",
-      "title": "MEM工程管理论文开题答辩及盲审环节中必挂问题!",
-      "source_area": "inbox",
-      "summary": "系统梳理 MEM 工程管理论文开题答辩和盲审环节的高频必挂问题，包括选题偏离 MEM 定位、假大空无工程载体、数据造假、理论两张皮等雷区，附避坑指南。",
-      "primary_category": "mem-thesis",
-      "primary_category_name": "MEM/论文写作",
-      "sub_topic": "开题盲审",
-      "article_type": "方法论",
-      "keywords": [
-        "MEM",
-        "开题答辩",
-        "盲审",
-        "工程管理"
-      ],
-      "confidence": 0.95,
-      "reason": "文章围绕 MEM 论文开题和盲审的常见挂因展开，属于论文写作方法论",
-      "extracted_at": "2026-07-27T17:07:54.945981"
-    },
-    {
-      "path": "2026/07/MEM毕业论文模型该怎么挑？",
-      "title": "MEM毕业论文模型该怎么挑？",
-      "source_area": "inbox",
-      "summary": "指导 MEM 毕业论文如何选择研究模型，涵盖模型与问题匹配、理论支撑、数据可得性、模型组合策略、创新程度把控及案例适配六个维度。",
-      "primary_category": "mem-thesis",
-      "primary_category_name": "MEM/论文写作",
-      "sub_topic": "模型选择",
-      "article_type": "方法论",
-      "keywords": [
-        "MEM",
-        "毕业论文",
-        "模型选择",
-        "DEA",
-        "AHP"
-      ],
-      "confidence": 0.95,
-      "reason": "文章系统讲解 MEM 论文中模型选择的方法论，属于论文写作指导",
-      "extracted_at": "2026-07-27T17:07:54.946007"
-    },
-    {
       "path": "2026/07/超级个体时代｜腾讯研究院3万字报告",
       "title": "超级个体时代｜腾讯研究院3万字报告",
       "source_area": "inbox",
@@ -4636,26 +4597,6 @@
       "confidence": 0.95,
       "reason": "核心是 MEM 毕业论文研究模型的选择方法论",
       "extracted_at": "2026-07-27T17:32:22.451868"
-    },
-    {
-      "path": "2026/07/MEM论文中，哪些研究方法和工具容易因缺乏深度被质疑？",
-      "title": "MEM论文中，哪些研究方法和工具容易因缺乏深度被质疑？",
-      "source_area": "inbox",
-      "summary": "分析MEM论文中问卷SPSS、AHP模糊评价、SWOT等基础工具、Python/机器学习、案例分析等五类方法容易被判定深度不足的常见问题，并给出优化建议。",
-      "primary_category": "mem-thesis",
-      "primary_category_name": "MEM/论文写作",
-      "sub_topic": "研究方法深度",
-      "article_type": "方法论",
-      "keywords": [
-        "MEM",
-        "论文写作",
-        "研究方法",
-        "AHP",
-        "问卷调研"
-      ],
-      "confidence": 0.98,
-      "reason": "直接讨论MEM论文研究方法的深度要求与常见坑点",
-      "extracted_at": "2026-08-05T16:34:21.663265"
     },
     {
       "path": "2026/07/一文讲清 FP64、FP32、TF32、BF16、FP16、FP8、INT8、INT4、NVFP4",
@@ -4736,46 +4677,6 @@
       "extracted_at": "2026-08-05T16:34:21.663310"
     },
     {
-      "path": "2026/08/MEM硕士专业学位论文写作常用分析方法-结构方程模型",
-      "title": "MEM硕士专业学位论文写作常用分析方法-结构方程模型",
-      "source_area": "inbox",
-      "summary": "详解结构方程模型（SEM）在MEM论文中的适用场景、CB-SEM与PLS-SEM选择、标准写作结构、高频坑点及工具汇报要点。",
-      "primary_category": "mem-thesis",
-      "primary_category_name": "MEM/论文写作",
-      "sub_topic": "结构方程模型",
-      "article_type": "方法论",
-      "keywords": [
-        "MEM",
-        "结构方程模型",
-        "SEM",
-        "PLS-SEM",
-        "论文方法"
-      ],
-      "confidence": 0.98,
-      "reason": "专门讲解MEM论文中SEM方法的写作规范",
-      "extracted_at": "2026-08-05T16:34:21.663314"
-    },
-    {
-      "path": "2026/08/MEM｜46.我的MEM论文AI本地知识库",
-      "title": "MEM｜46.我的MEM论文AI本地知识库",
-      "source_area": "inbox",
-      "summary": "介绍用Obsidian+ClaudeCode在本地搭建MEM论文AI知识库的完整方案，包括三层架构（raw/wiki/schema）、AI自动编译论文笔记、知识图谱关联等核心功能。",
-      "primary_category": "mem-thesis",
-      "primary_category_name": "MEM/论文写作",
-      "sub_topic": "AI知识库",
-      "article_type": "方法论",
-      "keywords": [
-        "MEM",
-        "AI知识库",
-        "Obsidian",
-        "ClaudeCode",
-        "文献管理"
-      ],
-      "confidence": 0.97,
-      "reason": "MEM论文写作工具链搭建实践，基于AI+Obsidian构建本地知识库",
-      "extracted_at": "2026-08-05T16:34:21.663318"
-    },
-    {
       "path": "mem/2026/07/MEM论文中，哪些研究方法和工具容易因缺乏深度被质疑？",
       "title": "MEM论文中，哪些研究方法和工具容易因缺乏深度被质疑？",
       "source_area": "mem",
@@ -4834,6 +4735,415 @@
       "confidence": 0.97,
       "reason": "MEM论文写作工具链搭建实践，基于AI+Obsidian构建本地知识库",
       "extracted_at": "2026-08-05T16:35:44.261285"
+    },
+    {
+      "path": "aiops/08/AI 赋能算力运维：智能巡检、故障预警、动环监控落地全方案",
+      "title": "AI 赋能算力运维：智能巡检、故障预警、动环监控落地全方案",
+      "source_area": "aiops",
+      "summary": "算力中心智能运维落地方案，属 AIOps/智能运维范畴",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "智能巡检",
+      "article_type": "实战复盘",
+      "keywords": [
+        "算力运维",
+        "智能巡检",
+        "故障预警",
+        "动环监控"
+      ],
+      "confidence": 0.9,
+      "reason": "算力中心智能运维落地方案，属 AIOps/智能运维范畴",
+      "extracted_at": "2026-10-14T11:40:21.541754"
+    },
+    {
+      "path": "aiops/08/SMART + LSTM 磁盘故障预测：提前 7 天预警，准确率 92%",
+      "title": "SMART + LSTM 磁盘故障预测：提前 7 天预警，准确率 92%",
+      "source_area": "aiops",
+      "summary": "基于 SMART 时序数据的磁盘故障预测，属运维故障预警",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "磁盘故障预测",
+      "article_type": "实战复盘",
+      "keywords": [
+        "SMART",
+        "LSTM",
+        "磁盘故障预测",
+        "Backblaze",
+        "误报率"
+      ],
+      "confidence": 0.9,
+      "reason": "基于 SMART 时序数据的磁盘故障预测，属运维故障预警",
+      "extracted_at": "2026-10-14T11:40:21.541789"
+    },
+    {
+      "path": "aiops/08/基于SPIFFE 智能体身份研究报告——聚焦智能体身份的构建方法与落地思路",
+      "title": "基于SPIFFE 智能体身份研究报告——聚焦智能体身份的构建方法与落地思路",
+      "source_area": "aiops",
+      "summary": "面向 Agent 的工作负载身份与鉴权体系，属 Agent 安全鉴权",
+      "primary_category": "security",
+      "primary_category_name": "安全/合规",
+      "sub_topic": "智能体身份",
+      "article_type": "技术深度",
+      "keywords": [
+        "SPIFFE",
+        "智能体身份",
+        "SVID",
+        "零信任",
+        "A2A"
+      ],
+      "confidence": 0.85,
+      "reason": "面向 Agent 的工作负载身份与鉴权体系，属 Agent 安全鉴权",
+      "extracted_at": "2026-10-14T11:40:21.541794"
+    },
+    {
+      "path": "aiops/08/揭秘！Agent潜伏两个月联手作案，OpenAI还原安全事故全过程",
+      "title": "揭秘！Agent潜伏两个月联手作案，OpenAI还原安全事故全过程",
+      "source_area": "aiops",
+      "summary": "多 Agent 协同越权的安全事故复盘，供 Agent 安全运营参考",
+      "primary_category": "security",
+      "primary_category_name": "安全/合规",
+      "sub_topic": "Agent安全事件",
+      "article_type": "实战复盘",
+      "keywords": [
+        "Agent安全",
+        "SSRF",
+        "越权",
+        "多Agent协同",
+        "事故复盘"
+      ],
+      "confidence": 0.8,
+      "reason": "多 Agent 协同越权的安全事故复盘，供 Agent 安全运营参考",
+      "extracted_at": "2026-10-14T11:40:21.541798"
+    },
+    {
+      "path": "aiops/08/运维 agent skills 为什么我更青睐 cli",
+      "title": "运维 agent skills 为什么我更青睐 cli",
+      "source_area": "aiops",
+      "summary": "运维 Skill 与 CLI 的工程取舍，属运维 Agent 落地",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "CLI/Skills",
+      "article_type": "观点评论",
+      "keywords": [
+        "运维Skill",
+        "CLI",
+        "确定性执行",
+        "流程编排"
+      ],
+      "confidence": 0.85,
+      "reason": "运维 Skill 与 CLI 的工程取舍，属运维 Agent 落地",
+      "extracted_at": "2026-10-14T11:40:21.541802"
+    },
+    {
+      "path": "aiops/09/Agent正确率从26%飙到70%，最近爆火的EvoX有东西啊",
+      "title": "Agent正确率从26%飙到70%，最近爆火的EvoX有东西啊",
+      "source_area": "aiops",
+      "summary": "去中心化蜂群 vs Sub-Agent 的多 Agent 编排对比",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "多Agent协同",
+      "article_type": "技术深度",
+      "keywords": [
+        "EvoX",
+        "蜂群协作",
+        "多Agent",
+        "去中心化",
+        "Sub-Agent"
+      ],
+      "confidence": 0.75,
+      "reason": "去中心化蜂群 vs Sub-Agent 的多 Agent 编排对比",
+      "extracted_at": "2026-10-14T11:40:21.541809"
+    },
+    {
+      "path": "aiops/09/我用 Obsidian 搭了一套 Agent 知识系统，保姆教程来了！",
+      "title": "我用 Obsidian 搭了一套 Agent 知识系统，保姆教程来了！",
+      "source_area": "aiops",
+      "summary": "面向 Agent 检索的团队知识库维护实践，属 Agent 记忆/知识基建",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent知识库",
+      "article_type": "教程指南",
+      "keywords": [
+        "Obsidian",
+        "知识库",
+        "Agent工作流",
+        "双链",
+        "检索"
+      ],
+      "confidence": 0.7,
+      "reason": "面向 Agent 检索的团队知识库维护实践，属 Agent 记忆/知识基建",
+      "extracted_at": "2026-10-14T11:40:21.541813"
+    },
+    {
+      "path": "aiops/09/有编制的Agent，才是好用的Agent",
+      "title": "有编制的Agent，才是好用的Agent",
+      "source_area": "aiops",
+      "summary": "企业级 Agent 规模化落地的组织与治理视角",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "企业Agent落地",
+      "article_type": "观点评论",
+      "keywords": [
+        "企业级Agent",
+        "Agent编制",
+        "落地断层",
+        "组织"
+      ],
+      "confidence": 0.8,
+      "reason": "企业级 Agent 规模化落地的组织与治理视角",
+      "extracted_at": "2026-10-14T11:40:21.541817"
+    },
+    {
+      "path": "aiops/09/某集团IT运维知识RAG库与故障自愈智能体AIOps平台建设方案（WORD）",
+      "title": "某集团IT运维知识RAG库与故障自愈智能体AIOps平台建设方案（WORD）",
+      "source_area": "aiops",
+      "summary": "运维知识 RAG 库与故障自愈智能体的平台建设方案",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "AIOps平台方案",
+      "article_type": "技术深度",
+      "keywords": [
+        "AIOps",
+        "RAG",
+        "故障自愈",
+        "告警收敛",
+        "工单闭环"
+      ],
+      "confidence": 0.9,
+      "reason": "运维知识 RAG 库与故障自愈智能体的平台建设方案",
+      "extracted_at": "2026-10-14T11:40:21.541821"
+    },
+    {
+      "path": "aiops/09/深入解析 googleax当 Agent 变成 Kubernetes 的一等公民",
+      "title": "深入解析 googleax当 Agent 变成 Kubernetes 的一等公民",
+      "source_area": "aiops",
+      "summary": "Google AX 让 Agent 成为集群一等公民的架构解析",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent Infra",
+      "article_type": "技术深度",
+      "keywords": [
+        "google/ax",
+        "Kubernetes",
+        "声明式编排",
+        "控制平面",
+        "沙箱"
+      ],
+      "confidence": 0.9,
+      "reason": "Google AX 让 Agent 成为集群一等公民的架构解析",
+      "extracted_at": "2026-10-14T11:40:21.541825"
+    },
+    {
+      "path": "aiops/09/谷歌云崩了 4 小时：竟因工程师连拔 13 分钟光纤，断开了全部连接",
+      "title": "谷歌云崩了 4 小时：竟因工程师连拔 13 分钟光纤，断开了全部连接",
+      "source_area": "aiops",
+      "summary": "维护操作失误导致可用区 4 小时故障的复盘",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "故障复盘",
+      "article_type": "实战复盘",
+      "keywords": [
+        "谷歌云",
+        "光纤",
+        "维护失误",
+        "可用区",
+        "冗余链路"
+      ],
+      "confidence": 0.9,
+      "reason": "维护操作失误导致可用区 4 小时故障的复盘",
+      "extracted_at": "2026-10-14T11:40:21.541829"
+    },
+    {
+      "path": "aiops/10/P0 定位从 40 分钟压到 6 分钟：指标、日志、链路、变更，让 AI 一次看全",
+      "title": "P0 定位从 40 分钟压到 6 分钟：指标、日志、链路、变更，让 AI 一次看全",
+      "source_area": "aiops",
+      "summary": "指标/日志/链路/变更四源融合加速 P0 定位",
+      "primary_category": "aiops-sre",
+      "primary_category_name": "AIOps/SRE",
+      "sub_topic": "故障定位",
+      "article_type": "实战复盘",
+      "keywords": [
+        "P0",
+        "根因定位",
+        "可观测性",
+        "四源融合",
+        "LLM"
+      ],
+      "confidence": 0.92,
+      "reason": "指标/日志/链路/变更四源融合加速 P0 定位",
+      "extracted_at": "2026-10-14T11:40:21.541834"
+    },
+    {
+      "path": "mem/2026/08/干货：如何写好文献综述 Literature review",
+      "title": "干货：如何写好文献综述 Literature review",
+      "source_area": "mem",
+      "summary": "文献综述写作要点：批判性、框架、hedges 与时态",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "文献综述",
+      "article_type": "方法论",
+      "keywords": [
+        "文献综述",
+        "criticality",
+        "hedges",
+        "时态"
+      ],
+      "confidence": 0.9,
+      "reason": "文献综述写作要点：批判性、框架、hedges 与时态",
+      "extracted_at": "2026-10-14T11:40:21.541838"
+    },
+    {
+      "path": "mem/2026/08/没项目、没素材、没经历？如何灵帧起手写MEM论文？",
+      "title": "没项目、没素材、没经历？如何灵帧起手写MEM论文？",
+      "source_area": "mem",
+      "summary": "无项目背景下的 MEM 论文选题与写作逻辑",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "选题",
+      "article_type": "方法论",
+      "keywords": [
+        "MEM",
+        "无项目写作",
+        "选题",
+        "管理问题"
+      ],
+      "confidence": 0.92,
+      "reason": "无项目背景下的 MEM 论文选题与写作逻辑",
+      "extracted_at": "2026-10-14T11:40:21.541843"
+    },
+    {
+      "path": "mem/2026/08/经典DOE、田口DOE、谢宁DOE三种方法的比较：原理、工具与适用场景一次讲清",
+      "title": "经典DOE、田口DOE、谢宁DOE三种方法的比较：原理、工具与适用场景一次讲清",
+      "source_area": "mem",
+      "summary": "三种 DOE 方法的定位与适用场景，属质量管理研究方法",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "质量方法",
+      "article_type": "方法论",
+      "keywords": [
+        "DOE",
+        "田口方法",
+        "谢宁",
+        "质量改进",
+        "试验设计"
+      ],
+      "confidence": 0.75,
+      "reason": "三种 DOE 方法的定位与适用场景，属质量管理研究方法",
+      "extracted_at": "2026-10-14T11:40:21.541847"
+    },
+    {
+      "path": "mem/2026/09/MBAMEM开题盲审：开题过不过，教授就看这13个勾",
+      "title": "MBAMEM开题盲审：开题过不过，教授就看这13个勾",
+      "source_area": "mem",
+      "summary": "拆解开题报告质量审查表的 13 项评价与常见雷区",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "开题盲审",
+      "article_type": "方法论",
+      "keywords": [
+        "开题",
+        "盲审",
+        "审查表",
+        "评价项"
+      ],
+      "confidence": 0.9,
+      "reason": "拆解开题报告质量审查表的 13 项评价与常见雷区",
+      "extracted_at": "2026-10-14T11:40:21.541851"
+    },
+    {
+      "path": "mem/2026/09/总结！管理类硕士论文问卷调查怎么用毕业生都在偷偷用这5步！",
+      "title": "总结！管理类硕士论文问卷调查怎么用毕业生都在偷偷用这5步！",
+      "source_area": "mem",
+      "summary": "管理类硕士论文问卷调查的 5 步落地做法",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "问卷方法",
+      "article_type": "方法论",
+      "keywords": [
+        "问卷调查",
+        "量表",
+        "假设",
+        "预测试"
+      ],
+      "confidence": 0.9,
+      "reason": "管理类硕士论文问卷调查的 5 步落地做法",
+      "extracted_at": "2026-10-14T11:40:21.541855"
+    },
+    {
+      "path": "mem/2026/09/文献综述写得很差，真心建议看看这篇文章",
+      "title": "文献综述写得很差，真心建议看看这篇文章",
+      "source_area": "mem",
+      "summary": "从 Review≠Summary 出发的批判性文献综述写法",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "文献综述",
+      "article_type": "方法论",
+      "keywords": [
+        "文献综述",
+        "批判性分析",
+        "研究空白"
+      ],
+      "confidence": 0.9,
+      "reason": "从 Review≠Summary 出发的批判性文献综述写法",
+      "extracted_at": "2026-10-14T11:40:21.541859"
+    },
+    {
+      "path": "mem/2026/09/文献综述的核心写作逻辑",
+      "title": "文献综述的核心写作逻辑",
+      "source_area": "mem",
+      "summary": "文献综述的底层逻辑：梳理—批判—引出研究价值",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "文献综述",
+      "article_type": "方法论",
+      "keywords": [
+        "文献综述",
+        "写作逻辑",
+        "研究价值"
+      ],
+      "confidence": 0.9,
+      "reason": "文献综述的底层逻辑：梳理—批判—引出研究价值",
+      "extracted_at": "2026-10-14T11:40:21.541863"
+    },
+    {
+      "path": "mem/2026/09/质量工程师必须掌握的9个统计概念：中心极限定理、置信区间、假设检验、t检验、卡方、ANOVA、相关与回归一次讲清！",
+      "title": "质量工程师必须掌握的9个统计概念：中心极限定理、置信区间、假设检验、t检验、卡方、ANOVA、相关与回归一次讲清！",
+      "source_area": "mem",
+      "summary": "质量分析与论文数据分析常用的 9 个统计概念",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "统计方法",
+      "article_type": "方法论",
+      "keywords": [
+        "中心极限定理",
+        "假设检验",
+        "ANOVA",
+        "回归",
+        "六西格玛"
+      ],
+      "confidence": 0.75,
+      "reason": "质量分析与论文数据分析常用的 9 个统计概念",
+      "extracted_at": "2026-10-14T11:40:21.541867"
+    },
+    {
+      "path": "mem/2026/10/视角 高科技企业研发人员客观业绩评价与激励的探讨——网易研发管理机制案例",
+      "title": "视角 高科技企业研发人员客观业绩评价与激励的探讨——网易研发管理机制案例",
+      "source_area": "mem",
+      "summary": "网易研发人员量化绩效与激励的案例研究，可作管理类论文案例参考",
+      "primary_category": "mem-thesis",
+      "primary_category_name": "MEM/论文写作",
+      "sub_topic": "管理案例",
+      "article_type": "学术论文",
+      "keywords": [
+        "绩效评价",
+        "积分制",
+        "研发管理",
+        "网易",
+        "案例研究"
+      ],
+      "confidence": 0.7,
+      "reason": "网易研发人员量化绩效与激励的案例研究，可作管理类论文案例参考",
+      "extracted_at": "2026-10-14T11:40:21.541871"
     }
   ]
 }
