@@ -3,6 +3,8 @@ __pycache__/
 .DS_Store
 .playwright-mcp/
 scripts/
+# 允许 skills 目录内的脚本随 skill 一起版本化
+!skills/*/scripts/
 build_wiki.py
 技术图线图.png
 非全日制MEM毕业论文实战指南.html
