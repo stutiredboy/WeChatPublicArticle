@@ -1,12 +1,12 @@
 # 知识库索引
 
-> 自动生成于 2026-10-14 12:05 | 共 272 篇 | 由 km Agent 分类
+> 自动生成于 2026-10-22 13:53 | 共 273 篇 | 由 km Agent 分类
 
 ## 总览
 
 | 分类 | 篇数 |
 |------|------|
-| AI/Agent | 47 |
+| AI/Agent | 48 |
 | AIOps/SRE | 35 |
 | GPU/TPU/算力硬件 | 32 |
 | 存储 | 15 |
@@ -19,7 +19,7 @@
 | 产业/游戏 | 9 |
 | 生活/健康/杂谈 | 21 |
 
-## AI/Agent (47)
+## AI/Agent (48)
 
 Agent 框架、Skills、CLI 化、MCP、上下文/记忆管理、Agent 评估、
 
@@ -98,6 +98,12 @@ Agent 框架、Skills、CLI 化、MCP、上下文/记忆管理、Agent 评估、
 - **龙虾的“记忆” —— 黄东旭谈Agent 时代基础设施的重构** [观点评论] ★
   - 黄东旭谈 Agent 时代基础设施的重构，龙虾的记忆。
   - 关键词: 黄东旭、Agent、基础设施、记忆 | 路径: `aiops/05/龙虾的"记忆" —— 黄东旭谈Agent 时代基础设施的重构/龙虾的“记忆” —— 黄东旭谈Agent 时代基础设施的重构.md`
+
+### Agent工作空间
+
+- **Workspace 与沙箱：给 Agent 一块可控的工作台** [技术深度] ★
+  - 拆解 AgentScope Java 2.0 的 Workspace 目录约定、三种文件系统后端与沙箱隔离机制，说明共享范围、镜像契约及常见使用误区。
+  - 关键词: AgentScope Java、Workspace、Filesystem、沙箱、Harness | 路径: `2026/10/Workspace 与沙箱：给 Agent 一块可控的工作台`
 
 ### Agent政策
 

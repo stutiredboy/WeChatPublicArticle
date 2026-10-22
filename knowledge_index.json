@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-14T12:05:19.912394",
-  "total": 272,
+  "generated_at": "2026-10-22T13:53:57.418846",
+  "total": 273,
   "articles": [
     {
       "path": "2026/02/GPUDirect RDMA技术详解",
@@ -5144,6 +5144,26 @@
       "confidence": 0.7,
       "reason": "网易研发人员量化绩效与激励的案例研究，可作管理类论文案例参考",
       "extracted_at": "2026-10-14T11:40:21.541871"
+    },
+    {
+      "path": "2026/10/Workspace 与沙箱：给 Agent 一块可控的工作台",
+      "title": "Workspace 与沙箱：给 Agent 一块可控的工作台",
+      "source_area": "inbox",
+      "summary": "拆解 AgentScope Java 2.0 的 Workspace 目录约定、三种文件系统后端与沙箱隔离机制，说明共享范围、镜像契约及常见使用误区。",
+      "primary_category": "ai-agent",
+      "primary_category_name": "AI/Agent",
+      "sub_topic": "Agent工作空间",
+      "article_type": "技术深度",
+      "keywords": [
+        "AgentScope Java",
+        "Workspace",
+        "Filesystem",
+        "沙箱",
+        "Harness"
+      ],
+      "confidence": 0.95,
+      "reason": "文章聚焦 Agent 框架的工作空间、文件系统和沙箱实现。",
+      "extracted_at": "2026-10-22T13:53:57.418676"
     }
   ]
 }
