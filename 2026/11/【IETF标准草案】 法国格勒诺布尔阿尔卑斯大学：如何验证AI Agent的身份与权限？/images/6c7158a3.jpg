@@ -1,0 +1,96 @@
+  <svg font-family="-apple-system-body, ui-sans-serif, -apple-system, system-ui, &quot;Segoe UI&quot;, Helvetica, &quot;Apple Color Emoji&quot;, Arial, sans-serif, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;" font-weight="400" data-d-component="svg" fill="currentColor" style="color:rgb(13, 13, 13)" viewBox="0 0 340 310" width="100%" xmlns="http://www.w3.org/2000/svg">
+   <rect x="86" y="12" width="168" height="51" rx="9" fill="#E3EDF9" stroke="#527CA9" stroke-width="1.3">
+   </rect>
+   <text x="170" y="31" font-size="12" font-weight="600" fill="#24466A" text-anchor="middle">
+    
+    
+    
+    Agent Provider
+   </text>
+   <text x="170" y="47" font-size="10" fill="#527CA9" text-anchor="middle">
+    
+    
+    
+    身份注册与更新
+   </text>
+   <path d="M170 63 V92" stroke="#648298" stroke-width="1.6">
+   </path>
+   <path d="M166 85 L170 92 L174 85" stroke="#648298" stroke-width="1.6" fill="none">
+   </path>
+   <rect x="33" y="94" width="274" height="87" rx="11" fill="#DCEFE9" stroke="#418C79" stroke-width="1.6">
+   </rect>
+   <text x="170" y="116" font-size="13" font-weight="700" fill="#245B50" text-anchor="middle">
+    
+    
+    
+    Trustful Mutable Store
+   </text>
+   <text x="170" y="133" font-size="11" fill="#245B50" text-anchor="middle">
+    
+    
+    
+    可信可变存储系统
+   </text>
+   <path d="M51 143 H289" stroke="#91BFB1" stroke-width="1">
+   </path>
+   <text x="170" y="157" font-size="10" fill="#426F65" text-anchor="middle">
+    
+    
+    
+    身份标识 · 公钥 · 元数据 · 委托关系
+   </text>
+   <text x="170" y="171" font-size="9.5" fill="#426F65" text-anchor="middle">
+    
+    
+    
+    可验证完整性 + 受控更新
+   </text>
+   <path d="M102 181 V216 M238 181 V216" stroke="#648298" stroke-width="1.6">
+   </path>
+   <path d="M98 209 L102 216 L106 209 M234 209 L238 216 L242 209" stroke="#648298" stroke-width="1.6" fill="none">
+   </path>
+   <rect x="10" y="218" width="151" height="54" rx="9" fill="#F8E9D4" stroke="#C49253" stroke-width="1.2">
+   </rect>
+   <text x="85.5" y="239" text-anchor="middle" font-size="12" font-weight="600" fill="#815923">
+    
+    
+    
+    Client Agent
+   </text>
+   <text x="85.5" y="255" text-anchor="middle" font-size="10" fill="#815923">
+    
+    
+    
+    客户端智能体
+   </text>
+   <rect x="179" y="218" width="151" height="54" rx="9" fill="#E9E5F5" stroke="#9078B0" stroke-width="1.2">
+   </rect>
+   <text x="254.5" y="239" text-anchor="middle" font-size="12" font-weight="600" fill="#59457F">
+    
+    
+    
+    Service Agent
+   </text>
+   <text x="254.5" y="255" text-anchor="middle" font-size="10" fill="#59457F">
+    
+    
+    
+    服务端智能体
+   </text>
+   <path d="M161 246 H179" stroke="#648298" stroke-width="1.7">
+   </path>
+   <path d="M173 242 L179 246 L173 250" fill="none" stroke="#648298" stroke-width="1.6">
+   </path>
+   <text x="170" y="289" text-anchor="middle" font-size="10" fill="currentColor">
+    
+    
+    
+    身份验证后进行任务交互
+   </text>
+   <text x="170" y="303" text-anchor="middle" font-size="9" fill="#748494">
+    
+    
+    
+    Conceptual architecture
+   </text>
+  </svg>
