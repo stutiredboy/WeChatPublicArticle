@@ -48,7 +48,7 @@
   </p>
 </section>
 
-<!-- ========== BLOCK: 编号大标题 01 (无 table 弹性布局，杜绝微信拉伸) ========== -->
+<!-- ========== BLOCK: 编号大标题 01 ========== -->
 <section data-block="numbered-heading" style="margin:36px 30px 18px;padding-bottom:12px;border-bottom:2px solid #2563eb;line-height:1.5;">
   <span style="display:inline-block;background:#2563eb;color:#ffffff;font-size:20px;font-weight:900;padding:3px 12px;border-radius:4px;font-family:'Helvetica Neue',Arial,sans-serif;letter-spacing:1px;margin-right:8px;vertical-align:2px;line-height:1.2;">01</span>
   <span style="color:#2563eb;font-weight:900;font-size:22px;margin-right:8px;vertical-align:1px;">/</span>
@@ -98,7 +98,7 @@
   </p>
 </section>
 
-<!-- ========== BLOCK: 编号大标题 02 (无 table 弹性布局，杜绝微信拉伸) ========== -->
+<!-- ========== BLOCK: 编号大标题 02 ========== -->
 <section data-block="numbered-heading" style="margin:36px 30px 18px;padding-bottom:12px;border-bottom:2px solid #2563eb;line-height:1.5;">
   <span style="display:inline-block;background:#2563eb;color:#ffffff;font-size:20px;font-weight:900;padding:3px 12px;border-radius:4px;font-family:'Helvetica Neue',Arial,sans-serif;letter-spacing:1px;margin-right:8px;vertical-align:2px;line-height:1.2;">02</span>
   <span style="color:#2563eb;font-weight:900;font-size:22px;margin-right:8px;vertical-align:1px;">/</span>
@@ -112,79 +112,77 @@
     我把 Antigravity Agent（搭载 Gemini 深度推理模型）唤醒。它直接在我的 macOS 终端里执行了一组底层探测指令，抓取了硬件树（<code>ioreg</code>）以及今天下午拔线到重插期间的内核日志：
   </p>
 
-  <!-- 拓扑解析卡片 (采用微信防断行 table 结构 + 固定列宽属性) -->
+  <!-- 拓扑解析卡片 (采用无表框 Flex 结构，纯净无网格线) -->
   <section style="background:#fff;border:1px solid #cbd5e1;padding:18px 20px;margin-bottom:22px;border-radius:6px;">
     <section style="font-weight:bold;font-size:15px;color:#0f172a;margin-bottom:12px;border-bottom:1px dashed #cbd5e1;padding-bottom:8px;">
       🔍 探明硬件拓扑真相
     </section>
-    <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;width:100%;">
-      <tr>
-        <td width="16" style="width:16px;min-width:16px;max-width:16px;vertical-align:top;padding:4px 0;font-size:15px;color:#2563eb;line-height:1.85;">•</td>
-        <td style="padding:4px 0 4px 6px;font-size:14px;color:#475569;line-height:1.85;">
+    <section style="margin-top:6px;">
+      <section style="display:flex;align-items:flex-start;margin:6px 0;">
+        <span style="color:#2563eb;font-weight:bold;font-size:15px;line-height:1.85;margin-right:8px;min-width:12px;">•</span>
+        <section style="flex:1;font-size:14px;color:#475569;line-height:1.85;">
           <strong style="color:#0f172a;">本机：</strong>MacBook Air M5，搭载 Apple M5 芯片；
-        </td>
-      </tr>
-      <tr>
-        <td width="16" style="width:16px;min-width:16px;max-width:16px;vertical-align:top;padding:4px 0;font-size:15px;color:#2563eb;line-height:1.85;">•</td>
-        <td style="padding:4px 0 4px 6px;font-size:14px;color:#475569;line-height:1.85;">
+        </section>
+      </section>
+      <section style="display:flex;align-items:flex-start;margin:6px 0;">
+        <span style="color:#2563eb;font-weight:bold;font-size:15px;line-height:1.85;margin-right:8px;min-width:12px;">•</span>
+        <section style="flex:1;font-size:14px;color:#475569;line-height:1.85;">
           <strong style="color:#0f172a;">Port-USB-C@1：</strong>走真正 40Gb/s 雷电协议连着一台 Mac mini 作为高速雷电网桥，Mac mini 同时向笔记本广播 <code>5V/1.5A (7.5W)</code> 的微弱供电；
-        </td>
-      </tr>
-      <tr>
-        <td width="16" style="width:16px;min-width:16px;max-width:16px;vertical-align:top;padding:4px 0;font-size:15px;color:#2563eb;line-height:1.85;">•</td>
-        <td style="padding:4px 0 4px 6px;font-size:14px;color:#475569;line-height:1.85;">
+        </section>
+      </section>
+      <section style="display:flex;align-items:flex-start;margin:6px 0;">
+        <span style="color:#2563eb;font-weight:bold;font-size:15px;line-height:1.85;margin-right:8px;min-width:12px;">•</span>
+        <section style="flex:1;font-size:14px;color:#475569;line-height:1.85;">
           <strong style="color:#0f172a;">Port-USB-C@2：</strong>连着优派 <code>VX2880-4K-HDU</code> 显示器。<strong>它走的不是雷电协议，而是 USB-C DP Alt Mode（DisplayPort 替代模式）</strong>；
-        </td>
-      </tr>
-      <tr>
-        <td width="16" style="width:16px;min-width:16px;max-width:16px;vertical-align:top;padding:4px 0;font-size:15px;color:#2563eb;line-height:1.85;">•</td>
-        <td style="padding:4px 0 4px 6px;font-size:14px;color:#475569;line-height:1.85;">
+        </section>
+      </section>
+      <section style="display:flex;align-items:flex-start;margin:6px 0;">
+        <span style="color:#2563eb;font-weight:bold;font-size:15px;line-height:1.85;margin-right:8px;min-width:12px;">•</span>
+        <section style="flex:1;font-size:14px;color:#475569;line-height:1.85;">
           <strong style="color:#0f172a;">芯片级硬件：</strong>显示器内部搭载了一颗<strong>台湾立锜（Richtek）TCPC 供电控制芯片</strong>（<code>VID=0x29cf</code>），同时向 MacBook 提供 65W (20V/3.25A) 反向快充。
-        </td>
-      </tr>
-    </table>
+        </section>
+      </section>
+    </section>
   </section>
 
   <p style="margin:0 0 16px;font-size:16px;line-height:2.05;color:#334155;">
     紧接着，AI 逐毫秒对齐了 <strong>15:39:09 插线瞬间至 15:41:49</strong> 的完整内核日志，把整场悲剧还原成了精准的时间线：
   </p>
 
-  <!-- 流程步骤表格 (带固定 HTML 列宽属性，防止挤压) -->
+  <!-- 流程步骤卡片 (采用无表框 Flex 结构，纯净无网格线) -->
   <section style="margin:16px 0 24px;">
     <section style="display:inline-block;background:#0f172a;color:#38bdf8;font-weight:bold;font-size:13px;padding:6px 14px;letter-spacing:1.5px;margin-bottom:10px;border-radius:3px;">▶ 2.4 秒崩溃全过程</section>
-    <section style="background:#fff;border:1px solid #cbd5e1;padding:16px 18px;border-radius:6px;">
-      <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;width:100%;">
-        <tr>
-          <td width="34" style="width:34px;min-width:34px;max-width:34px;vertical-align:top;padding:8px 0;"><section style="display:inline-block;width:26px;height:26px;background:#ef4444;color:#fff;font-weight:bold;text-align:center;line-height:26px;border-radius:50%;font-size:12px;">1</section></td>
-          <td style="padding:8px 0 8px 10px;font-size:14px;color:#334155;line-height:1.85;">
-            <strong style="color:#0f172a;">锁屏安全拦截（第 0.0 秒）：</strong><br>
-            开会回来机器处于合盖锁屏状态，内核日志首行报警：<code style="background:#f1f5f9;color:#b91c1c;padding:1px 5px;font-size:12px;">IOAccessoryManager: transportRestricted: YES</code>。锁屏安全限制使 USB-C 协商凭空增加了初始阻滞。
-          </td>
-        </tr>
-        <tr>
-          <td width="34" style="width:34px;min-width:34px;max-width:34px;vertical-align:top;padding:8px 0;"><section style="display:inline-block;width:26px;height:26px;background:#ef4444;color:#fff;font-weight:bold;text-align:center;line-height:26px;border-radius:50%;font-size:12px;">2</section></td>
-          <td style="padding:8px 0 8px 10px;font-size:14px;color:#334155;line-height:1.85;">
-            <strong style="color:#0f172a;">PowerChime 充电提示音的“2 秒假唤醒”陷阱（第 3.1 秒）：</strong><br>
-            插线接通 65W 快充时，Mac 发出“咚”一声提示音。但这只是 <code style="background:#f1f5f9;color:#0f172a;padding:1px 5px;font-size:12px;">PowerChime</code> 申请的一个<strong>仅维持 2 秒的 Notification Wake（通知唤醒）</strong>！外接显示器经过 DP 握手终于在第 4.0 秒成功点亮进入 DesktopMode，但仅仅过了 1 秒，2 秒倒计时一到，<code style="background:#f1f5f9;color:#0f172a;padding:1px 5px;font-size:12px;">powerd</code> 强行判定无用户活动：<code style="background:#f1f5f9;color:#b91c1c;padding:1px 5px;font-size:12px;">Turning off display after notification wake</code>，<strong>当场下令熄灭外接显卡输出！</strong>
-          </td>
-        </tr>
-        <tr>
-          <td width="34" style="width:34px;min-width:34px;max-width:34px;vertical-align:top;padding:8px 0;"><section style="display:inline-block;width:26px;height:26px;background:#ef4444;color:#fff;font-weight:bold;text-align:center;line-height:26px;border-radius:50%;font-size:12px;">3</section></td>
-          <td style="padding:8px 0 8px 10px;font-size:14px;color:#334155;line-height:1.85;">
-            <strong style="color:#0f172a;">显示器 1.6 秒闪断 vs macOS 的 0.55 秒合盖休眠抢跑（致命对撞）：</strong><br>
-            由于笔记本开会掉了 20% 电，65W 快充大电流抽电叠加上显示器背光点亮的瞬间冲击电流，优派显示器的立锜芯片在第 2.5 秒会固定触发一次<strong>持续约 1.6 秒的供电瞬态重协商（VBUS 短暂闪断）</strong>。<br>
-            然而合盖状态下 macOS 极其敏感：<strong>只要检测到无外接屏幕超过 0.55 秒，就判定用户拔线，当场强行切入合盖休眠（Clamshell Sleep）并关闭显卡！</strong><br>
-            1 秒后显示器闪断结束、重新上线索要 DP 信号时，Mac 早就睡死了。
-          </td>
-        </tr>
-        <tr>
-          <td width="34" style="width:34px;min-width:34px;max-width:34px;vertical-align:top;padding:8px 0;"><section style="display:inline-block;width:26px;height:26px;background:#ef4444;color:#fff;font-weight:bold;text-align:center;line-height:26px;border-radius:50%;font-size:12px;">4</section></td>
-          <td style="padding:8px 0 8px 10px;font-size:14px;color:#334155;line-height:1.85;">
-            <strong style="color:#0f172a;">立锜芯片固件假死，Mac 被反向锁死为“从设备 (UFP)”：</strong><br>
-            显示器苦等视频信号超时，固件逻辑崩溃进入保护态。端口寄存器显示：DisplayPort 协议彻底消失，且 Mac 的角色被硬生生压成了 <code style="background:#f1f5f9;color:#b91c1c;padding:1px 5px;font-size:12px;">Device (UFP) 从机</code>！根据 USB 规范，只有主机（DFP）才能发起视频握手，Mac 沦为从机后，双方永远无法唤醒！
-          </td>
-        </tr>
-      </table>
+    <section style="background:#fff;border:1px solid #cbd5e1;padding:18px 20px;border-radius:6px;">
+      <section style="display:flex;align-items:flex-start;margin-bottom:14px;">
+        <section style="display:flex;align-items:center;justify-content:center;width:24px;height:24px;min-width:24px;background:#ef4444;color:#fff;font-weight:bold;border-radius:50%;font-size:12px;margin-right:10px;margin-top:2px;">1</section>
+        <section style="flex:1;font-size:14px;color:#334155;line-height:1.85;">
+          <strong style="color:#0f172a;">锁屏安全拦截（第 0.0 秒）：</strong><br>
+          开会回来机器处于合盖锁屏状态，内核日志首行报警：<code style="background:#f1f5f9;color:#b91c1c;padding:1px 5px;font-size:12px;">IOAccessoryManager: transportRestricted: YES</code>。锁屏安全限制使 USB-C 协商凭空增加了初始阻滞。
+        </section>
+      </section>
+      <section style="display:flex;align-items:flex-start;margin-bottom:14px;">
+        <section style="display:flex;align-items:center;justify-content:center;width:24px;height:24px;min-width:24px;background:#ef4444;color:#fff;font-weight:bold;border-radius:50%;font-size:12px;margin-right:10px;margin-top:2px;">2</section>
+        <section style="flex:1;font-size:14px;color:#334155;line-height:1.85;">
+          <strong style="color:#0f172a;">PowerChime 充电提示音的“2 秒假唤醒”陷阱（第 3.1 秒）：</strong><br>
+          插线接通 65W 快充时，Mac 发出“咚”一声提示音。但这只是 <code style="background:#f1f5f9;color:#0f172a;padding:1px 5px;font-size:12px;">PowerChime</code> 申请的一个<strong>仅维持 2 秒的 Notification Wake（通知唤醒）</strong>！外接显示器经过 DP 握手终于在第 4.0 秒成功点亮进入 DesktopMode，但仅仅过了 1 秒，2 秒倒计时一到，<code style="background:#f1f5f9;color:#0f172a;padding:1px 5px;font-size:12px;">powerd</code> 强行判定无用户活动：<code style="background:#f1f5f9;color:#b91c1c;padding:1px 5px;font-size:12px;">Turning off display after notification wake</code>，<strong>当场下令熄灭外接显卡输出！</strong>
+        </section>
+      </section>
+      <section style="display:flex;align-items:flex-start;margin-bottom:14px;">
+        <section style="display:flex;align-items:center;justify-content:center;width:24px;height:24px;min-width:24px;background:#ef4444;color:#fff;font-weight:bold;border-radius:50%;font-size:12px;margin-right:10px;margin-top:2px;">3</section>
+        <section style="flex:1;font-size:14px;color:#334155;line-height:1.85;">
+          <strong style="color:#0f172a;">显示器 1.6 秒闪断 vs macOS 的 0.55 秒合盖休眠抢跑（致命对撞）：</strong><br>
+          由于笔记本开会掉了 20% 电，65W 快充大电流抽电叠加上显示器背光点亮的瞬间冲击电流，优派显示器的立锜芯片在第 2.5 秒会固定触发一次<strong>持续约 1.6 秒的供电瞬态重协商（VBUS 短暂闪断）</strong>。<br>
+          然而合盖状态下 macOS 极其敏感：<strong>只要检测到无外接屏幕超过 0.55 秒，就判定用户拔线，当场强行切入合盖休眠（Clamshell Sleep）并关闭显卡！</strong><br>
+          1 秒后显示器闪断结束、重新上线索要 DP 信号时，Mac 早就睡死了。
+        </section>
+      </section>
+      <section style="display:flex;align-items:flex-start;">
+        <section style="display:flex;align-items:center;justify-content:center;width:24px;height:24px;min-width:24px;background:#ef4444;color:#fff;font-weight:bold;border-radius:50%;font-size:12px;margin-right:10px;margin-top:2px;">4</section>
+        <section style="flex:1;font-size:14px;color:#334155;line-height:1.85;">
+          <strong style="color:#0f172a;">立锜芯片固件假死，Mac 被反向锁死为“从设备 (UFP)”：</strong><br>
+          显示器苦等视频信号超时，固件逻辑崩溃进入保护态。端口寄存器显示：DisplayPort 协议彻底消失，且 Mac 的角色被硬生生压成了 <code style="background:#f1f5f9;color:#b91c1c;padding:1px 5px;font-size:12px;">Device (UFP) 从机</code>！根据 USB 规范，只有主机（DFP）才能发起视频握手，Mac 沦为从机后，双方永远无法唤醒！
+        </section>
+      </section>
     </section>
   </section>
 
@@ -199,7 +197,7 @@
   </section>
 </section>
 
-<!-- ========== BLOCK: 编号大标题 03 (无 table 弹性布局，杜绝微信拉伸) ========== -->
+<!-- ========== BLOCK: 编号大标题 03 ========== -->
 <section data-block="numbered-heading" style="margin:36px 30px 18px;padding-bottom:12px;border-bottom:2px solid #2563eb;line-height:1.5;">
   <span style="display:inline-block;background:#2563eb;color:#ffffff;font-size:20px;font-weight:900;padding:3px 12px;border-radius:4px;font-family:'Helvetica Neue',Arial,sans-serif;letter-spacing:1px;margin-right:8px;vertical-align:2px;line-height:1.2;">03</span>
   <span style="color:#2563eb;font-weight:900;font-size:22px;margin-right:8px;vertical-align:1px;">/</span>
@@ -212,7 +210,7 @@
     当整条证据链摆在眼前时，我深吸了一口气。为什么人类工程师面对这个问题几乎必然无功而返，而 AI Agent 却能降维打击？
   </p>
 
-  <!-- 对比表格 -->
+  <!-- 对比表格 (保留数据对比矩阵的表格边框，结构清晰) -->
   <section style="overflow-x:auto;margin-bottom:22px;">
     <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;width:100%;background:#fff;border-radius:6px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.05);">
       <tr>
@@ -260,7 +258,7 @@
   </section>
 </section>
 
-<!-- ========== BLOCK: 编号大标题 04 (无 table 弹性布局，杜绝微信拉伸) ========== -->
+<!-- ========== BLOCK: 编号大标题 04 ========== -->
 <section data-block="numbered-heading" style="margin:36px 30px 18px;padding-bottom:12px;border-bottom:2px solid #2563eb;line-height:1.5;">
   <span style="display:inline-block;background:#2563eb;color:#ffffff;font-size:20px;font-weight:900;padding:3px 12px;border-radius:4px;font-family:'Helvetica Neue',Arial,sans-serif;letter-spacing:1px;margin-right:8px;vertical-align:2px;line-height:1.2;">04</span>
   <span style="color:#2563eb;font-weight:900;font-size:22px;margin-right:8px;vertical-align:1px;">/</span>
@@ -273,20 +271,21 @@
     既然知道了病因是<strong>「PowerChime 2 秒假唤醒」与「显示器 1.6 秒闪断撞上 macOS 0.55 秒合盖休眠抢跑」</strong>，常规解法有两个：
   </p>
 
-  <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;width:100%;margin:0 0 16px;">
-    <tr>
-      <td width="16" style="width:16px;min-width:16px;max-width:16px;vertical-align:top;padding:4px 0;font-size:15px;color:#2563eb;line-height:1.85;">•</td>
-      <td style="padding:4px 0 4px 6px;font-size:15px;color:#475569;line-height:1.85;">
-        把「系统设置 → 隐私与安全 → 配件 → 允许配件连接」改为<strong>「始终允许」</strong>（消除锁屏拦截）；
-      </td>
-    </tr>
-    <tr>
-      <td width="16" style="width:16px;min-width:16px;max-width:16px;vertical-align:top;padding:4px 0;font-size:15px;color:#2563eb;line-height:1.85;">•</td>
-      <td style="padding:4px 0 4px 6px;font-size:15px;color:#475569;line-height:1.85;">
+  <!-- 选项列表 (采用无表框 Flex 结构) -->
+  <section style="margin:0 0 16px;">
+    <section style="display:flex;align-items:flex-start;margin:6px 0;">
+      <span style="color:#2563eb;font-weight:bold;font-size:15px;line-height:1.85;margin-right:8px;min-width:12px;">•</span>
+      <section style="flex:1;font-size:15px;color:#475569;line-height:1.85;">
+        把「系统设置 → 隐私与安全 → 配件 → 允许配件连接」改为<strong style="color:#0f172a;">「始终允许」</strong>（消除锁屏拦截）；
+      </section>
+    </section>
+    <section style="display:flex;align-items:flex-start;margin:6px 0;">
+      <span style="color:#2563eb;font-weight:bold;font-size:15px;line-height:1.85;margin-right:8px;min-width:12px;">•</span>
+      <section style="flex:1;font-size:15px;color:#475569;line-height:1.85;">
         每次回工位，先掀开盖子亮屏 5 秒，插线等外接屏亮稳了再合盖。
-      </td>
-    </tr>
-  </table>
+      </section>
+    </section>
+  </section>
 
   <p style="margin:0 0 16px;font-size:16px;line-height:2.05;color:#334155;">
     但作为极简主义者，既然买了立式支架，凭什么回工位还要我掀盖子？我就要<strong>合着盖子直接盲插一根线，而且永远不要再去拔电源插头！</strong><br><br>
@@ -315,35 +314,33 @@
     <span style="color:#93c5fd;">end</span>):start()
   </section>
 
-  <!-- 绝杀原理解析 (采用微信防断行 table 结构 + 固定列宽) -->
-  <section style="background:#fff;border:1px solid #e2e8f0;padding:16px 20px;border-radius:6px;margin-bottom:20px;">
-    <strong style="color:#0f172a;font-size:15px;">这套脚本为什么能精准绝杀这个 Bug？</strong>
-    <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;width:100%;margin-top:10px;">
-      <tr>
-        <td width="20" style="width:20px;min-width:20px;max-width:20px;vertical-align:top;padding:4px 0;font-size:14px;font-weight:bold;color:#2563eb;line-height:1.85;">1.</td>
-        <td style="padding:4px 0 4px 6px;font-size:14px;color:#475569;line-height:1.85;">
-          <strong style="color:#0f172a;">0.6 秒极速抢跑：</strong>在插线第 0.6 秒、显示器内置 USB Hub 刚被系统识别的瞬间接管控制权，比背光亮起还快；
-        </td>
-      </tr>
-      <tr>
-        <td width="20" style="width:20px;min-width:20px;max-width:20px;vertical-align:top;padding:4px 0;font-size:14px;font-weight:bold;color:#2563eb;line-height:1.85;">2.</td>
-        <td style="padding:4px 0 4px 6px;font-size:14px;color:#475569;line-height:1.85;">
-          <strong style="color:#0f172a;">当场废掉 2 秒假唤醒：</strong>直接在 Hammerspoon 进程内调用 C 绑定的 <code style="background:#f1f5f9;color:#0f172a;padding:1px 4px;">declareUserActivity()</code>，在系统底层当场取消关屏倒计时；
-        </td>
-      </tr>
-      <tr>
-        <td width="20" style="width:20px;min-width:20px;max-width:20px;vertical-align:top;padding:4px 0;font-size:14px;font-weight:bold;color:#2563eb;line-height:1.85;">3.</td>
-        <td style="padding:4px 0 4px 6px;font-size:14px;color:#475569;line-height:1.85;">
-          <strong style="color:#0f172a;">脉冲硬扛 1.6 秒闪断：</strong>后台以每秒 1 次的频率向系统施加 <code style="background:#f1f5f9;color:#0f172a;padding:1px 4px;">caffeinate -u</code> 脉冲，逼着 macOS 显卡即使在没有显示器接入的 1.6 秒内也原地待命，等待显示器复活；
-        </td>
-      </tr>
-      <tr>
-        <td width="20" style="width:20px;min-width:20px;max-width:20px;vertical-align:top;padding:4px 0;font-size:14px;font-weight:bold;color:#2563eb;line-height:1.85;">4.</td>
-        <td style="padding:4px 0 4px 6px;font-size:14px;color:#475569;line-height:1.85;">
-          <strong style="color:#0f172a;">25 秒后完全交权：</strong>25 秒后释放所有锁，完全不影响电脑正常合盖休眠。
-        </td>
-      </tr>
-    </table>
+  <!-- 绝杀原理解析 (采用纯净 Flex 布局，彻底消除任何内部表格线条) -->
+  <section style="background:#fff;border:1px solid #e2e8f0;padding:18px 20px;border-radius:6px;margin-bottom:20px;">
+    <strong style="color:#0f172a;font-size:15px;display:block;margin-bottom:12px;border-bottom:1px dashed #e2e8f0;padding-bottom:8px;">这套脚本为什么能精准绝杀这个 Bug？</strong>
+    <section style="display:flex;align-items:flex-start;margin-bottom:12px;">
+      <section style="color:#2563eb;font-weight:bold;font-size:14px;line-height:1.85;min-width:20px;margin-right:6px;">1.</section>
+      <section style="flex:1;font-size:14px;color:#475569;line-height:1.85;">
+        <strong style="color:#0f172a;">0.6 秒极速抢跑：</strong>在插线第 0.6 秒、显示器内置 USB Hub 刚被系统识别的瞬间接管控制权，比背光亮起还快；
+      </section>
+    </section>
+    <section style="display:flex;align-items:flex-start;margin-bottom:12px;">
+      <section style="color:#2563eb;font-weight:bold;font-size:14px;line-height:1.85;min-width:20px;margin-right:6px;">2.</section>
+      <section style="flex:1;font-size:14px;color:#475569;line-height:1.85;">
+        <strong style="color:#0f172a;">当场废掉 2 秒假唤醒：</strong>直接在 Hammerspoon 进程内调用 C 绑定的 <code style="background:#f1f5f9;color:#0f172a;padding:1px 4px;">declareUserActivity()</code>，在系统底层当场取消关屏倒计时；
+      </section>
+    </section>
+    <section style="display:flex;align-items:flex-start;margin-bottom:12px;">
+      <section style="color:#2563eb;font-weight:bold;font-size:14px;line-height:1.85;min-width:20px;margin-right:6px;">3.</section>
+      <section style="flex:1;font-size:14px;color:#475569;line-height:1.85;">
+        <strong style="color:#0f172a;">脉冲硬扛 1.6 秒闪断：</strong>后台以每秒 1 次的频率向系统施加 <code style="background:#f1f5f9;color:#0f172a;padding:1px 4px;">caffeinate -u</code> 脉冲，逼着 macOS 显卡即使在没有显示器接入的 1.6 秒内也原地待命，等待显示器复活；
+      </section>
+    </section>
+    <section style="display:flex;align-items:flex-start;">
+      <section style="color:#2563eb;font-weight:bold;font-size:14px;line-height:1.85;min-width:20px;margin-right:6px;">4.</section>
+      <section style="flex:1;font-size:14px;color:#475569;line-height:1.85;">
+        <strong style="color:#0f172a;">25 秒后完全交权：</strong>25 秒后释放所有锁，完全不影响电脑正常合盖休眠。
+      </section>
+    </section>
   </section>
 
   <p style="margin:0 0 20px;font-size:16px;line-height:2.05;color:#334155;">
